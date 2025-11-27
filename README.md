@@ -7,12 +7,11 @@ This project provides an extensible objective evaluation framework for video gen
 ```
 Video-Eval/
 ├── evaluate.py           # Main evaluation script, loads data and runs subjects sequentially
+├── parallel_evaluate.py  # Script for parallel execution across multiple GPUs
+├── merge_results.py      # Script for merging results from parallel execution
+├── calculate_average.py  # Script for calculating average scores from JSON reports
 ├── utils.py              # Video/image I/O and common utility functions
 ├── video.py              # `VideoData` data structure definition
-├── docs/                 # Documentation directory
-│   ├── av_align_usage.md # AV-Align evaluation guide
-│   ├── parallel_evaluation_guide.md
-│   └── qwen_vl_vllm_usage.md
 └── subjects/             # Concrete evaluation subject implementations
     ├── arcface_consistency.py
     ├── av_align.py       # Audio-Video Alignment evaluation
@@ -68,6 +67,55 @@ The `VideoData` object automatically associates reference images (`.png`), audio
 4. **View Results**
    - Results for all `VideoData` will be written to `results_dir/evaluation_results.json`.
    - Each entry in the JSON contains the video path and the evaluation results for each subject.
+
+## Advanced Usage
+
+### Parallel Evaluation
+
+For large datasets, you can use `parallel_evaluate.py` to distribute tasks across multiple GPUs.
+
+```bash
+# Use 8 GPUs, split into 8 groups
+python parallel_evaluate.py \
+  --model_input_dir ./inputs \
+  --model_output_dir ./outputs \
+  --evaluate_subjects arcface_consistency \
+  --group_total 8 \
+  --num_gpus 8
+
+# Use 4 GPUs, split into 8 groups (2 tasks per GPU)
+python parallel_evaluate.py \
+  --model_input_dir ./inputs \
+  --model_output_dir ./outputs \
+  --evaluate_subjects arcface_consistency \
+  --group_total 8 \
+  --num_gpus 4 \
+  --parallelism 4
+```
+
+### Result Merging
+
+If you ran evaluations in parallel (or manually split them), use `merge_results.py` to combine the JSON files.
+
+```bash
+# Automatically detect and merge results in a directory
+python merge_results.py --results_dir ./evaluation_results --subjects arcface_consistency --group_total 8
+
+# Manually specify files to merge
+python merge_results.py --input_files result1.json result2.json --output merged.json
+```
+
+### Result Analysis
+
+Use `calculate_average.py` to compute average scores for all metrics in the results file.
+
+```bash
+# Calculate averages
+python calculate_average.py evaluation_results/evaluation_results.json
+
+# Show detailed stats (min, max, etc.)
+python calculate_average.py evaluation_results/evaluation_results.json -v
+```
 
 ## Evaluation Subjects Details
 

@@ -1,15 +1,10 @@
 __pycache__/
-
 evaluation_results/
-
 checkpoints/
-
 third_party/
-
 input_data/
-
 evaluation_results_av/
-
 temp/
-
 olds/
+olds
+olds/*

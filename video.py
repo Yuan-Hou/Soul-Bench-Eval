@@ -10,6 +10,15 @@ class VideoData:
         self.text_path = text_path.replace("\\", "/") if text_path else None
         self.image_path = image_path.replace("\\", "/") if image_path else None
 
+        self.text_data = {}
+        if self.text_path.endswith('.json') and os.path.exists(self.text_path):
+            with open(self.text_path, 'r', encoding='utf-8') as f:
+                self.text_data = json.load(f)
+        elif self.text_path and os.path.exists(self.text_path):
+            with open(self.text_path, 'r', encoding='utf-8') as f:
+                self.text_data = {"text": f.read()}
+            
+
         self.video_filename = os.path.splitext(os.path.basename(video_path))[0]
         self.results = {}
     def has_audio(self):
@@ -18,11 +27,14 @@ class VideoData:
         return self.text_path is not None and os.path.exists(self.text_path)
     def has_image(self):
         return self.image_path is not None and os.path.exists(self.image_path)
+    def get_text(self):
+        return self.text_data.get("en_prompt", self.text_data.get("text", "")) if self.text_data else ""
     def to_dict(self):
         return {
             "video_path": self.video_path,
             "audio_path": self.audio_path,
             "text_path": self.text_path,
+            "text_data": self.text_data,
             "image_path": self.image_path,
             "results": self.results
         }

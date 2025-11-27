@@ -1,0 +1,4 @@
+Command: python evaluate.py --model_input_dir ./input_data/benchmark_v4 --model_output_dir input_data/results/sonic --results_dir ./sonic_latent_sync --evaluate_subjects latent_sync --device cuda:2 --batch_size 16 --sampling 0 --model_args {} --group_id 31 --group_total 50 --filter human_talk
+GPU: 2
+============================================================
+

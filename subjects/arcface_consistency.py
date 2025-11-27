@@ -33,6 +33,32 @@ def get_arcface_model(name: str = "buffalo_l",
     else:
         ctx_id = -1
 
+    # 自动选择可用的 ONNX Runtime 执行提供程序
+    if 'providers' not in kwargs:
+        import onnxruntime as ort
+        available_providers = ort.get_available_providers()
+        print(f"Available ONNX Runtime providers: {available_providers}")
+        
+        # 按优先级选择执行提供程序
+        if device.startswith("cuda") or device == "gpu":
+            # GPU 设备优先级：MIGraphX > CUDA > ROCm > CPU
+            if 'MIGraphXExecutionProvider' in available_providers:
+                kwargs['providers'] = ['MIGraphXExecutionProvider', 'CPUExecutionProvider']
+                print("Using MIGraphXExecutionProvider")
+            elif 'CUDAExecutionProvider' in available_providers:
+                kwargs['providers'] = ['CUDAExecutionProvider', 'CPUExecutionProvider']
+                print("Using CUDAExecutionProvider")
+            elif 'ROCMExecutionProvider' in available_providers:
+                kwargs['providers'] = ['ROCMExecutionProvider', 'CPUExecutionProvider']
+                print("Using ROCMExecutionProvider")
+            else:
+                kwargs['providers'] = ['CPUExecutionProvider']
+                print("No GPU provider available, using CPUExecutionProvider")
+        else:
+            # CPU 设备
+            kwargs['providers'] = ['CPUExecutionProvider']
+            print("Using CPUExecutionProvider")
+
     app = FaceAnalysis(name=name, **kwargs)
     app.prepare(ctx_id=ctx_id, det_size=det_size)
     _arcface_app = app
@@ -131,48 +157,51 @@ def evaluate(data_list: List[VideoData], device='cuda', batch_size=16, sampling=
     get_arcface_model(device=device, **model_args)
     for data in tqdm(data_list, desc="Evaluating ArcFace Consistency"):
         with torch.no_grad():
-            video_frames = load_video(
-                data.video_path,
-                return_tensor=False,
-                num_frames=sampling
-            )  # (T, H, W, C) numpy RGB
+            try:
+                video_frames = load_video(
+                    data.video_path,
+                    return_tensor=False,
+                    num_frames=sampling
+                )  # (T, H, W, C) numpy RGB
 
-            video_frames = video_frames[:, :, :, ::-1]  # 转 BGR
+                video_frames = video_frames[:, :, :, ::-1]  # 转 BGR
 
-            # 逐帧提取 ArcFace 特征
-            frame_features = []
-            for i in range(0, video_frames.shape[0], batch_size):
-                frame_batch = video_frames[i:i + batch_size]  # (B, H, W, C) numpy BGR
-                feats_batch = extract_arcface_features(
-                    [frame_batch[j] for j in range(frame_batch.shape[0])]
-                )  # List[Tensor(num_faces, 512)]
-                frame_features.extend(feats_batch)
-            
-            # 获取参考图特征
-            if not data.has_image():
-                raise ValueError("ArcFace Consistency 评测需要参考图像，请确保提供了参考图像路径。")
-            ref_image = load_image_cv2(data.image_path)  # numpy BGR
-            ref_feature = extract_arcface_features(ref_image)  # List[Tensor(num_faces, 512)]
-            if len(ref_feature) == 0 or ref_feature[0].shape[0] == 0:
-                raise ValueError("参考图像中未检测到人脸，无法进行 ArcFace Consistency 评测。")
-            
-            total_similarity = 0.0
-            valid_frame_count = 0
-            sim_list = []
-            for feats in frame_features:
-                if feats.shape[0] == 0:
-                    continue  # 当前帧无检测到人脸，跳过
-                sim = pairwise_cosine_sim(feats, ref_feature[0])  # 计算与参考图的最大相似度
-                sim_list.append(sim)
-                total_similarity += sim
-                valid_frame_count += 1
-            if valid_frame_count == 0:
-                average_similarity = 0.0
-            else:
-                average_similarity = total_similarity / valid_frame_count
-            results = {
-                "arcface_consistency": average_similarity,
-                "arcface_consistency_list": sim_list
-            }
-            data.register_result("arcface_consistency", results)
+                # 逐帧提取 ArcFace 特征
+                frame_features = []
+                for i in tqdm(range(0, video_frames.shape[0], batch_size), desc="Extracting ArcFace Features", leave=False):
+                    frame_batch = video_frames[i:i + batch_size]  # (B, H, W, C) numpy BGR
+                    feats_batch = extract_arcface_features(
+                        [frame_batch[j] for j in range(frame_batch.shape[0])]
+                    )  # List[Tensor(num_faces, 512)]
+                    frame_features.extend(feats_batch)
+                
+                # 获取参考图特征
+                if not data.has_image():
+                    raise ValueError("ArcFace Consistency 评测需要参考图像，请确保提供了参考图像路径。")
+                ref_image = load_image_cv2(data.image_path)  # numpy BGR
+                ref_feature = extract_arcface_features(ref_image)  # List[Tensor(num_faces, 512)]
+                if len(ref_feature) == 0 or ref_feature[0].shape[0] == 0:
+                    raise ValueError("参考图像中未检测到人脸，无法进行 ArcFace Consistency 评测。")
+                
+                total_similarity = 0.0
+                valid_frame_count = 0
+                sim_list = []
+                for feats in frame_features:
+                    if feats.shape[0] == 0:
+                        continue  # 当前帧无检测到人脸，跳过
+                    sim = pairwise_cosine_sim(feats, ref_feature[0])  # 计算与参考图的最大相似度
+                    sim_list.append(sim)
+                    total_similarity += sim
+                    valid_frame_count += 1
+                if valid_frame_count == 0:
+                    average_similarity = 0.0
+                else:
+                    average_similarity = total_similarity / valid_frame_count
+                results = {
+                    "arcface_consistency": average_similarity,
+                    "arcface_consistency_list": sim_list
+                }
+                data.register_result("arcface_consistency", results)
+            except Exception as e:
+                print(f"Error evaluating {data.video_path}: {e}")
     return data_list

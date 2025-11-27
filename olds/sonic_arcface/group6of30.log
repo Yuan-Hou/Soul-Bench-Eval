@@ -1,0 +1,4 @@
+Command: python evaluate.py --model_input_dir ./input_data/benchmark_v4 --model_output_dir input_data/results/sonic --results_dir ./sonic_arcface --evaluate_subjects arcface_consistency --device cuda:1 --batch_size 16 --sampling 0 --model_args {} --group_id 6 --group_total 30 --filter human
+GPU: 1
+============================================================
+

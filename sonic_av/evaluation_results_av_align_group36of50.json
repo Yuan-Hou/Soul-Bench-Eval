@@ -1,0 +1,200 @@
+[
+    {
+        "video_path": "input_data/results/sonic/0073_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0073_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0073_human_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 45,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "reading",
+                "writing",
+                "gardening",
+                "listening to classical music"
+            ],
+            "personality": "warm, thoughtful, intelligent, and gentle",
+            "message": "\u751f\u6d3b\u5c31\u50cf\u4e00\u672c\u4e66\uff0c\u6bcf\u4e00\u9875\u90fd\u503c\u5f97\u7ec6\u7ec6\u54c1\u5473\u3002\u6211\u4eab\u53d7\u5728\u4e66\u67b6\u524d\u9759\u5750\u7684\u65f6\u5149\uff0c\u8ba9\u601d\u7eea\u968f\u7740\u6587\u5b57\u98d8\u8fdc\u3002\u4e5f\u559c\u6b22\u5728\u82b1\u56ed\u91cc\u7167\u6599\u82b1\u8349\uff0c\u770b\u5b83\u4eec\u5728\u9633\u5149\u4e0b\u8212\u5c55\u3002\u5c81\u6708\u867d\u6084\u7136\u6d41\u901d\uff0c\u4f46\u5185\u5fc3\u59cb\u7ec8\u4fdd\u6709\u5bf9\u7f8e\u7684\u654f\u611f\u4e0e\u5bf9\u751f\u6d3b\u7684\u70ed\u7231\u3002\u613f\u6211\u4eec\u90fd\u80fd\u5728\u5e73\u51e1\u4e2d\u53d1\u73b0\u8bd7\u610f\uff0c\u5728\u5fd9\u788c\u4e2d\u5b88\u62a4\u5185\u5fc3\u7684\u5b81\u9759\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u6b63\u5728\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u624b\u8f7b\u6258\u4e0b\u5df4\uff0c\u795e\u60c5\u6e29\u548c\u4ece\u5bb9\uff0c\u955c\u5934\u56fa\u5b9a\u3002",
+            "en_prompt": "The woman in the image is speaking directly to the camera, gently resting her hand under her chin, with a calm and composed expression. The camera remains stationary.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0073_human_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.3181818181818182,
+                "num_audio_peaks": 117,
+                "num_video_peaks": 144,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0025_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0025_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0025_human_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 25,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "fitness",
+                "yoga",
+                "healthy cooking",
+                "traveling"
+            ],
+            "personality": "confident, disciplined, positive, and goal-oriented",
+            "message": "\u5065\u8eab\u4e0d\u4ec5\u5851\u9020\u4e86\u6211\u7684\u8eab\u4f53\uff0c\u66f4\u78e8\u70bc\u4e86\u6211\u7684\u610f\u5fd7\u3002\u6bcf\u5929\u575a\u6301\u8bad\u7ec3\uff0c\u8ba9\u6211\u5b66\u4f1a\u4e86\u81ea\u5f8b\u4e0e\u575a\u6301\u3002\u6211\u76f8\u4fe1\uff0c\u53ea\u8981\u52aa\u529b\uff0c\u5c31\u6ca1\u6709\u8fbe\u4e0d\u5230\u7684\u76ee\u6807\u3002\u5065\u5eb7\u7684\u751f\u6d3b\u65b9\u5f0f\u8ba9\u6211\u5145\u6ee1\u6d3b\u529b\uff0c\u4e5f\u8ba9\u6211\u66f4\u7231\u81ea\u5df1\u3002\u5e0c\u671b\u6bcf\u4e00\u4e2a\u6b63\u5728\u52aa\u529b\u7684\u4f60\uff0c\u90fd\u80fd\u5728\u6c57\u6c34\u4e0e\u575a\u6301\u4e2d\u627e\u5230\u5c5e\u4e8e\u81ea\u5df1\u7684\u5149\u8292\u3002\u52a0\u6cb9\uff0c\u4f60\u6bd4\u60f3\u8c61\u4e2d\u66f4\u5f3a\u5927\uff01",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u6b63\u5728\u5065\u8eab\u623f\u5185\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u53cc\u624b\u5404\u6301\u4e00\u4e2a\u54d1\u94c3\uff0c\u5076\u5c14\u914d\u5408\u8bf4\u8bdd\u5185\u5bb9\u505a\u51fa\u8f7b\u5fae\u7684\u63e1\u4e3e\u52a8\u4f5c\uff0c\u955c\u5934\u56fa\u5b9a\u3002",
+            "en_prompt": "The woman in the image is speaking directly to the camera inside a gym, holding a dumbbell in each hand. She occasionally makes slight lifting motions with the dumbbells to accompany her speech. The camera remains stationary throughout.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0025_human_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.02531645569620253,
+                "num_audio_peaks": 70,
+                "num_video_peaks": 11,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0114_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0114_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0114_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 22,
+            "nationality": "American",
+            "speaking_language": "English",
+            "hobbies": [
+                "basketball",
+                "training",
+                "watching sports",
+                "listening to hip-hop music"
+            ],
+            "personality": "confident, determined, focused, team-oriented, passionate about sports",
+            "message": "I live for the game. Every dribble, every shot, every defensive play\u2014it\u2019s not just basketball to me, it\u2019s my life. I wear number 17 not because it\u2019s lucky, but because it\u2019s mine. I train hard, I stay humble, and I give 100% every time I step on the court. I\u2019m not just playing for myself\u2014I\u2019m playing for my team, my family, and everyone who believes in me. The court is my stage, and I\u2019m here to show what I\u2019m made of. Keep pushing, keep striving, and never let anyone tell you you\u2019re not enough.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u5b69\u7ad9\u5728\u7bee\u7403\u573a\u4e0a\uff0c\u53cc\u624b\u62b1\u7740\u7bee\u7403\uff0c\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u5076\u5c14\u7528\u624b\u6307\u8f7b\u70b9\u7bee\u7403\u6216\u5fae\u5fae\u8c03\u6574\u7ad9\u59ff\u4ee5\u5339\u914d\u8bf4\u8bdd\u5185\u5bb9\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u4ed6\u8eab\u7a7f\u5370\u6709\u201cBEIROSS 17\u201d\u7684\u9ed1\u8272\u7403\u8863\u548c\u77ed\u88e4\uff0c\u5934\u6234\u9ed1\u8272\u53d1\u5e26\uff0c\u811a\u7a7f\u9ed1\u8272\u8fd0\u52a8\u978b\uff0c\u80cc\u666f\u662f\u56f4\u7f51\u548c\u7bee\u7403\u67b6\uff0c\u6574\u4f53\u6c1b\u56f4\u5145\u6ee1\u9752\u6625\u6d3b\u529b\u3002",
+            "en_prompt": "The boy in the image stands on a basketball court, holding a basketball with both hands, facing the camera and speaking. Occasionally, he lightly taps the basketball with his fingers or slightly adjusts his stance to match his speech. The camera remains fixed. He wears a black jersey and shorts with \"BEIROSS 17\" printed on them, a black headband, and black athletic shoes. The background features a chain-link fence and a basketball hoop. The overall atmosphere is full of youthful energy.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0114_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.0,
+                "num_audio_peaks": 122,
+                "num_video_peaks": 2,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0176_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0176_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0176_human_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 28,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "reading business books",
+                "yoga",
+                "traveling to new cities",
+                "attending industry conferences"
+            ],
+            "personality": "professional, confident, detail-oriented, and ambitious",
+            "message": "\u5728\u804c\u573a\u4e2d\uff0c\u6211\u59cb\u7ec8\u76f8\u4fe1\u52aa\u529b\u4e0e\u575a\u6301\u662f\u901a\u5f80\u6210\u529f\u7684\u57fa\u77f3\u3002\u6bcf\u4e00\u5929\uff0c\u6211\u90fd\u4ee5\u79ef\u6781\u7684\u6001\u5ea6\u8fce\u63a5\u6311\u6218\uff0c\u4e0d\u65ad\u5b66\u4e60\u4e0e\u6210\u957f\u3002\u6211\u70ed\u7231\u81ea\u5df1\u7684\u5de5\u4f5c\uff0c\u4e5f\u73cd\u60dc\u6bcf\u4e00\u6b21\u56e2\u961f\u5408\u4f5c\u7684\u673a\u4f1a\u3002\u6211\u76f8\u4fe1\uff0c\u771f\u6b63\u7684\u6210\u529f\u4e0d\u4ec5\u5728\u4e8e\u4e2a\u4eba\u6210\u5c31\uff0c\u66f4\u5728\u4e8e\u4e3a\u56e2\u961f\u548c\u516c\u53f8\u521b\u9020\u4ef7\u503c\u3002\u65e0\u8bba\u9762\u5bf9\u591a\u5927\u7684\u538b\u529b\uff0c\u6211\u90fd\u4f1a\u4fdd\u6301\u51b7\u9759\u4e0e\u4e13\u6ce8\uff0c\u7528\u4e13\u4e1a\u548c\u771f\u8bda\u8d62\u5f97\u4fe1\u4efb\u3002\u672a\u6765\uff0c\u6211\u5e0c\u671b\u80fd\u5728\u66f4\u5e7f\u9614\u7684\u821e\u53f0\u4e0a\uff0c\u5b9e\u73b0\u81ea\u6211\u4ef7\u503c\uff0c\u4e5f\u4e3a\u793e\u4f1a\u8d21\u732e\u66f4\u591a\u529b\u91cf\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u7ad9\u5728\u529e\u516c\u5ba4\u4e2d\u592e\uff0c\u4e00\u624b\u6301\u7b14\u8bb0\u672c\u7535\u8111\uff0c\u4e00\u624b\u81ea\u7136\u5782\u653e\uff0c\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u5076\u5c14\u914d\u5408\u5185\u5bb9\u505a\u51fa\u624b\u52bf\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u80cc\u666f\u662f\u660e\u4eae\u7684\u843d\u5730\u7a97\u548c\u4f1a\u8bae\u684c\u6905\uff0c\u6574\u4f53\u6c1b\u56f4\u4e13\u4e1a\u800c\u4ece\u5bb9\u3002",
+            "en_prompt": "The woman in the image stands in the center of the office, holding a laptop in one hand and letting the other hand hang naturally by her side, speaking directly to the camera and occasionally gesturing to emphasize her points. The camera remains fixed. The background features bright floor-to-ceiling windows and conference table chairs, creating an overall professional and composed atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0176_human_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.007352941176470588,
+                "num_audio_peaks": 134,
+                "num_video_peaks": 3,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0013_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0013_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0013_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 28,
+            "nationality": "American",
+            "speaking_language": "English",
+            "hobbies": [
+                "weightlifting",
+                "running",
+                "fitness training",
+                "healthy cooking"
+            ],
+            "personality": "disciplined, focused, determined, confident, and goal-oriented",
+            "message": "Consistency is the key to progress. Every rep, every set, every day counts. I don\u2019t chase perfection\u2014I chase improvement. The gym is my sanctuary, where I push beyond limits and prove to myself what I\u2019m capable of. Discipline isn\u2019t about being perfect; it\u2019s about showing up, even when you don\u2019t feel like it. I train not just for the body, but for the mind and spirit. If you\u2019re serious about change, start today. One step, one rep, one breath at a time. You\u2019ve got this.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u6b63\u5728\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u53cc\u624b\u7a33\u7a33\u63e1\u7740\u54d1\u94c3\uff0c\u5076\u5c14\u914d\u5408\u8bf4\u8bdd\u5185\u5bb9\u505a\u51fa\u8f7b\u5fae\u53d1\u529b\u6216\u8c03\u6574\u63e1\u59ff\u7684\u52a8\u4f5c\uff0c\u955c\u5934\u56fa\u5b9a\u3002",
+            "en_prompt": "The man in the image is speaking directly to the camera, holding dumbbells steadily with both hands, occasionally making slight movements such as tensing muscles or adjusting his grip to match the content of his speech. The camera remains fixed.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0013_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.14012738853503184,
+                "num_audio_peaks": 127,
+                "num_video_peaks": 52,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0039_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0039_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0039_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 25,
+            "nationality": "American",
+            "speaking_language": "English",
+            "hobbies": [
+                "fashion photography",
+                "wearing bold outfits",
+                "exploring nature",
+                "artistic expression"
+            ],
+            "personality": "confident, introspective, creative, and expressive",
+            "message": "Standing in this golden field, I feel both grounded and free. My afro is my crown, my suit is my armor, and this moment is mine. I don\u2019t follow trends\u2014I create them. Fashion is not just clothes; it\u2019s identity, resistance, and beauty. I choose to be seen, to challenge norms, and to embrace my truth. This black panel beside me? It\u2019s a mirror. It reflects not just my shadow, but the silence we break when we dare to stand out. I am here. I am bold. I am unapologetically me.",
+            "source": "pexels",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u7ad9\u5728\u4e00\u7247\u91d1\u9ec4\u7684\u9ea6\u7530\u4e2d\uff0c\u8eab\u7a7f\u7c73\u8272\u897f\u88c5\u5916\u5957\uff0c\u5185\u642d\u88f8\u9732\uff0c\u5934\u53d1\u84ec\u677e\u5377\u66f2\uff0c\u795e\u60c5\u6c89\u9759\u5730\u76f4\u89c6\u955c\u5934\u3002\u4ed6\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\u3002\u955c\u5934\u56fa\u5b9a\uff0c\u80cc\u666f\u662f\u8fbd\u9614\u7684\u7530\u91ce\u4e0e\u9634\u4e91\u5bc6\u5e03\u7684\u5929\u7a7a\uff0c\u5de6\u4fa7\u7acb\u7740\u4e00\u5757\u9ed1\u8272\u65b9\u5f62\u677f\u3002\u753b\u9762\u6574\u4f53\u6c1b\u56f4\u5b81\u9759\u3001\u6709\u529b\u91cf\u611f\uff0c\u9002\u5408\u7528\u4e8e\u65f6\u5c1a\u6216\u827a\u672f\u7c7b\u53e3\u64ad\u89c6\u9891\u3002",
+            "en_prompt": "A man stands in a golden wheat field, wearing a beige suit jacket with no shirt underneath, his hair voluminous and curly, gazing calmly and directly at the camera. He is speaking to the camera. The shot is static, with a vast field and overcast sky in the background, and a black square panel standing on the left side. The overall atmosphere is serene and powerful, ideal for fashion or artistic vlog-style videos.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0039_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.0,
+                "num_audio_peaks": 164,
+                "num_video_peaks": 1,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    }
+]

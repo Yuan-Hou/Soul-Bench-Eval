@@ -1,0 +1,3800 @@
+Command: python evaluate.py --model_input_dir ./input_data/benchmark_v4 --model_output_dir input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/ --results_dir ./evaluation_results_arcface/ --evaluate_subjects arcface_consistency --device cuda:2 --batch_size 16 --sampling 0 --model_args {} --group_id 1 --group_total 10 --filter human
+GPU: 2
+============================================================
+
+/home/tione/notebook/private/Human-MME/video_venv/lib/python3.10/site-packages/albumentations/check_version.py:147: UserWarning: Error fetching version info The read operation timed out
+  data = fetch_version_info()
+Using hash-based file partitioning: group 1 of 10
+Running evaluation for subject: arcface_consistency
+Available ONNX Runtime providers: ['MIGraphXExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider']
+Using MIGraphXExecutionProvider
+Applied providers: ['MIGraphXExecutionProvider', 'CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}, 'MIGraphXExecutionProvider': {'migraphx_exhaustive_tune': '0', 'migraphx_arena_extend_strategy': 'kNextPowerOfTwo', 'migraphx_fp16_enable': '0', 'migraphx_fp8_enable': '0', 'migraphx_external_free': '0', 'migraphx_mem_limit': '18446744073709551615', 'migraphx_bf16_enable': '0', 'migraphx_int8_enable': '0', 'migraphx_external_alloc': '0', 'device_id': '0', 'migraphx_model_cache_dir': '""', 'migraphx_external_empty_cache': '0'}}
+find model: /root/.insightface/models/buffalo_l/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['MIGraphXExecutionProvider', 'CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}, 'MIGraphXExecutionProvider': {'migraphx_exhaustive_tune': '0', 'migraphx_arena_extend_strategy': 'kNextPowerOfTwo', 'migraphx_fp16_enable': '0', 'migraphx_fp8_enable': '0', 'migraphx_external_free': '0', 'migraphx_mem_limit': '18446744073709551615', 'migraphx_bf16_enable': '0', 'migraphx_int8_enable': '0', 'migraphx_external_alloc': '0', 'device_id': '0', 'migraphx_model_cache_dir': '""', 'migraphx_external_empty_cache': '0'}}
+find model: /root/.insightface/models/buffalo_l/2d106det.onnx landmark_2d_106 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['MIGraphXExecutionProvider', 'CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}, 'MIGraphXExecutionProvider': {'migraphx_exhaustive_tune': '0', 'migraphx_arena_extend_strategy': 'kNextPowerOfTwo', 'migraphx_fp16_enable': '0', 'migraphx_fp8_enable': '0', 'migraphx_external_free': '0', 'migraphx_mem_limit': '18446744073709551615', 'migraphx_bf16_enable': '0', 'migraphx_int8_enable': '0', 'migraphx_external_alloc': '0', 'device_id': '0', 'migraphx_model_cache_dir': '""', 'migraphx_external_empty_cache': '0'}}
+find model: /root/.insightface/models/buffalo_l/det_10g.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['MIGraphXExecutionProvider', 'CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}, 'MIGraphXExecutionProvider': {'migraphx_exhaustive_tune': '0', 'migraphx_arena_extend_strategy': 'kNextPowerOfTwo', 'migraphx_fp16_enable': '0', 'migraphx_fp8_enable': '0', 'migraphx_external_free': '0', 'migraphx_mem_limit': '18446744073709551615', 'migraphx_bf16_enable': '0', 'migraphx_int8_enable': '0', 'migraphx_external_alloc': '0', 'device_id': '0', 'migraphx_model_cache_dir': '""', 'migraphx_external_empty_cache': '0'}}
+find model: /root/.insightface/models/buffalo_l/genderage.onnx genderage ['None', 3, 96, 96] 0.0 1.0
+Applied providers: ['MIGraphXExecutionProvider', 'CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}, 'MIGraphXExecutionProvider': {'migraphx_exhaustive_tune': '0', 'migraphx_arena_extend_strategy': 'kNextPowerOfTwo', 'migraphx_fp16_enable': '0', 'migraphx_fp8_enable': '0', 'migraphx_external_free': '0', 'migraphx_mem_limit': '18446744073709551615', 'migraphx_bf16_enable': '0', 'migraphx_int8_enable': '0', 'migraphx_external_alloc': '0', 'device_id': '0', 'migraphx_model_cache_dir': '""', 'migraphx_external_empty_cache': '0'}}
+find model: /root/.insightface/models/buffalo_l/w600k_r50.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+
+Evaluating ArcFace Consistency:   0%|          | 0/41 [00:00<?, ?it/s]
+
+Extracting ArcFace Features:   0%|          | 0/39 [00:00<?, ?it/s][Aerror: unknown warning option '-Wnrvo' [-Werror,-Wunknown-warning-option]
+
+/home/tione/notebook/private/Human-MME/video_venv/lib/python3.10/site-packages/insightface/utils/transform.py:68: FutureWarning: `rcond` parameter will change to the default of machine precision times ``max(M, N)`` where M and N are the input matrix dimensions.
+To use the future default and silence this warning we advise to pass `rcond=None`, to keep using the old, explicitly pass `rcond=-1`.
+  P = np.linalg.lstsq(X_homo, Y)[0].T # Affine matrix. 3 x 4
+
+
+Extracting ArcFace Features:   3%|▎         | 1/39 [03:02<1:55:35, 182.52s/it][A
+
+Extracting ArcFace Features:   5%|▌         | 2/39 [03:03<46:32, 75.48s/it]   [A
+
+Extracting ArcFace Features:   8%|▊         | 3/39 [03:03<24:46, 41.28s/it][A
+
+Extracting ArcFace Features:  10%|█         | 4/39 [03:04<14:42, 25.21s/it][A
+
+Extracting ArcFace Features:  13%|█▎        | 5/39 [03:04<09:15, 16.33s/it][A
+
+Extracting ArcFace Features:  15%|█▌        | 6/39 [03:05<06:02, 10.97s/it][A
+
+Extracting ArcFace Features:  18%|█▊        | 7/39 [03:05<04:02,  7.57s/it][A
+
+Extracting ArcFace Features:  21%|██        | 8/39 [03:06<02:45,  5.34s/it][A
+
+Extracting ArcFace Features:  23%|██▎       | 9/39 [03:07<01:55,  3.85s/it][A
+
+Extracting ArcFace Features:  26%|██▌       | 10/39 [03:07<01:22,  2.84s/it][A
+
+Extracting ArcFace Features:  28%|██▊       | 11/39 [03:08<01:00,  2.15s/it][A
+
+Extracting ArcFace Features:  31%|███       | 12/39 [03:08<00:45,  1.67s/it][A
+
+Extracting ArcFace Features:  33%|███▎      | 13/39 [03:09<00:34,  1.34s/it][A
+
+Extracting ArcFace Features:  36%|███▌      | 14/39 [03:09<00:27,  1.11s/it][A
+
+Extracting ArcFace Features:  38%|███▊      | 15/39 [03:10<00:22,  1.06it/s][A
+
+Extracting ArcFace Features:  41%|████      | 16/39 [03:11<00:19,  1.20it/s][A
+
+Extracting ArcFace Features:  44%|████▎     | 17/39 [03:11<00:16,  1.33it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 18/39 [03:12<00:14,  1.43it/s][A
+
+Extracting ArcFace Features:  49%|████▊     | 19/39 [03:12<00:13,  1.52it/s][A
+
+Extracting ArcFace Features:  51%|█████▏    | 20/39 [03:13<00:12,  1.58it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 21/39 [03:13<00:11,  1.63it/s][A
+
+Extracting ArcFace Features:  56%|█████▋    | 22/39 [03:14<00:10,  1.67it/s][A
+
+Extracting ArcFace Features:  59%|█████▉    | 23/39 [03:15<00:09,  1.69it/s][A
+
+Extracting ArcFace Features:  62%|██████▏   | 24/39 [03:15<00:08,  1.70it/s][A
+
+Extracting ArcFace Features:  64%|██████▍   | 25/39 [03:16<00:08,  1.71it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 26/39 [03:16<00:07,  1.72it/s][A
+
+Extracting ArcFace Features:  69%|██████▉   | 27/39 [03:17<00:06,  1.73it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 28/39 [03:17<00:06,  1.73it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 29/39 [03:18<00:05,  1.74it/s][A
+
+Extracting ArcFace Features:  77%|███████▋  | 30/39 [03:19<00:05,  1.73it/s][A
+
+Extracting ArcFace Features:  79%|███████▉  | 31/39 [03:19<00:04,  1.73it/s][A
+
+Extracting ArcFace Features:  82%|████████▏ | 32/39 [03:20<00:04,  1.72it/s][A
+
+Extracting ArcFace Features:  85%|████████▍ | 33/39 [03:20<00:03,  1.72it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 34/39 [03:21<00:02,  1.73it/s][A
+
+Extracting ArcFace Features:  90%|████████▉ | 35/39 [03:22<00:02,  1.74it/s][A
+
+Extracting ArcFace Features:  92%|█████████▏| 36/39 [03:22<00:01,  1.73it/s][A
+
+Extracting ArcFace Features:  95%|█████████▍| 37/39 [03:23<00:01,  1.73it/s][A
+
+Extracting ArcFace Features:  97%|█████████▋| 38/39 [03:23<00:00,  1.74it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 39/39 [03:23<00:00,  2.19it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:   2%|▏         | 1/41 [03:30<2:20:29, 210.75s/it]
+
+Extracting ArcFace Features:   0%|          | 0/42 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/42 [00:00<00:20,  1.98it/s][A
+
+Extracting ArcFace Features:   5%|▍         | 2/42 [00:01<00:20,  1.96it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/42 [00:01<00:20,  1.91it/s][A
+
+Extracting ArcFace Features:  10%|▉         | 4/42 [00:02<00:19,  1.92it/s][A
+
+Extracting ArcFace Features:  12%|█▏        | 5/42 [00:02<00:19,  1.91it/s][A
+
+Extracting ArcFace Features:  14%|█▍        | 6/42 [00:03<00:18,  1.90it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 7/42 [00:03<00:18,  1.91it/s][A
+
+Extracting ArcFace Features:  19%|█▉        | 8/42 [00:04<00:17,  1.91it/s][A
+
+Extracting ArcFace Features:  21%|██▏       | 9/42 [00:04<00:17,  1.89it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 10/42 [00:05<00:16,  1.91it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 11/42 [00:05<00:16,  1.89it/s][A
+
+Extracting ArcFace Features:  29%|██▊       | 12/42 [00:06<00:15,  1.90it/s][A
+
+Extracting ArcFace Features:  31%|███       | 13/42 [00:06<00:15,  1.89it/s][A
+
+Extracting ArcFace Features:  33%|███▎      | 14/42 [00:07<00:14,  1.90it/s][A
+
+Extracting ArcFace Features:  36%|███▌      | 15/42 [00:07<00:14,  1.91it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 16/42 [00:08<00:13,  1.89it/s][A
+
+Extracting ArcFace Features:  40%|████      | 17/42 [00:08<00:13,  1.90it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 18/42 [00:09<00:12,  1.90it/s][A
+
+Extracting ArcFace Features:  45%|████▌     | 19/42 [00:09<00:12,  1.89it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 20/42 [00:10<00:11,  1.90it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 21/42 [00:11<00:11,  1.89it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 22/42 [00:11<00:10,  1.90it/s][A
+
+Extracting ArcFace Features:  55%|█████▍    | 23/42 [00:12<00:09,  1.90it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 24/42 [00:12<00:09,  1.89it/s][A
+
+Extracting ArcFace Features:  60%|█████▉    | 25/42 [00:13<00:08,  1.90it/s][A
+
+Extracting ArcFace Features:  62%|██████▏   | 26/42 [00:13<00:08,  1.90it/s][A
+
+Extracting ArcFace Features:  64%|██████▍   | 27/42 [00:14<00:07,  1.89it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 28/42 [00:14<00:07,  1.90it/s][A
+
+Extracting ArcFace Features:  69%|██████▉   | 29/42 [00:15<00:06,  1.90it/s][A
+
+Extracting ArcFace Features:  71%|███████▏  | 30/42 [00:15<00:06,  1.90it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 31/42 [00:16<00:05,  1.91it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 32/42 [00:16<00:05,  1.90it/s][A
+
+Extracting ArcFace Features:  79%|███████▊  | 33/42 [00:17<00:04,  1.91it/s][A
+
+Extracting ArcFace Features:  81%|████████  | 34/42 [00:17<00:04,  1.92it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 35/42 [00:18<00:03,  1.90it/s][A
+
+Extracting ArcFace Features:  86%|████████▌ | 36/42 [00:18<00:03,  1.88it/s][A
+
+Extracting ArcFace Features:  88%|████████▊ | 37/42 [00:19<00:02,  1.90it/s][A
+
+Extracting ArcFace Features:  90%|█████████ | 38/42 [00:20<00:02,  1.88it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 39/42 [00:20<00:01,  1.90it/s][A
+
+Extracting ArcFace Features:  95%|█████████▌| 40/42 [00:21<00:01,  1.91it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 41/42 [00:21<00:00,  1.93it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 42/42 [00:21<00:00,  2.11it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:   5%|▍         | 2/41 [03:59<1:07:19, 103.59s/it]
+
+Extracting ArcFace Features:   0%|          | 0/44 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/44 [00:00<00:28,  1.51it/s][A
+
+Extracting ArcFace Features:   5%|▍         | 2/44 [00:01<00:27,  1.52it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/44 [00:01<00:26,  1.53it/s][A
+
+Extracting ArcFace Features:   9%|▉         | 4/44 [00:02<00:26,  1.53it/s][A
+
+Extracting ArcFace Features:  11%|█▏        | 5/44 [00:03<00:25,  1.53it/s][A
+
+Extracting ArcFace Features:  14%|█▎        | 6/44 [00:03<00:24,  1.53it/s][A
+
+Extracting ArcFace Features:  16%|█▌        | 7/44 [00:04<00:24,  1.53it/s][A
+
+Extracting ArcFace Features:  18%|█▊        | 8/44 [00:05<00:23,  1.53it/s][A
+
+Extracting ArcFace Features:  20%|██        | 9/44 [00:05<00:22,  1.53it/s][A
+
+Extracting ArcFace Features:  23%|██▎       | 10/44 [00:06<00:22,  1.53it/s][A
+
+Extracting ArcFace Features:  25%|██▌       | 11/44 [00:07<00:21,  1.53it/s][A
+
+Extracting ArcFace Features:  27%|██▋       | 12/44 [00:07<00:20,  1.53it/s][A
+
+Extracting ArcFace Features:  30%|██▉       | 13/44 [00:08<00:20,  1.53it/s][A
+
+Extracting ArcFace Features:  32%|███▏      | 14/44 [00:09<00:19,  1.53it/s][A
+
+Extracting ArcFace Features:  34%|███▍      | 15/44 [00:09<00:18,  1.53it/s][A
+
+Extracting ArcFace Features:  36%|███▋      | 16/44 [00:10<00:18,  1.54it/s][A
+
+Extracting ArcFace Features:  39%|███▊      | 17/44 [00:11<00:17,  1.53it/s][A
+
+Extracting ArcFace Features:  41%|████      | 18/44 [00:11<00:17,  1.53it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 19/44 [00:12<00:16,  1.53it/s][A
+
+Extracting ArcFace Features:  45%|████▌     | 20/44 [00:13<00:15,  1.53it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 21/44 [00:13<00:15,  1.53it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 22/44 [00:14<00:14,  1.53it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 23/44 [00:15<00:13,  1.53it/s][A
+
+Extracting ArcFace Features:  55%|█████▍    | 24/44 [00:15<00:13,  1.53it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 25/44 [00:16<00:12,  1.53it/s][A
+
+Extracting ArcFace Features:  59%|█████▉    | 26/44 [00:16<00:11,  1.53it/s][A
+
+Extracting ArcFace Features:  61%|██████▏   | 27/44 [00:17<00:11,  1.53it/s][A
+
+Extracting ArcFace Features:  64%|██████▎   | 28/44 [00:18<00:10,  1.56it/s][A
+
+Extracting ArcFace Features:  66%|██████▌   | 29/44 [00:18<00:09,  1.58it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 30/44 [00:19<00:08,  1.59it/s][A
+
+Extracting ArcFace Features:  70%|███████   | 31/44 [00:20<00:08,  1.61it/s][A
+
+Extracting ArcFace Features:  73%|███████▎  | 32/44 [00:20<00:07,  1.62it/s][A
+
+Extracting ArcFace Features:  75%|███████▌  | 33/44 [00:21<00:06,  1.62it/s][A
+
+Extracting ArcFace Features:  77%|███████▋  | 34/44 [00:21<00:06,  1.62it/s][A
+
+Extracting ArcFace Features:  80%|███████▉  | 35/44 [00:22<00:05,  1.62it/s][A
+
+Extracting ArcFace Features:  82%|████████▏ | 36/44 [00:23<00:04,  1.63it/s][A
+
+Extracting ArcFace Features:  84%|████████▍ | 37/44 [00:23<00:04,  1.63it/s][A
+
+Extracting ArcFace Features:  86%|████████▋ | 38/44 [00:24<00:03,  1.63it/s][A
+
+Extracting ArcFace Features:  89%|████████▊ | 39/44 [00:25<00:03,  1.62it/s][A
+
+Extracting ArcFace Features:  91%|█████████ | 40/44 [00:25<00:02,  1.59it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 41/44 [00:26<00:01,  1.57it/s][A
+
+Extracting ArcFace Features:  95%|█████████▌| 42/44 [00:26<00:01,  1.57it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 43/44 [00:27<00:00,  1.55it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 44/44 [00:28<00:00,  1.67it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:   7%|▋         | 3/41 [04:33<45:25, 71.72s/it]   
+
+Extracting ArcFace Features:   0%|          | 0/42 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/42 [00:00<00:23,  1.77it/s][A
+
+Extracting ArcFace Features:   5%|▍         | 2/42 [00:01<00:22,  1.75it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/42 [00:01<00:22,  1.74it/s][A
+
+Extracting ArcFace Features:  10%|▉         | 4/42 [00:02<00:21,  1.75it/s][A
+
+Extracting ArcFace Features:  12%|█▏        | 5/42 [00:02<00:21,  1.75it/s][A
+
+Extracting ArcFace Features:  14%|█▍        | 6/42 [00:03<00:20,  1.76it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 7/42 [00:03<00:19,  1.75it/s][A
+
+Extracting ArcFace Features:  19%|█▉        | 8/42 [00:04<00:19,  1.76it/s][A
+
+Extracting ArcFace Features:  21%|██▏       | 9/42 [00:05<00:18,  1.76it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 10/42 [00:05<00:18,  1.76it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 11/42 [00:06<00:17,  1.76it/s][A
+
+Extracting ArcFace Features:  29%|██▊       | 12/42 [00:06<00:17,  1.76it/s][A
+
+Extracting ArcFace Features:  31%|███       | 13/42 [00:07<00:16,  1.76it/s][A
+
+Extracting ArcFace Features:  33%|███▎      | 14/42 [00:07<00:15,  1.76it/s][A
+
+Extracting ArcFace Features:  36%|███▌      | 15/42 [00:08<00:15,  1.76it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 16/42 [00:09<00:14,  1.75it/s][A
+
+Extracting ArcFace Features:  40%|████      | 17/42 [00:09<00:14,  1.75it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 18/42 [00:10<00:13,  1.76it/s][A
+
+Extracting ArcFace Features:  45%|████▌     | 19/42 [00:10<00:13,  1.76it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 20/42 [00:11<00:12,  1.76it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 21/42 [00:11<00:11,  1.76it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 22/42 [00:12<00:11,  1.79it/s][A
+
+Extracting ArcFace Features:  55%|█████▍    | 23/42 [00:13<00:10,  1.81it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 24/42 [00:13<00:09,  1.82it/s][A
+
+Extracting ArcFace Features:  60%|█████▉    | 25/42 [00:14<00:09,  1.83it/s][A
+
+Extracting ArcFace Features:  62%|██████▏   | 26/42 [00:14<00:08,  1.84it/s][A
+
+Extracting ArcFace Features:  64%|██████▍   | 27/42 [00:15<00:08,  1.85it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 28/42 [00:15<00:07,  1.85it/s][A
+
+Extracting ArcFace Features:  69%|██████▉   | 29/42 [00:16<00:07,  1.85it/s][A
+
+Extracting ArcFace Features:  71%|███████▏  | 30/42 [00:16<00:06,  1.85it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 31/42 [00:17<00:05,  1.86it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 32/42 [00:17<00:05,  1.85it/s][A
+
+Extracting ArcFace Features:  79%|███████▊  | 33/42 [00:18<00:04,  1.85it/s][A
+
+Extracting ArcFace Features:  81%|████████  | 34/42 [00:18<00:04,  1.83it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 35/42 [00:19<00:03,  1.81it/s][A
+
+Extracting ArcFace Features:  86%|████████▌ | 36/42 [00:20<00:03,  1.80it/s][A
+
+Extracting ArcFace Features:  88%|████████▊ | 37/42 [00:20<00:02,  1.79it/s][A
+
+Extracting ArcFace Features:  90%|█████████ | 38/42 [00:21<00:02,  1.79it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 39/42 [00:21<00:01,  1.78it/s][A
+
+Extracting ArcFace Features:  95%|█████████▌| 40/42 [00:22<00:01,  1.77it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 41/42 [00:22<00:00,  1.77it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 42/42 [00:23<00:00,  1.79it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  10%|▉         | 4/41 [05:03<34:05, 55.29s/it]
+
+Extracting ArcFace Features:   0%|          | 0/54 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/54 [00:00<00:30,  1.77it/s][A
+
+Extracting ArcFace Features:   4%|▎         | 2/54 [00:01<00:29,  1.78it/s][A
+
+Extracting ArcFace Features:   6%|▌         | 3/54 [00:01<00:28,  1.78it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 4/54 [00:02<00:28,  1.79it/s][A
+
+Extracting ArcFace Features:   9%|▉         | 5/54 [00:02<00:27,  1.78it/s][A
+
+Extracting ArcFace Features:  11%|█         | 6/54 [00:03<00:27,  1.77it/s][A
+
+Extracting ArcFace Features:  13%|█▎        | 7/54 [00:03<00:26,  1.77it/s][A
+
+Extracting ArcFace Features:  15%|█▍        | 8/54 [00:04<00:25,  1.77it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 9/54 [00:05<00:25,  1.77it/s][A
+
+Extracting ArcFace Features:  19%|█▊        | 10/54 [00:05<00:24,  1.77it/s][A
+
+Extracting ArcFace Features:  20%|██        | 11/54 [00:06<00:24,  1.77it/s][A
+
+Extracting ArcFace Features:  22%|██▏       | 12/54 [00:06<00:23,  1.77it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 13/54 [00:07<00:23,  1.77it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 14/54 [00:07<00:22,  1.77it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 15/54 [00:08<00:21,  1.77it/s][A
+
+Extracting ArcFace Features:  30%|██▉       | 16/54 [00:09<00:21,  1.77it/s][A
+
+Extracting ArcFace Features:  31%|███▏      | 17/54 [00:09<00:20,  1.77it/s][A
+
+Extracting ArcFace Features:  33%|███▎      | 18/54 [00:10<00:20,  1.78it/s][A
+
+Extracting ArcFace Features:  35%|███▌      | 19/54 [00:10<00:19,  1.77it/s][A
+
+Extracting ArcFace Features:  37%|███▋      | 20/54 [00:11<00:19,  1.77it/s][A
+
+Extracting ArcFace Features:  39%|███▉      | 21/54 [00:11<00:18,  1.76it/s][A
+
+Extracting ArcFace Features:  41%|████      | 22/54 [00:12<00:18,  1.76it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 23/54 [00:12<00:17,  1.78it/s][A
+
+Extracting ArcFace Features:  44%|████▍     | 24/54 [00:13<00:16,  1.78it/s][A
+
+Extracting ArcFace Features:  46%|████▋     | 25/54 [00:14<00:16,  1.78it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 26/54 [00:14<00:15,  1.80it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 27/54 [00:15<00:14,  1.82it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 28/54 [00:15<00:14,  1.83it/s][A
+
+Extracting ArcFace Features:  54%|█████▎    | 29/54 [00:16<00:13,  1.84it/s][A
+
+Extracting ArcFace Features:  56%|█████▌    | 30/54 [00:16<00:13,  1.84it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 31/54 [00:17<00:12,  1.85it/s][A
+
+Extracting ArcFace Features:  59%|█████▉    | 32/54 [00:17<00:11,  1.85it/s][A
+
+Extracting ArcFace Features:  61%|██████    | 33/54 [00:18<00:11,  1.85it/s][A
+
+Extracting ArcFace Features:  63%|██████▎   | 34/54 [00:18<00:10,  1.85it/s][A
+
+Extracting ArcFace Features:  65%|██████▍   | 35/54 [00:19<00:10,  1.85it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 36/54 [00:20<00:09,  1.85it/s][A
+
+Extracting ArcFace Features:  69%|██████▊   | 37/54 [00:20<00:09,  1.85it/s][A
+
+Extracting ArcFace Features:  70%|███████   | 38/54 [00:21<00:08,  1.82it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 39/54 [00:21<00:08,  1.79it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 40/54 [00:22<00:07,  1.78it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 41/54 [00:22<00:07,  1.77it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 42/54 [00:23<00:06,  1.77it/s][A
+
+Extracting ArcFace Features:  80%|███████▉  | 43/54 [00:24<00:06,  1.75it/s][A
+
+Extracting ArcFace Features:  81%|████████▏ | 44/54 [00:24<00:05,  1.75it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 45/54 [00:25<00:05,  1.74it/s][A
+
+Extracting ArcFace Features:  85%|████████▌ | 46/54 [00:25<00:04,  1.75it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 47/54 [00:26<00:03,  1.76it/s][A
+
+Extracting ArcFace Features:  89%|████████▉ | 48/54 [00:26<00:03,  1.76it/s][A
+
+Extracting ArcFace Features:  91%|█████████ | 49/54 [00:27<00:02,  1.76it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 50/54 [00:27<00:02,  1.76it/s][A
+
+Extracting ArcFace Features:  94%|█████████▍| 51/54 [00:28<00:01,  1.76it/s][A
+
+Extracting ArcFace Features:  96%|█████████▋| 52/54 [00:29<00:01,  1.76it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 53/54 [00:29<00:00,  1.75it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 54/54 [00:30<00:00,  1.81it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  12%|█▏        | 5/41 [05:41<29:26, 49.07s/it]
+
+Extracting ArcFace Features:   0%|          | 0/50 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/50 [00:00<00:29,  1.68it/s][A
+
+Extracting ArcFace Features:   4%|▍         | 2/50 [00:01<00:28,  1.71it/s][A
+
+Extracting ArcFace Features:   6%|▌         | 3/50 [00:01<00:27,  1.71it/s][A
+
+Extracting ArcFace Features:   8%|▊         | 4/50 [00:02<00:26,  1.72it/s][A
+
+Extracting ArcFace Features:  10%|█         | 5/50 [00:02<00:26,  1.72it/s][A
+
+Extracting ArcFace Features:  12%|█▏        | 6/50 [00:03<00:25,  1.71it/s][A
+
+Extracting ArcFace Features:  14%|█▍        | 7/50 [00:04<00:25,  1.71it/s][A
+
+Extracting ArcFace Features:  16%|█▌        | 8/50 [00:04<00:24,  1.72it/s][A
+
+Extracting ArcFace Features:  18%|█▊        | 9/50 [00:05<00:23,  1.71it/s][A
+
+Extracting ArcFace Features:  20%|██        | 10/50 [00:05<00:23,  1.71it/s][A
+
+Extracting ArcFace Features:  22%|██▏       | 11/50 [00:06<00:22,  1.71it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 12/50 [00:07<00:22,  1.71it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 13/50 [00:07<00:21,  1.72it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 14/50 [00:08<00:20,  1.72it/s][A
+
+Extracting ArcFace Features:  30%|███       | 15/50 [00:08<00:20,  1.73it/s][A
+
+Extracting ArcFace Features:  32%|███▏      | 16/50 [00:09<00:19,  1.75it/s][A
+
+Extracting ArcFace Features:  34%|███▍      | 17/50 [00:09<00:18,  1.77it/s][A
+
+Extracting ArcFace Features:  36%|███▌      | 18/50 [00:10<00:17,  1.78it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 19/50 [00:10<00:17,  1.77it/s][A
+
+Extracting ArcFace Features:  40%|████      | 20/50 [00:11<00:16,  1.78it/s][A
+
+Extracting ArcFace Features:  42%|████▏     | 21/50 [00:12<00:16,  1.79it/s][A
+
+Extracting ArcFace Features:  44%|████▍     | 22/50 [00:12<00:15,  1.80it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 23/50 [00:13<00:14,  1.80it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 24/50 [00:13<00:14,  1.81it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 25/50 [00:14<00:13,  1.83it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 26/50 [00:14<00:13,  1.84it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 27/50 [00:15<00:12,  1.85it/s][A
+
+Extracting ArcFace Features:  56%|█████▌    | 28/50 [00:15<00:11,  1.85it/s][A
+
+Extracting ArcFace Features:  58%|█████▊    | 29/50 [00:16<00:11,  1.85it/s][A
+
+Extracting ArcFace Features:  60%|██████    | 30/50 [00:16<00:10,  1.85it/s][A
+
+Extracting ArcFace Features:  62%|██████▏   | 31/50 [00:17<00:10,  1.81it/s][A
+
+Extracting ArcFace Features:  64%|██████▍   | 32/50 [00:18<00:10,  1.79it/s][A
+
+Extracting ArcFace Features:  66%|██████▌   | 33/50 [00:18<00:09,  1.78it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 34/50 [00:19<00:09,  1.73it/s][A
+
+Extracting ArcFace Features:  70%|███████   | 35/50 [00:19<00:09,  1.64it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 36/50 [00:20<00:08,  1.67it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 37/50 [00:21<00:07,  1.68it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 38/50 [00:21<00:07,  1.70it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 39/50 [00:22<00:06,  1.71it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 40/50 [00:22<00:05,  1.72it/s][A
+
+Extracting ArcFace Features:  82%|████████▏ | 41/50 [00:23<00:05,  1.72it/s][A
+
+Extracting ArcFace Features:  84%|████████▍ | 42/50 [00:24<00:04,  1.73it/s][A
+
+Extracting ArcFace Features:  86%|████████▌ | 43/50 [00:24<00:04,  1.73it/s][A
+
+Extracting ArcFace Features:  88%|████████▊ | 44/50 [00:25<00:03,  1.73it/s][A
+
+Extracting ArcFace Features:  90%|█████████ | 45/50 [00:25<00:02,  1.74it/s][A
+
+Extracting ArcFace Features:  92%|█████████▏| 46/50 [00:26<00:02,  1.74it/s][A
+
+Extracting ArcFace Features:  94%|█████████▍| 47/50 [00:26<00:01,  1.74it/s][A
+
+Extracting ArcFace Features:  96%|█████████▌| 48/50 [00:27<00:01,  1.74it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 49/50 [00:28<00:00,  1.74it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  15%|█▍        | 6/41 [06:17<26:06, 44.77s/it]
+
+Extracting ArcFace Features:   0%|          | 0/40 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▎         | 1/40 [00:00<00:22,  1.75it/s][A
+
+Extracting ArcFace Features:   5%|▌         | 2/40 [00:01<00:20,  1.83it/s][A
+
+Extracting ArcFace Features:   8%|▊         | 3/40 [00:01<00:19,  1.87it/s][A
+
+Extracting ArcFace Features:  10%|█         | 4/40 [00:02<00:18,  1.93it/s][A
+
+Extracting ArcFace Features:  12%|█▎        | 5/40 [00:02<00:17,  1.97it/s][A
+
+Extracting ArcFace Features:  15%|█▌        | 6/40 [00:03<00:17,  1.99it/s][A
+
+Extracting ArcFace Features:  18%|█▊        | 7/40 [00:03<00:16,  2.01it/s][A
+
+Extracting ArcFace Features:  20%|██        | 8/40 [00:04<00:15,  2.02it/s][A
+
+Extracting ArcFace Features:  22%|██▎       | 9/40 [00:04<00:15,  2.03it/s][A
+
+Extracting ArcFace Features:  25%|██▌       | 10/40 [00:05<00:14,  2.04it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 11/40 [00:05<00:14,  2.04it/s][A
+
+Extracting ArcFace Features:  30%|███       | 12/40 [00:06<00:13,  2.05it/s][A
+
+Extracting ArcFace Features:  32%|███▎      | 13/40 [00:06<00:13,  2.05it/s][A
+
+Extracting ArcFace Features:  35%|███▌      | 14/40 [00:06<00:12,  2.05it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 15/40 [00:07<00:12,  2.04it/s][A
+
+Extracting ArcFace Features:  40%|████      | 16/40 [00:07<00:11,  2.04it/s][A
+
+Extracting ArcFace Features:  42%|████▎     | 17/40 [00:08<00:11,  2.06it/s][A
+
+Extracting ArcFace Features:  45%|████▌     | 18/40 [00:08<00:10,  2.06it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 19/40 [00:09<00:10,  2.03it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 20/40 [00:09<00:10,  2.00it/s][A
+
+Extracting ArcFace Features:  52%|█████▎    | 21/40 [00:10<00:09,  1.97it/s][A
+
+Extracting ArcFace Features:  55%|█████▌    | 22/40 [00:11<00:09,  1.93it/s][A
+
+Extracting ArcFace Features:  57%|█████▊    | 23/40 [00:11<00:08,  1.92it/s][A
+
+Extracting ArcFace Features:  60%|██████    | 24/40 [00:12<00:08,  1.93it/s][A
+
+Extracting ArcFace Features:  62%|██████▎   | 25/40 [00:12<00:07,  1.92it/s][A
+
+Extracting ArcFace Features:  65%|██████▌   | 26/40 [00:13<00:07,  1.94it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 27/40 [00:13<00:06,  1.92it/s][A
+
+Extracting ArcFace Features:  70%|███████   | 28/40 [00:14<00:06,  1.94it/s][A
+
+Extracting ArcFace Features:  72%|███████▎  | 29/40 [00:14<00:05,  1.92it/s][A
+
+Extracting ArcFace Features:  75%|███████▌  | 30/40 [00:15<00:05,  1.93it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 31/40 [00:15<00:04,  1.95it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 32/40 [00:16<00:04,  1.93it/s][A
+
+Extracting ArcFace Features:  82%|████████▎ | 33/40 [00:16<00:03,  1.93it/s][A
+
+Extracting ArcFace Features:  85%|████████▌ | 34/40 [00:17<00:03,  1.91it/s][A
+
+Extracting ArcFace Features:  88%|████████▊ | 35/40 [00:17<00:02,  1.90it/s][A
+
+Extracting ArcFace Features:  90%|█████████ | 36/40 [00:18<00:02,  1.92it/s][A
+
+Extracting ArcFace Features:  92%|█████████▎| 37/40 [00:18<00:01,  1.92it/s][A
+
+Extracting ArcFace Features:  95%|█████████▌| 38/40 [00:19<00:01,  1.91it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 39/40 [00:19<00:00,  1.93it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 40/40 [00:20<00:00,  2.43it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  17%|█▋        | 7/41 [06:44<22:08, 39.06s/it]
+
+Extracting ArcFace Features:   0%|          | 0/38 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   3%|▎         | 1/38 [00:00<00:20,  1.80it/s][A
+
+Extracting ArcFace Features:   5%|▌         | 2/38 [00:01<00:19,  1.82it/s][A
+
+Extracting ArcFace Features:   8%|▊         | 3/38 [00:01<00:19,  1.82it/s][A
+
+Extracting ArcFace Features:  11%|█         | 4/38 [00:02<00:18,  1.85it/s][A
+
+Extracting ArcFace Features:  13%|█▎        | 5/38 [00:02<00:17,  1.86it/s][A
+
+Extracting ArcFace Features:  16%|█▌        | 6/38 [00:03<00:16,  1.90it/s][A
+
+Extracting ArcFace Features:  18%|█▊        | 7/38 [00:03<00:16,  1.93it/s][A
+
+Extracting ArcFace Features:  21%|██        | 8/38 [00:04<00:15,  1.95it/s][A
+
+Extracting ArcFace Features:  24%|██▎       | 9/38 [00:04<00:14,  1.96it/s][A
+
+Extracting ArcFace Features:  26%|██▋       | 10/38 [00:05<00:14,  1.98it/s][A
+
+Extracting ArcFace Features:  29%|██▉       | 11/38 [00:05<00:13,  1.98it/s][A
+
+Extracting ArcFace Features:  32%|███▏      | 12/38 [00:06<00:13,  1.99it/s][A
+
+Extracting ArcFace Features:  34%|███▍      | 13/38 [00:06<00:12,  1.99it/s][A
+
+Extracting ArcFace Features:  37%|███▋      | 14/38 [00:07<00:12,  2.00it/s][A
+
+Extracting ArcFace Features:  39%|███▉      | 15/38 [00:07<00:11,  2.00it/s][A
+
+Extracting ArcFace Features:  42%|████▏     | 16/38 [00:08<00:10,  2.00it/s][A
+
+Extracting ArcFace Features:  45%|████▍     | 17/38 [00:08<00:10,  2.00it/s][A
+
+Extracting ArcFace Features:  47%|████▋     | 18/38 [00:09<00:09,  2.00it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 19/38 [00:09<00:09,  2.00it/s][A
+
+Extracting ArcFace Features:  53%|█████▎    | 20/38 [00:10<00:09,  2.00it/s][A
+
+Extracting ArcFace Features:  55%|█████▌    | 21/38 [00:10<00:08,  1.98it/s][A
+
+Extracting ArcFace Features:  58%|█████▊    | 22/38 [00:11<00:08,  1.93it/s][A
+
+Extracting ArcFace Features:  61%|██████    | 23/38 [00:11<00:07,  1.90it/s][A
+
+Extracting ArcFace Features:  63%|██████▎   | 24/38 [00:12<00:07,  1.88it/s][A
+
+Extracting ArcFace Features:  66%|██████▌   | 25/38 [00:12<00:06,  1.88it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 26/38 [00:13<00:06,  1.87it/s][A
+
+Extracting ArcFace Features:  71%|███████   | 27/38 [00:13<00:05,  1.86it/s][A
+
+Extracting ArcFace Features:  74%|███████▎  | 28/38 [00:14<00:05,  1.86it/s][A
+
+Extracting ArcFace Features:  76%|███████▋  | 29/38 [00:15<00:04,  1.86it/s][A
+
+Extracting ArcFace Features:  79%|███████▉  | 30/38 [00:15<00:04,  1.85it/s][A
+
+Extracting ArcFace Features:  82%|████████▏ | 31/38 [00:16<00:03,  1.86it/s][A
+
+Extracting ArcFace Features:  84%|████████▍ | 32/38 [00:16<00:03,  1.85it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 33/38 [00:17<00:02,  1.85it/s][A
+
+Extracting ArcFace Features:  89%|████████▉ | 34/38 [00:17<00:02,  1.84it/s][A
+
+Extracting ArcFace Features:  92%|█████████▏| 35/38 [00:18<00:01,  1.84it/s][A
+
+Extracting ArcFace Features:  95%|█████████▍| 36/38 [00:18<00:01,  1.84it/s][A
+
+Extracting ArcFace Features:  97%|█████████▋| 37/38 [00:19<00:00,  1.84it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  20%|█▉        | 8/41 [07:12<19:25, 35.31s/it]
+
+Extracting ArcFace Features:   0%|          | 0/39 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   3%|▎         | 1/39 [00:00<00:20,  1.84it/s][A
+
+Extracting ArcFace Features:   5%|▌         | 2/39 [00:01<00:20,  1.85it/s][A
+
+Extracting ArcFace Features:   8%|▊         | 3/39 [00:01<00:19,  1.86it/s][A
+
+Extracting ArcFace Features:  10%|█         | 4/39 [00:02<00:18,  1.87it/s][A
+
+Extracting ArcFace Features:  13%|█▎        | 5/39 [00:02<00:18,  1.87it/s][A
+
+Extracting ArcFace Features:  15%|█▌        | 6/39 [00:03<00:17,  1.87it/s][A
+
+Extracting ArcFace Features:  18%|█▊        | 7/39 [00:03<00:17,  1.87it/s][A
+
+Extracting ArcFace Features:  21%|██        | 8/39 [00:04<00:16,  1.87it/s][A
+
+Extracting ArcFace Features:  23%|██▎       | 9/39 [00:04<00:16,  1.86it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 10/39 [00:05<00:15,  1.85it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 11/39 [00:05<00:15,  1.85it/s][A
+
+Extracting ArcFace Features:  31%|███       | 12/39 [00:06<00:14,  1.87it/s][A
+
+Extracting ArcFace Features:  33%|███▎      | 13/39 [00:06<00:13,  1.91it/s][A
+
+Extracting ArcFace Features:  36%|███▌      | 14/39 [00:07<00:12,  1.94it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 15/39 [00:07<00:12,  1.97it/s][A
+
+Extracting ArcFace Features:  41%|████      | 16/39 [00:08<00:11,  1.98it/s][A
+
+Extracting ArcFace Features:  44%|████▎     | 17/39 [00:08<00:11,  1.99it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 18/39 [00:09<00:10,  2.00it/s][A
+
+Extracting ArcFace Features:  49%|████▊     | 19/39 [00:09<00:09,  2.01it/s][A
+
+Extracting ArcFace Features:  51%|█████▏    | 20/39 [00:10<00:09,  2.01it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 21/39 [00:10<00:08,  2.01it/s][A
+
+Extracting ArcFace Features:  56%|█████▋    | 22/39 [00:11<00:08,  2.01it/s][A
+
+Extracting ArcFace Features:  59%|█████▉    | 23/39 [00:11<00:07,  2.01it/s][A
+
+Extracting ArcFace Features:  62%|██████▏   | 24/39 [00:12<00:07,  2.01it/s][A
+
+Extracting ArcFace Features:  64%|██████▍   | 25/39 [00:12<00:06,  2.02it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 26/39 [00:13<00:06,  2.02it/s][A
+
+Extracting ArcFace Features:  69%|██████▉   | 27/39 [00:13<00:05,  2.02it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 28/39 [00:14<00:05,  2.02it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 29/39 [00:14<00:04,  2.02it/s][A
+
+Extracting ArcFace Features:  77%|███████▋  | 30/39 [00:15<00:04,  2.01it/s][A
+
+Extracting ArcFace Features:  79%|███████▉  | 31/39 [00:15<00:04,  1.98it/s][A
+
+Extracting ArcFace Features:  82%|████████▏ | 32/39 [00:16<00:03,  1.97it/s][A
+
+Extracting ArcFace Features:  85%|████████▍ | 33/39 [00:16<00:03,  1.97it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 34/39 [00:17<00:02,  1.94it/s][A
+
+Extracting ArcFace Features:  90%|████████▉ | 35/39 [00:17<00:02,  1.94it/s][A
+
+Extracting ArcFace Features:  92%|█████████▏| 36/39 [00:18<00:01,  1.95it/s][A
+
+Extracting ArcFace Features:  95%|█████████▍| 37/39 [00:18<00:01,  1.96it/s][A
+
+Extracting ArcFace Features:  97%|█████████▋| 38/39 [00:19<00:00,  1.94it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 39/39 [00:19<00:00,  1.94it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  22%|██▏       | 9/41 [07:38<17:22, 32.57s/it]
+
+Extracting ArcFace Features:   0%|          | 0/37 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   3%|▎         | 1/37 [00:00<00:19,  1.85it/s][A
+
+Extracting ArcFace Features:   5%|▌         | 2/37 [00:01<00:19,  1.83it/s][A
+
+Extracting ArcFace Features:   8%|▊         | 3/37 [00:01<00:18,  1.83it/s][A
+
+Extracting ArcFace Features:  11%|█         | 4/37 [00:02<00:17,  1.84it/s][A
+
+Extracting ArcFace Features:  14%|█▎        | 5/37 [00:02<00:17,  1.87it/s][A
+
+Extracting ArcFace Features:  16%|█▌        | 6/37 [00:03<00:16,  1.90it/s][A
+
+Extracting ArcFace Features:  19%|█▉        | 7/37 [00:03<00:15,  1.92it/s][A
+
+Extracting ArcFace Features:  22%|██▏       | 8/37 [00:04<00:15,  1.92it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 9/37 [00:04<00:14,  1.93it/s][A
+
+Extracting ArcFace Features:  27%|██▋       | 10/37 [00:05<00:13,  1.95it/s][A
+
+Extracting ArcFace Features:  30%|██▉       | 11/37 [00:05<00:13,  1.96it/s][A
+
+Extracting ArcFace Features:  32%|███▏      | 12/37 [00:06<00:12,  1.97it/s][A
+
+Extracting ArcFace Features:  35%|███▌      | 13/37 [00:06<00:12,  1.98it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 14/37 [00:07<00:11,  1.98it/s][A
+
+Extracting ArcFace Features:  41%|████      | 15/37 [00:07<00:11,  1.97it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 16/37 [00:08<00:10,  1.98it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 17/37 [00:08<00:10,  1.97it/s][A
+
+Extracting ArcFace Features:  49%|████▊     | 18/37 [00:09<00:09,  1.97it/s][A
+
+Extracting ArcFace Features:  51%|█████▏    | 19/37 [00:09<00:09,  2.00it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 20/37 [00:10<00:08,  2.02it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 21/37 [00:10<00:07,  2.05it/s][A
+
+Extracting ArcFace Features:  59%|█████▉    | 22/37 [00:11<00:07,  2.05it/s][A
+
+Extracting ArcFace Features:  62%|██████▏   | 23/37 [00:11<00:06,  2.05it/s][A
+
+Extracting ArcFace Features:  65%|██████▍   | 24/37 [00:12<00:06,  2.05it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 25/37 [00:12<00:05,  2.06it/s][A
+
+Extracting ArcFace Features:  70%|███████   | 26/37 [00:13<00:05,  2.07it/s][A
+
+Extracting ArcFace Features:  73%|███████▎  | 27/37 [00:13<00:04,  2.07it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 28/37 [00:14<00:04,  2.07it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 29/37 [00:14<00:03,  2.07it/s][A
+
+Extracting ArcFace Features:  81%|████████  | 30/37 [00:15<00:03,  2.07it/s][A
+
+Extracting ArcFace Features:  84%|████████▍ | 31/37 [00:15<00:02,  2.07it/s][A
+
+Extracting ArcFace Features:  86%|████████▋ | 32/37 [00:16<00:02,  2.07it/s][A
+
+Extracting ArcFace Features:  89%|████████▉ | 33/37 [00:16<00:01,  2.07it/s][A
+
+Extracting ArcFace Features:  92%|█████████▏| 34/37 [00:17<00:01,  2.07it/s][A
+
+Extracting ArcFace Features:  95%|█████████▍| 35/37 [00:17<00:00,  2.08it/s][A
+
+Extracting ArcFace Features:  97%|█████████▋| 36/37 [00:17<00:00,  2.08it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 37/37 [00:18<00:00,  2.09it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  24%|██▍       | 10/41 [08:02<15:28, 29.97s/it]
+
+Extracting ArcFace Features:   0%|          | 0/50 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/50 [00:00<00:24,  1.98it/s][A
+
+Extracting ArcFace Features:   4%|▍         | 2/50 [00:01<00:24,  2.00it/s][A
+
+Extracting ArcFace Features:   6%|▌         | 3/50 [00:01<00:23,  2.00it/s][A
+
+Extracting ArcFace Features:   8%|▊         | 4/50 [00:01<00:22,  2.01it/s][A
+
+Extracting ArcFace Features:  10%|█         | 5/50 [00:02<00:22,  2.01it/s][A
+
+Extracting ArcFace Features:  12%|█▏        | 6/50 [00:02<00:21,  2.01it/s][A
+
+Extracting ArcFace Features:  14%|█▍        | 7/50 [00:03<00:21,  2.02it/s][A
+
+Extracting ArcFace Features:  16%|█▌        | 8/50 [00:03<00:20,  2.02it/s][A
+
+Extracting ArcFace Features:  18%|█▊        | 9/50 [00:04<00:20,  2.01it/s][A
+
+Extracting ArcFace Features:  20%|██        | 10/50 [00:04<00:19,  2.01it/s][A
+
+Extracting ArcFace Features:  22%|██▏       | 11/50 [00:05<00:19,  2.01it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 12/50 [00:05<00:18,  2.01it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 13/50 [00:06<00:18,  2.02it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 14/50 [00:06<00:17,  2.02it/s][A
+
+Extracting ArcFace Features:  30%|███       | 15/50 [00:07<00:17,  2.01it/s][A
+
+Extracting ArcFace Features:  32%|███▏      | 16/50 [00:07<00:16,  2.01it/s][A
+
+Extracting ArcFace Features:  34%|███▍      | 17/50 [00:08<00:16,  2.01it/s][A
+
+Extracting ArcFace Features:  36%|███▌      | 18/50 [00:08<00:15,  2.01it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 19/50 [00:09<00:15,  2.00it/s][A
+
+Extracting ArcFace Features:  40%|████      | 20/50 [00:09<00:14,  2.01it/s][A
+
+Extracting ArcFace Features:  42%|████▏     | 21/50 [00:10<00:14,  2.01it/s][A
+
+Extracting ArcFace Features:  44%|████▍     | 22/50 [00:10<00:13,  2.00it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 23/50 [00:11<00:13,  2.01it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 24/50 [00:11<00:12,  2.00it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 25/50 [00:12<00:12,  2.00it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 26/50 [00:12<00:11,  2.00it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 27/50 [00:13<00:11,  2.00it/s][A
+
+Extracting ArcFace Features:  56%|█████▌    | 28/50 [00:13<00:10,  2.01it/s][A
+
+Extracting ArcFace Features:  58%|█████▊    | 29/50 [00:14<00:10,  2.01it/s][A
+
+Extracting ArcFace Features:  60%|██████    | 30/50 [00:14<00:09,  2.00it/s][A
+
+Extracting ArcFace Features:  62%|██████▏   | 31/50 [00:15<00:09,  2.00it/s][A
+
+Extracting ArcFace Features:  64%|██████▍   | 32/50 [00:15<00:09,  2.00it/s][A
+
+Extracting ArcFace Features:  66%|██████▌   | 33/50 [00:16<00:08,  2.00it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 34/50 [00:16<00:07,  2.01it/s][A
+
+Extracting ArcFace Features:  70%|███████   | 35/50 [00:17<00:07,  2.01it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 36/50 [00:17<00:06,  2.01it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 37/50 [00:18<00:06,  2.02it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 38/50 [00:18<00:05,  2.02it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 39/50 [00:19<00:05,  2.03it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 40/50 [00:19<00:04,  2.02it/s][A
+
+Extracting ArcFace Features:  82%|████████▏ | 41/50 [00:20<00:04,  2.01it/s][A
+
+Extracting ArcFace Features:  84%|████████▍ | 42/50 [00:20<00:03,  2.01it/s][A
+
+Extracting ArcFace Features:  86%|████████▌ | 43/50 [00:21<00:03,  2.00it/s][A
+
+Extracting ArcFace Features:  88%|████████▊ | 44/50 [00:21<00:02,  2.00it/s][A
+
+Extracting ArcFace Features:  90%|█████████ | 45/50 [00:22<00:02,  1.99it/s][A
+
+Extracting ArcFace Features:  92%|█████████▏| 46/50 [00:22<00:02,  1.99it/s][A
+
+Extracting ArcFace Features:  94%|█████████▍| 47/50 [00:23<00:01,  2.00it/s][A
+
+Extracting ArcFace Features:  96%|█████████▌| 48/50 [00:23<00:00,  2.00it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 49/50 [00:24<00:00,  2.01it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 50/50 [00:24<00:00,  2.31it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  27%|██▋       | 11/41 [08:35<15:27, 30.91s/it]
+
+Extracting ArcFace Features:   0%|          | 0/38 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   3%|▎         | 1/38 [00:00<00:17,  2.11it/s][A
+
+Extracting ArcFace Features:   5%|▌         | 2/38 [00:00<00:16,  2.13it/s][A
+
+Extracting ArcFace Features:   8%|▊         | 3/38 [00:01<00:16,  2.14it/s][A
+
+Extracting ArcFace Features:  11%|█         | 4/38 [00:01<00:15,  2.14it/s][A
+
+Extracting ArcFace Features:  13%|█▎        | 5/38 [00:02<00:15,  2.15it/s][A
+
+Extracting ArcFace Features:  16%|█▌        | 6/38 [00:02<00:14,  2.14it/s][A
+
+Extracting ArcFace Features:  18%|█▊        | 7/38 [00:03<00:14,  2.14it/s][A
+
+Extracting ArcFace Features:  21%|██        | 8/38 [00:03<00:14,  2.14it/s][A
+
+Extracting ArcFace Features:  24%|██▎       | 9/38 [00:04<00:13,  2.13it/s][A
+
+Extracting ArcFace Features:  26%|██▋       | 10/38 [00:04<00:13,  2.11it/s][A
+
+Extracting ArcFace Features:  29%|██▉       | 11/38 [00:05<00:13,  2.07it/s][A
+
+Extracting ArcFace Features:  32%|███▏      | 12/38 [00:05<00:12,  2.06it/s][A
+
+Extracting ArcFace Features:  34%|███▍      | 13/38 [00:06<00:12,  2.04it/s][A
+
+Extracting ArcFace Features:  37%|███▋      | 14/38 [00:06<00:11,  2.03it/s][A
+
+Extracting ArcFace Features:  39%|███▉      | 15/38 [00:07<00:11,  2.03it/s][A
+
+Extracting ArcFace Features:  42%|████▏     | 16/38 [00:07<00:10,  2.03it/s][A
+
+Extracting ArcFace Features:  45%|████▍     | 17/38 [00:08<00:10,  2.01it/s][A
+
+Extracting ArcFace Features:  47%|████▋     | 18/38 [00:08<00:09,  2.02it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 19/38 [00:09<00:09,  2.02it/s][A
+
+Extracting ArcFace Features:  53%|█████▎    | 20/38 [00:09<00:08,  2.02it/s][A
+
+Extracting ArcFace Features:  55%|█████▌    | 21/38 [00:10<00:08,  2.01it/s][A
+
+Extracting ArcFace Features:  58%|█████▊    | 22/38 [00:10<00:07,  2.01it/s][A
+
+Extracting ArcFace Features:  61%|██████    | 23/38 [00:11<00:07,  2.02it/s][A
+
+Extracting ArcFace Features:  63%|██████▎   | 24/38 [00:11<00:06,  2.02it/s][A
+
+Extracting ArcFace Features:  66%|██████▌   | 25/38 [00:12<00:06,  2.01it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 26/38 [00:12<00:05,  2.02it/s][A
+
+Extracting ArcFace Features:  71%|███████   | 27/38 [00:13<00:05,  2.00it/s][A
+
+Extracting ArcFace Features:  74%|███████▎  | 28/38 [00:13<00:04,  2.00it/s][A
+
+Extracting ArcFace Features:  76%|███████▋  | 29/38 [00:14<00:04,  2.01it/s][A
+
+Extracting ArcFace Features:  79%|███████▉  | 30/38 [00:14<00:03,  2.02it/s][A
+
+Extracting ArcFace Features:  82%|████████▏ | 31/38 [00:15<00:03,  2.03it/s][A
+
+Extracting ArcFace Features:  84%|████████▍ | 32/38 [00:15<00:02,  2.02it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 33/38 [00:16<00:02,  2.03it/s][A
+
+Extracting ArcFace Features:  89%|████████▉ | 34/38 [00:16<00:01,  2.02it/s][A
+
+Extracting ArcFace Features:  92%|█████████▏| 35/38 [00:17<00:01,  2.03it/s][A
+
+Extracting ArcFace Features:  95%|█████████▍| 36/38 [00:17<00:00,  2.02it/s][A
+
+Extracting ArcFace Features:  97%|█████████▋| 37/38 [00:18<00:00,  2.02it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 38/38 [00:18<00:00,  2.37it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  29%|██▉       | 12/41 [08:59<13:52, 28.69s/it]
+
+Extracting ArcFace Features:   0%|          | 0/46 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/46 [00:00<00:21,  2.08it/s][A
+
+Extracting ArcFace Features:   4%|▍         | 2/46 [00:00<00:21,  2.08it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/46 [00:01<00:19,  2.17it/s][A
+
+Extracting ArcFace Features:   9%|▊         | 4/46 [00:01<00:19,  2.13it/s][A
+
+Extracting ArcFace Features:  11%|█         | 5/46 [00:02<00:19,  2.11it/s][A
+
+Extracting ArcFace Features:  13%|█▎        | 6/46 [00:02<00:18,  2.17it/s][A
+
+Extracting ArcFace Features:  15%|█▌        | 7/46 [00:03<00:17,  2.29it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 8/46 [00:03<00:15,  2.43it/s][A
+
+Extracting ArcFace Features:  20%|█▉        | 9/46 [00:03<00:14,  2.53it/s][A
+
+Extracting ArcFace Features:  22%|██▏       | 10/46 [00:04<00:14,  2.47it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 11/46 [00:04<00:14,  2.35it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 12/46 [00:05<00:15,  2.26it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 13/46 [00:05<00:14,  2.21it/s][A
+
+Extracting ArcFace Features:  30%|███       | 14/46 [00:06<00:14,  2.17it/s][A
+
+Extracting ArcFace Features:  33%|███▎      | 15/46 [00:06<00:14,  2.14it/s][A
+
+Extracting ArcFace Features:  35%|███▍      | 16/46 [00:07<00:14,  2.13it/s][A
+
+Extracting ArcFace Features:  37%|███▋      | 17/46 [00:07<00:13,  2.13it/s][A
+
+Extracting ArcFace Features:  39%|███▉      | 18/46 [00:08<00:13,  2.07it/s][A
+
+Extracting ArcFace Features:  41%|████▏     | 19/46 [00:08<00:13,  2.04it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 20/46 [00:09<00:12,  2.01it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 21/46 [00:09<00:12,  1.99it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 22/46 [00:10<00:12,  1.99it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 23/46 [00:10<00:11,  2.02it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 24/46 [00:11<00:10,  2.10it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 25/46 [00:11<00:10,  2.07it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 26/46 [00:12<00:09,  2.05it/s][A
+
+Extracting ArcFace Features:  59%|█████▊    | 27/46 [00:12<00:09,  1.99it/s][A
+
+Extracting ArcFace Features:  61%|██████    | 28/46 [00:13<00:09,  2.00it/s][A
+
+Extracting ArcFace Features:  63%|██████▎   | 29/46 [00:13<00:08,  1.98it/s][A
+
+Extracting ArcFace Features:  65%|██████▌   | 30/46 [00:14<00:08,  1.98it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 31/46 [00:14<00:07,  1.97it/s][A
+
+Extracting ArcFace Features:  70%|██████▉   | 32/46 [00:15<00:07,  1.96it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 33/46 [00:15<00:06,  1.97it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 34/46 [00:16<00:06,  1.97it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 35/46 [00:16<00:05,  1.94it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 36/46 [00:17<00:05,  1.96it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 37/46 [00:17<00:04,  1.94it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 38/46 [00:18<00:04,  1.96it/s][A
+
+Extracting ArcFace Features:  85%|████████▍ | 39/46 [00:18<00:03,  1.95it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 40/46 [00:19<00:03,  1.95it/s][A
+
+Extracting ArcFace Features:  89%|████████▉ | 41/46 [00:19<00:02,  1.95it/s][A
+
+Extracting ArcFace Features:  91%|█████████▏| 42/46 [00:20<00:02,  1.94it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 43/46 [00:20<00:01,  1.96it/s][A
+
+Extracting ArcFace Features:  96%|█████████▌| 44/46 [00:21<00:01,  1.94it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 45/46 [00:21<00:00,  1.91it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 46/46 [00:22<00:00,  2.17it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  32%|███▏      | 13/41 [09:32<13:56, 29.88s/it]
+
+Extracting ArcFace Features:   0%|          | 0/41 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/41 [00:00<00:24,  1.63it/s][A
+
+Extracting ArcFace Features:   5%|▍         | 2/41 [00:01<00:22,  1.71it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/41 [00:01<00:21,  1.74it/s][A
+
+Extracting ArcFace Features:  10%|▉         | 4/41 [00:02<00:21,  1.76it/s][A
+
+Extracting ArcFace Features:  12%|█▏        | 5/41 [00:02<00:20,  1.77it/s][A
+
+Extracting ArcFace Features:  15%|█▍        | 6/41 [00:03<00:19,  1.78it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 7/41 [00:03<00:19,  1.78it/s][A
+
+Extracting ArcFace Features:  20%|█▉        | 8/41 [00:04<00:18,  1.78it/s][A
+
+Extracting ArcFace Features:  22%|██▏       | 9/41 [00:05<00:17,  1.79it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 10/41 [00:05<00:17,  1.79it/s][A
+
+Extracting ArcFace Features:  27%|██▋       | 11/41 [00:06<00:17,  1.76it/s][A
+
+Extracting ArcFace Features:  29%|██▉       | 12/41 [00:06<00:16,  1.73it/s][A
+
+Extracting ArcFace Features:  32%|███▏      | 13/41 [00:07<00:16,  1.72it/s][A
+
+Extracting ArcFace Features:  34%|███▍      | 14/41 [00:08<00:15,  1.71it/s][A
+
+Extracting ArcFace Features:  37%|███▋      | 15/41 [00:08<00:15,  1.70it/s][A
+
+Extracting ArcFace Features:  39%|███▉      | 16/41 [00:09<00:14,  1.69it/s][A
+
+Extracting ArcFace Features:  41%|████▏     | 17/41 [00:09<00:14,  1.68it/s][A
+
+Extracting ArcFace Features:  44%|████▍     | 18/41 [00:10<00:13,  1.68it/s][A
+
+Extracting ArcFace Features:  46%|████▋     | 19/41 [00:11<00:13,  1.68it/s][A
+
+Extracting ArcFace Features:  49%|████▉     | 20/41 [00:11<00:12,  1.68it/s][A
+
+Extracting ArcFace Features:  51%|█████     | 21/41 [00:12<00:11,  1.67it/s][A
+
+Extracting ArcFace Features:  54%|█████▎    | 22/41 [00:12<00:11,  1.68it/s][A
+
+Extracting ArcFace Features:  56%|█████▌    | 23/41 [00:13<00:10,  1.68it/s][A
+
+Extracting ArcFace Features:  59%|█████▊    | 24/41 [00:13<00:10,  1.68it/s][A
+
+Extracting ArcFace Features:  61%|██████    | 25/41 [00:14<00:09,  1.68it/s][A
+
+Extracting ArcFace Features:  63%|██████▎   | 26/41 [00:15<00:08,  1.68it/s][A
+
+Extracting ArcFace Features:  66%|██████▌   | 27/41 [00:15<00:08,  1.68it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 28/41 [00:16<00:07,  1.67it/s][A
+
+Extracting ArcFace Features:  71%|███████   | 29/41 [00:16<00:07,  1.67it/s][A
+
+Extracting ArcFace Features:  73%|███████▎  | 30/41 [00:17<00:06,  1.67it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 31/41 [00:18<00:05,  1.67it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 32/41 [00:18<00:05,  1.68it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 33/41 [00:19<00:04,  1.68it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 34/41 [00:19<00:04,  1.68it/s][A
+
+Extracting ArcFace Features:  85%|████████▌ | 35/41 [00:20<00:03,  1.67it/s][A
+
+Extracting ArcFace Features:  88%|████████▊ | 36/41 [00:21<00:02,  1.68it/s][A
+
+Extracting ArcFace Features:  90%|█████████ | 37/41 [00:21<00:02,  1.68it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 38/41 [00:22<00:01,  1.68it/s][A
+
+Extracting ArcFace Features:  95%|█████████▌| 39/41 [00:22<00:01,  1.67it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 40/41 [00:23<00:00,  1.67it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 41/41 [00:24<00:00,  1.67it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  34%|███▍      | 14/41 [10:04<13:46, 30.61s/it]
+
+Extracting ArcFace Features:   0%|          | 0/47 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/47 [00:00<00:22,  2.04it/s][A
+
+Extracting ArcFace Features:   4%|▍         | 2/47 [00:00<00:21,  2.06it/s][A
+
+Extracting ArcFace Features:   6%|▋         | 3/47 [00:01<00:21,  2.07it/s][A
+
+Extracting ArcFace Features:   9%|▊         | 4/47 [00:01<00:20,  2.07it/s][A
+
+Extracting ArcFace Features:  11%|█         | 5/47 [00:02<00:20,  2.06it/s][A
+
+Extracting ArcFace Features:  13%|█▎        | 6/47 [00:02<00:20,  2.04it/s][A
+
+Extracting ArcFace Features:  15%|█▍        | 7/47 [00:03<00:19,  2.05it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 8/47 [00:03<00:19,  2.02it/s][A
+
+Extracting ArcFace Features:  19%|█▉        | 9/47 [00:04<00:18,  2.00it/s][A
+
+Extracting ArcFace Features:  21%|██▏       | 10/47 [00:04<00:18,  2.00it/s][A
+
+Extracting ArcFace Features:  23%|██▎       | 11/47 [00:05<00:17,  2.00it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 12/47 [00:05<00:17,  1.99it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 13/47 [00:06<00:17,  1.99it/s][A
+
+Extracting ArcFace Features:  30%|██▉       | 14/47 [00:06<00:16,  1.98it/s][A
+
+Extracting ArcFace Features:  32%|███▏      | 15/47 [00:07<00:16,  1.98it/s][A
+
+Extracting ArcFace Features:  34%|███▍      | 16/47 [00:07<00:15,  1.98it/s][A
+
+Extracting ArcFace Features:  36%|███▌      | 17/47 [00:08<00:15,  1.97it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 18/47 [00:08<00:14,  1.97it/s][A
+
+Extracting ArcFace Features:  40%|████      | 19/47 [00:09<00:14,  1.97it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 20/47 [00:10<00:13,  1.96it/s][A
+
+Extracting ArcFace Features:  45%|████▍     | 21/47 [00:10<00:13,  1.97it/s][A
+
+Extracting ArcFace Features:  47%|████▋     | 22/47 [00:11<00:12,  1.96it/s][A
+
+Extracting ArcFace Features:  49%|████▉     | 23/47 [00:11<00:12,  1.97it/s][A
+
+Extracting ArcFace Features:  51%|█████     | 24/47 [00:12<00:11,  1.96it/s][A
+
+Extracting ArcFace Features:  53%|█████▎    | 25/47 [00:12<00:11,  1.97it/s][A
+
+Extracting ArcFace Features:  55%|█████▌    | 26/47 [00:13<00:10,  1.97it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 27/47 [00:13<00:10,  1.98it/s][A
+
+Extracting ArcFace Features:  60%|█████▉    | 28/47 [00:14<00:09,  1.99it/s][A
+
+Extracting ArcFace Features:  62%|██████▏   | 29/47 [00:14<00:09,  1.99it/s][A
+
+Extracting ArcFace Features:  64%|██████▍   | 30/47 [00:15<00:08,  1.99it/s][A
+
+Extracting ArcFace Features:  66%|██████▌   | 31/47 [00:15<00:08,  1.99it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 32/47 [00:16<00:07,  1.99it/s][A
+
+Extracting ArcFace Features:  70%|███████   | 33/47 [00:16<00:07,  1.98it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 34/47 [00:17<00:06,  1.99it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 35/47 [00:17<00:06,  1.99it/s][A
+
+Extracting ArcFace Features:  77%|███████▋  | 36/47 [00:18<00:05,  1.99it/s][A
+
+Extracting ArcFace Features:  79%|███████▊  | 37/47 [00:18<00:05,  1.98it/s][A
+
+Extracting ArcFace Features:  81%|████████  | 38/47 [00:19<00:04,  1.98it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 39/47 [00:19<00:04,  1.98it/s][A
+
+Extracting ArcFace Features:  85%|████████▌ | 40/47 [00:20<00:03,  1.98it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 41/47 [00:20<00:03,  1.98it/s][A
+
+Extracting ArcFace Features:  89%|████████▉ | 42/47 [00:21<00:02,  1.99it/s][A
+
+Extracting ArcFace Features:  91%|█████████▏| 43/47 [00:21<00:02,  1.98it/s][A
+
+Extracting ArcFace Features:  94%|█████████▎| 44/47 [00:22<00:01,  1.98it/s][A
+
+Extracting ArcFace Features:  96%|█████████▌| 45/47 [00:22<00:01,  1.96it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 46/47 [00:23<00:00,  1.97it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 47/47 [00:23<00:00,  2.53it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  37%|███▋      | 15/41 [10:34<13:14, 30.54s/it]
+
+Extracting ArcFace Features:   0%|          | 0/50 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/50 [00:00<00:27,  1.79it/s][A
+
+Extracting ArcFace Features:   4%|▍         | 2/50 [00:01<00:26,  1.81it/s][A
+
+Extracting ArcFace Features:   6%|▌         | 3/50 [00:01<00:26,  1.80it/s][A
+
+Extracting ArcFace Features:   8%|▊         | 4/50 [00:02<00:25,  1.81it/s][A
+
+Extracting ArcFace Features:  10%|█         | 5/50 [00:02<00:24,  1.81it/s][A
+
+Extracting ArcFace Features:  12%|█▏        | 6/50 [00:03<00:24,  1.81it/s][A
+
+Extracting ArcFace Features:  14%|█▍        | 7/50 [00:03<00:23,  1.81it/s][A
+
+Extracting ArcFace Features:  16%|█▌        | 8/50 [00:04<00:23,  1.80it/s][A
+
+Extracting ArcFace Features:  18%|█▊        | 9/50 [00:04<00:22,  1.80it/s][A
+
+Extracting ArcFace Features:  20%|██        | 10/50 [00:05<00:22,  1.79it/s][A
+
+Extracting ArcFace Features:  22%|██▏       | 11/50 [00:06<00:22,  1.77it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 12/50 [00:06<00:21,  1.76it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 13/50 [00:07<00:21,  1.74it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 14/50 [00:07<00:20,  1.74it/s][A
+
+Extracting ArcFace Features:  30%|███       | 15/50 [00:08<00:20,  1.74it/s][A
+
+Extracting ArcFace Features:  32%|███▏      | 16/50 [00:09<00:19,  1.75it/s][A
+
+Extracting ArcFace Features:  34%|███▍      | 17/50 [00:09<00:18,  1.74it/s][A
+
+Extracting ArcFace Features:  36%|███▌      | 18/50 [00:10<00:18,  1.74it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 19/50 [00:10<00:17,  1.73it/s][A
+
+Extracting ArcFace Features:  40%|████      | 20/50 [00:11<00:17,  1.73it/s][A
+
+Extracting ArcFace Features:  42%|████▏     | 21/50 [00:11<00:16,  1.73it/s][A
+
+Extracting ArcFace Features:  44%|████▍     | 22/50 [00:12<00:16,  1.73it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 23/50 [00:13<00:15,  1.73it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 24/50 [00:13<00:15,  1.72it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 25/50 [00:14<00:14,  1.72it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 26/50 [00:14<00:13,  1.73it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 27/50 [00:15<00:13,  1.71it/s][A
+
+Extracting ArcFace Features:  56%|█████▌    | 28/50 [00:15<00:12,  1.72it/s][A
+
+Extracting ArcFace Features:  58%|█████▊    | 29/50 [00:16<00:12,  1.72it/s][A
+
+Extracting ArcFace Features:  60%|██████    | 30/50 [00:17<00:11,  1.73it/s][A
+
+Extracting ArcFace Features:  62%|██████▏   | 31/50 [00:17<00:10,  1.73it/s][A
+
+Extracting ArcFace Features:  64%|██████▍   | 32/50 [00:18<00:10,  1.73it/s][A
+
+Extracting ArcFace Features:  66%|██████▌   | 33/50 [00:18<00:09,  1.72it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 34/50 [00:19<00:09,  1.72it/s][A
+
+Extracting ArcFace Features:  70%|███████   | 35/50 [00:20<00:08,  1.72it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 36/50 [00:20<00:08,  1.73it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 37/50 [00:21<00:07,  1.72it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 38/50 [00:21<00:06,  1.72it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 39/50 [00:22<00:06,  1.72it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 40/50 [00:22<00:05,  1.73it/s][A
+
+Extracting ArcFace Features:  82%|████████▏ | 41/50 [00:23<00:05,  1.72it/s][A
+
+Extracting ArcFace Features:  84%|████████▍ | 42/50 [00:24<00:04,  1.72it/s][A
+
+Extracting ArcFace Features:  86%|████████▌ | 43/50 [00:24<00:04,  1.72it/s][A
+
+Extracting ArcFace Features:  88%|████████▊ | 44/50 [00:25<00:03,  1.72it/s][A
+
+Extracting ArcFace Features:  90%|█████████ | 45/50 [00:25<00:02,  1.72it/s][A
+
+Extracting ArcFace Features:  92%|█████████▏| 46/50 [00:26<00:02,  1.72it/s][A
+
+Extracting ArcFace Features:  94%|█████████▍| 47/50 [00:27<00:01,  1.72it/s][A
+
+Extracting ArcFace Features:  96%|█████████▌| 48/50 [00:27<00:01,  1.73it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 49/50 [00:28<00:00,  1.73it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 50/50 [00:28<00:00,  2.24it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  39%|███▉      | 16/41 [11:10<13:17, 31.91s/it]
+
+Extracting ArcFace Features:   0%|          | 0/42 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/42 [00:00<00:23,  1.71it/s][A
+
+Extracting ArcFace Features:   5%|▍         | 2/42 [00:01<00:23,  1.73it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/42 [00:01<00:22,  1.74it/s][A
+
+Extracting ArcFace Features:  10%|▉         | 4/42 [00:02<00:21,  1.74it/s][A
+
+Extracting ArcFace Features:  12%|█▏        | 5/42 [00:02<00:21,  1.73it/s][A
+
+Extracting ArcFace Features:  14%|█▍        | 6/42 [00:03<00:20,  1.73it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 7/42 [00:04<00:20,  1.72it/s][A
+
+Extracting ArcFace Features:  19%|█▉        | 8/42 [00:04<00:19,  1.72it/s][A
+
+Extracting ArcFace Features:  21%|██▏       | 9/42 [00:05<00:19,  1.72it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 10/42 [00:05<00:18,  1.73it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 11/42 [00:06<00:17,  1.73it/s][A
+
+Extracting ArcFace Features:  29%|██▊       | 12/42 [00:06<00:17,  1.72it/s][A
+
+Extracting ArcFace Features:  31%|███       | 13/42 [00:07<00:16,  1.73it/s][A
+
+Extracting ArcFace Features:  33%|███▎      | 14/42 [00:08<00:16,  1.73it/s][A
+
+Extracting ArcFace Features:  36%|███▌      | 15/42 [00:08<00:15,  1.74it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 16/42 [00:09<00:14,  1.73it/s][A
+
+Extracting ArcFace Features:  40%|████      | 17/42 [00:09<00:14,  1.73it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 18/42 [00:10<00:13,  1.74it/s][A
+
+Extracting ArcFace Features:  45%|████▌     | 19/42 [00:10<00:13,  1.75it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 20/42 [00:11<00:12,  1.75it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 21/42 [00:12<00:12,  1.74it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 22/42 [00:12<00:11,  1.74it/s][A
+
+Extracting ArcFace Features:  55%|█████▍    | 23/42 [00:13<00:10,  1.73it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 24/42 [00:13<00:10,  1.73it/s][A
+
+Extracting ArcFace Features:  60%|█████▉    | 25/42 [00:14<00:09,  1.74it/s][A
+
+Extracting ArcFace Features:  62%|██████▏   | 26/42 [00:14<00:09,  1.74it/s][A
+
+Extracting ArcFace Features:  64%|██████▍   | 27/42 [00:15<00:08,  1.73it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 28/42 [00:16<00:08,  1.73it/s][A
+
+Extracting ArcFace Features:  69%|██████▉   | 29/42 [00:16<00:07,  1.74it/s][A
+
+Extracting ArcFace Features:  71%|███████▏  | 30/42 [00:17<00:06,  1.74it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 31/42 [00:17<00:06,  1.74it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 32/42 [00:18<00:05,  1.67it/s][A
+
+Extracting ArcFace Features:  79%|███████▊  | 33/42 [00:19<00:05,  1.60it/s][A
+
+Extracting ArcFace Features:  81%|████████  | 34/42 [00:19<00:05,  1.56it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 35/42 [00:20<00:04,  1.62it/s][A
+
+Extracting ArcFace Features:  86%|████████▌ | 36/42 [00:21<00:03,  1.67it/s][A
+
+Extracting ArcFace Features:  88%|████████▊ | 37/42 [00:21<00:02,  1.72it/s][A
+
+Extracting ArcFace Features:  90%|█████████ | 38/42 [00:22<00:02,  1.75it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 39/42 [00:22<00:01,  1.77it/s][A
+
+Extracting ArcFace Features:  95%|█████████▌| 40/42 [00:23<00:01,  1.78it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 41/42 [00:23<00:00,  1.79it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 42/42 [00:23<00:00,  2.31it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  41%|████▏     | 17/41 [11:41<12:41, 31.73s/it]
+
+Extracting ArcFace Features:   0%|          | 0/45 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/45 [00:00<00:25,  1.73it/s][A
+
+Extracting ArcFace Features:   4%|▍         | 2/45 [00:01<00:24,  1.74it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/45 [00:01<00:24,  1.73it/s][A
+
+Extracting ArcFace Features:   9%|▉         | 4/45 [00:02<00:23,  1.73it/s][A
+
+Extracting ArcFace Features:  11%|█         | 5/45 [00:02<00:23,  1.73it/s][A
+
+Extracting ArcFace Features:  13%|█▎        | 6/45 [00:03<00:22,  1.73it/s][A
+
+Extracting ArcFace Features:  16%|█▌        | 7/45 [00:04<00:21,  1.73it/s][A
+
+Extracting ArcFace Features:  18%|█▊        | 8/45 [00:04<00:21,  1.72it/s][A
+
+Extracting ArcFace Features:  20%|██        | 9/45 [00:05<00:20,  1.72it/s][A
+
+Extracting ArcFace Features:  22%|██▏       | 10/45 [00:05<00:20,  1.73it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 11/45 [00:06<00:19,  1.73it/s][A
+
+Extracting ArcFace Features:  27%|██▋       | 12/45 [00:06<00:19,  1.73it/s][A
+
+Extracting ArcFace Features:  29%|██▉       | 13/45 [00:07<00:18,  1.73it/s][A
+
+Extracting ArcFace Features:  31%|███       | 14/45 [00:08<00:17,  1.74it/s][A
+
+Extracting ArcFace Features:  33%|███▎      | 15/45 [00:08<00:17,  1.73it/s][A
+
+Extracting ArcFace Features:  36%|███▌      | 16/45 [00:09<00:16,  1.72it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 17/45 [00:09<00:16,  1.72it/s][A
+
+Extracting ArcFace Features:  40%|████      | 18/45 [00:10<00:15,  1.72it/s][A
+
+Extracting ArcFace Features:  42%|████▏     | 19/45 [00:11<00:15,  1.72it/s][A
+
+Extracting ArcFace Features:  44%|████▍     | 20/45 [00:11<00:14,  1.72it/s][A
+
+Extracting ArcFace Features:  47%|████▋     | 21/45 [00:12<00:13,  1.72it/s][A
+
+Extracting ArcFace Features:  49%|████▉     | 22/45 [00:12<00:13,  1.74it/s][A
+
+Extracting ArcFace Features:  51%|█████     | 23/45 [00:13<00:12,  1.76it/s][A
+
+Extracting ArcFace Features:  53%|█████▎    | 24/45 [00:13<00:11,  1.77it/s][A
+
+Extracting ArcFace Features:  56%|█████▌    | 25/45 [00:14<00:11,  1.78it/s][A
+
+Extracting ArcFace Features:  58%|█████▊    | 26/45 [00:14<00:10,  1.79it/s][A
+
+Extracting ArcFace Features:  60%|██████    | 27/45 [00:15<00:10,  1.80it/s][A
+
+Extracting ArcFace Features:  62%|██████▏   | 28/45 [00:16<00:09,  1.80it/s][A
+
+Extracting ArcFace Features:  64%|██████▍   | 29/45 [00:16<00:08,  1.81it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 30/45 [00:17<00:08,  1.82it/s][A
+
+Extracting ArcFace Features:  69%|██████▉   | 31/45 [00:17<00:07,  1.81it/s][A
+
+Extracting ArcFace Features:  71%|███████   | 32/45 [00:18<00:07,  1.81it/s][A
+
+Extracting ArcFace Features:  73%|███████▎  | 33/45 [00:18<00:06,  1.80it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 34/45 [00:19<00:06,  1.78it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 35/45 [00:19<00:05,  1.77it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 36/45 [00:20<00:05,  1.76it/s][A
+
+Extracting ArcFace Features:  82%|████████▏ | 37/45 [00:21<00:04,  1.75it/s][A
+
+Extracting ArcFace Features:  84%|████████▍ | 38/45 [00:21<00:04,  1.75it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 39/45 [00:22<00:03,  1.74it/s][A
+
+Extracting ArcFace Features:  89%|████████▉ | 40/45 [00:22<00:02,  1.74it/s][A
+
+Extracting ArcFace Features:  91%|█████████ | 41/45 [00:23<00:02,  1.74it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 42/45 [00:23<00:01,  1.74it/s][A
+
+Extracting ArcFace Features:  96%|█████████▌| 43/45 [00:24<00:01,  1.74it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 44/45 [00:25<00:00,  1.74it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 45/45 [00:25<00:00,  1.96it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  44%|████▍     | 18/41 [12:14<12:19, 32.16s/it]
+
+Extracting ArcFace Features:   0%|          | 0/39 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   3%|▎         | 1/39 [00:00<00:22,  1.70it/s][A
+
+Extracting ArcFace Features:   5%|▌         | 2/39 [00:01<00:21,  1.72it/s][A
+
+Extracting ArcFace Features:   8%|▊         | 3/39 [00:01<00:20,  1.72it/s][A
+
+Extracting ArcFace Features:  10%|█         | 4/39 [00:02<00:20,  1.72it/s][A
+
+Extracting ArcFace Features:  13%|█▎        | 5/39 [00:02<00:19,  1.71it/s][A
+
+Extracting ArcFace Features:  15%|█▌        | 6/39 [00:03<00:19,  1.72it/s][A
+
+Extracting ArcFace Features:  18%|█▊        | 7/39 [00:04<00:18,  1.72it/s][A
+
+Extracting ArcFace Features:  21%|██        | 8/39 [00:04<00:18,  1.72it/s][A
+
+Extracting ArcFace Features:  23%|██▎       | 9/39 [00:05<00:17,  1.72it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 10/39 [00:05<00:16,  1.72it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 11/39 [00:06<00:16,  1.71it/s][A
+
+Extracting ArcFace Features:  31%|███       | 12/39 [00:06<00:15,  1.71it/s][A
+
+Extracting ArcFace Features:  33%|███▎      | 13/39 [00:07<00:15,  1.71it/s][A
+
+Extracting ArcFace Features:  36%|███▌      | 14/39 [00:08<00:14,  1.71it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 15/39 [00:08<00:13,  1.72it/s][A
+
+Extracting ArcFace Features:  41%|████      | 16/39 [00:09<00:13,  1.71it/s][A
+
+Extracting ArcFace Features:  44%|████▎     | 17/39 [00:09<00:12,  1.71it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 18/39 [00:10<00:12,  1.71it/s][A
+
+Extracting ArcFace Features:  49%|████▊     | 19/39 [00:11<00:11,  1.71it/s][A
+
+Extracting ArcFace Features:  51%|█████▏    | 20/39 [00:11<00:11,  1.71it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 21/39 [00:12<00:10,  1.71it/s][A
+
+Extracting ArcFace Features:  56%|█████▋    | 22/39 [00:12<00:09,  1.72it/s][A
+
+Extracting ArcFace Features:  59%|█████▉    | 23/39 [00:13<00:09,  1.72it/s][A
+
+Extracting ArcFace Features:  62%|██████▏   | 24/39 [00:13<00:08,  1.71it/s][A
+
+Extracting ArcFace Features:  64%|██████▍   | 25/39 [00:14<00:08,  1.71it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 26/39 [00:15<00:07,  1.72it/s][A
+
+Extracting ArcFace Features:  69%|██████▉   | 27/39 [00:15<00:06,  1.74it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 28/39 [00:16<00:06,  1.75it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 29/39 [00:16<00:05,  1.76it/s][A
+
+Extracting ArcFace Features:  77%|███████▋  | 30/39 [00:17<00:05,  1.76it/s][A
+
+Extracting ArcFace Features:  79%|███████▉  | 31/39 [00:17<00:04,  1.77it/s][A
+
+Extracting ArcFace Features:  82%|████████▏ | 32/39 [00:18<00:03,  1.78it/s][A
+
+Extracting ArcFace Features:  85%|████████▍ | 33/39 [00:19<00:03,  1.78it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 34/39 [00:19<00:02,  1.79it/s][A
+
+Extracting ArcFace Features:  90%|████████▉ | 35/39 [00:20<00:02,  1.79it/s][A
+
+Extracting ArcFace Features:  92%|█████████▏| 36/39 [00:20<00:01,  1.80it/s][A
+
+Extracting ArcFace Features:  95%|█████████▍| 37/39 [00:21<00:01,  1.79it/s][A
+
+Extracting ArcFace Features:  97%|█████████▋| 38/39 [00:21<00:00,  1.79it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 39/39 [00:22<00:00,  1.80it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  46%|████▋     | 19/41 [12:41<11:14, 30.68s/it]
+
+Extracting ArcFace Features:   0%|          | 0/39 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   3%|▎         | 1/39 [00:00<00:21,  1.74it/s][A
+
+Extracting ArcFace Features:   5%|▌         | 2/39 [00:01<00:21,  1.75it/s][A
+
+Extracting ArcFace Features:   8%|▊         | 3/39 [00:01<00:20,  1.75it/s][A
+
+Extracting ArcFace Features:  10%|█         | 4/39 [00:02<00:20,  1.75it/s][A
+
+Extracting ArcFace Features:  13%|█▎        | 5/39 [00:02<00:19,  1.75it/s][A
+
+Extracting ArcFace Features:  15%|█▌        | 6/39 [00:03<00:18,  1.74it/s][A
+
+Extracting ArcFace Features:  18%|█▊        | 7/39 [00:04<00:18,  1.75it/s][A
+
+Extracting ArcFace Features:  21%|██        | 8/39 [00:04<00:17,  1.75it/s][A
+
+Extracting ArcFace Features:  23%|██▎       | 9/39 [00:05<00:17,  1.75it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 10/39 [00:05<00:16,  1.75it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 11/39 [00:06<00:15,  1.76it/s][A
+
+Extracting ArcFace Features:  31%|███       | 12/39 [00:06<00:15,  1.76it/s][A
+
+Extracting ArcFace Features:  33%|███▎      | 13/39 [00:07<00:14,  1.76it/s][A
+
+Extracting ArcFace Features:  36%|███▌      | 14/39 [00:07<00:14,  1.76it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 15/39 [00:08<00:13,  1.77it/s][A
+
+Extracting ArcFace Features:  41%|████      | 16/39 [00:09<00:13,  1.76it/s][A
+
+Extracting ArcFace Features:  44%|████▎     | 17/39 [00:09<00:12,  1.75it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 18/39 [00:10<00:12,  1.75it/s][A
+
+Extracting ArcFace Features:  49%|████▊     | 19/39 [00:10<00:11,  1.75it/s][A
+
+Extracting ArcFace Features:  51%|█████▏    | 20/39 [00:11<00:10,  1.75it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 21/39 [00:11<00:10,  1.75it/s][A
+
+Extracting ArcFace Features:  56%|█████▋    | 22/39 [00:12<00:09,  1.75it/s][A
+
+Extracting ArcFace Features:  59%|█████▉    | 23/39 [00:13<00:09,  1.74it/s][A
+
+Extracting ArcFace Features:  62%|██████▏   | 24/39 [00:13<00:08,  1.75it/s][A
+
+Extracting ArcFace Features:  64%|██████▍   | 25/39 [00:14<00:08,  1.75it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 26/39 [00:14<00:07,  1.74it/s][A
+
+Extracting ArcFace Features:  69%|██████▉   | 27/39 [00:15<00:06,  1.74it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 28/39 [00:15<00:06,  1.75it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 29/39 [00:16<00:05,  1.75it/s][A
+
+Extracting ArcFace Features:  77%|███████▋  | 30/39 [00:17<00:05,  1.75it/s][A
+
+Extracting ArcFace Features:  79%|███████▉  | 31/39 [00:17<00:04,  1.75it/s][A
+
+Extracting ArcFace Features:  82%|████████▏ | 32/39 [00:18<00:04,  1.75it/s][A
+
+Extracting ArcFace Features:  85%|████████▍ | 33/39 [00:18<00:03,  1.77it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 34/39 [00:19<00:02,  1.79it/s][A
+
+Extracting ArcFace Features:  90%|████████▉ | 35/39 [00:19<00:02,  1.80it/s][A
+
+Extracting ArcFace Features:  92%|█████████▏| 36/39 [00:20<00:01,  1.82it/s][A
+
+Extracting ArcFace Features:  95%|█████████▍| 37/39 [00:20<00:01,  1.83it/s][A
+
+Extracting ArcFace Features:  97%|█████████▋| 38/39 [00:21<00:00,  1.84it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 39/39 [00:21<00:00,  1.95it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  49%|████▉     | 20/41 [13:08<10:18, 29.45s/it]
+
+Extracting ArcFace Features:   0%|          | 0/41 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/41 [00:00<00:20,  1.93it/s][A
+
+Extracting ArcFace Features:   5%|▍         | 2/41 [00:01<00:20,  1.92it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/41 [00:01<00:19,  1.95it/s][A
+
+Extracting ArcFace Features:  10%|▉         | 4/41 [00:02<00:18,  1.95it/s][A
+
+Extracting ArcFace Features:  12%|█▏        | 5/41 [00:02<00:18,  1.96it/s][A
+
+Extracting ArcFace Features:  15%|█▍        | 6/41 [00:03<00:17,  1.96it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 7/41 [00:03<00:17,  1.94it/s][A
+
+Extracting ArcFace Features:  20%|█▉        | 8/41 [00:04<00:16,  1.94it/s][A
+
+Extracting ArcFace Features:  22%|██▏       | 9/41 [00:04<00:16,  1.95it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 10/41 [00:05<00:15,  1.95it/s][A
+
+Extracting ArcFace Features:  27%|██▋       | 11/41 [00:05<00:15,  1.94it/s][A
+
+Extracting ArcFace Features:  29%|██▉       | 12/41 [00:06<00:14,  1.95it/s][A
+
+Extracting ArcFace Features:  32%|███▏      | 13/41 [00:06<00:14,  1.94it/s][A
+
+Extracting ArcFace Features:  34%|███▍      | 14/41 [00:07<00:13,  1.95it/s][A
+
+Extracting ArcFace Features:  37%|███▋      | 15/41 [00:07<00:13,  1.94it/s][A
+
+Extracting ArcFace Features:  39%|███▉      | 16/41 [00:08<00:12,  1.94it/s][A
+
+Extracting ArcFace Features:  41%|████▏     | 17/41 [00:08<00:12,  1.95it/s][A
+
+Extracting ArcFace Features:  44%|████▍     | 18/41 [00:09<00:11,  1.93it/s][A
+
+Extracting ArcFace Features:  46%|████▋     | 19/41 [00:09<00:11,  1.94it/s][A
+
+Extracting ArcFace Features:  49%|████▉     | 20/41 [00:10<00:10,  1.95it/s][A
+
+Extracting ArcFace Features:  51%|█████     | 21/41 [00:10<00:10,  1.96it/s][A
+
+Extracting ArcFace Features:  54%|█████▎    | 22/41 [00:11<00:09,  1.96it/s][A
+
+Extracting ArcFace Features:  56%|█████▌    | 23/41 [00:11<00:09,  1.97it/s][A
+
+Extracting ArcFace Features:  59%|█████▊    | 24/41 [00:12<00:08,  1.97it/s][A
+
+Extracting ArcFace Features:  61%|██████    | 25/41 [00:12<00:08,  1.98it/s][A
+
+Extracting ArcFace Features:  63%|██████▎   | 26/41 [00:13<00:07,  1.97it/s][A
+
+Extracting ArcFace Features:  66%|██████▌   | 27/41 [00:13<00:07,  1.98it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 28/41 [00:14<00:06,  1.98it/s][A
+
+Extracting ArcFace Features:  71%|███████   | 29/41 [00:14<00:06,  1.98it/s][A
+
+Extracting ArcFace Features:  73%|███████▎  | 30/41 [00:15<00:05,  1.97it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 31/41 [00:15<00:05,  1.97it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 32/41 [00:16<00:04,  1.97it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 33/41 [00:16<00:04,  1.97it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 34/41 [00:17<00:03,  1.97it/s][A
+
+Extracting ArcFace Features:  85%|████████▌ | 35/41 [00:17<00:03,  1.98it/s][A
+
+Extracting ArcFace Features:  88%|████████▊ | 36/41 [00:18<00:02,  1.98it/s][A
+
+Extracting ArcFace Features:  90%|█████████ | 37/41 [00:18<00:02,  1.97it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 38/41 [00:19<00:01,  1.98it/s][A
+
+Extracting ArcFace Features:  95%|█████████▌| 39/41 [00:19<00:01,  1.97it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 40/41 [00:20<00:00,  1.99it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 41/41 [00:20<00:00,  2.59it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  51%|█████     | 21/41 [13:34<09:31, 28.57s/it]
+
+Extracting ArcFace Features:   0%|          | 0/46 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/46 [00:00<00:16,  2.77it/s][A
+
+Extracting ArcFace Features:   4%|▍         | 2/46 [00:00<00:15,  2.79it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/46 [00:01<00:15,  2.79it/s][A
+
+Extracting ArcFace Features:   9%|▊         | 4/46 [00:01<00:15,  2.80it/s][A
+
+Extracting ArcFace Features:  11%|█         | 5/46 [00:01<00:14,  2.81it/s][A
+
+Extracting ArcFace Features:  13%|█▎        | 6/46 [00:02<00:14,  2.79it/s][A
+
+Extracting ArcFace Features:  15%|█▌        | 7/46 [00:02<00:13,  2.79it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 8/46 [00:02<00:13,  2.78it/s][A
+
+Extracting ArcFace Features:  20%|█▉        | 9/46 [00:03<00:13,  2.76it/s][A
+
+Extracting ArcFace Features:  22%|██▏       | 10/46 [00:03<00:13,  2.76it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 11/46 [00:03<00:12,  2.77it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 12/46 [00:04<00:12,  2.78it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 13/46 [00:04<00:11,  2.77it/s][A
+
+Extracting ArcFace Features:  30%|███       | 14/46 [00:05<00:11,  2.75it/s][A
+
+Extracting ArcFace Features:  33%|███▎      | 15/46 [00:05<00:11,  2.77it/s][A
+
+Extracting ArcFace Features:  35%|███▍      | 16/46 [00:05<00:10,  2.75it/s][A
+
+Extracting ArcFace Features:  37%|███▋      | 17/46 [00:06<00:10,  2.77it/s][A
+
+Extracting ArcFace Features:  39%|███▉      | 18/46 [00:06<00:10,  2.77it/s][A
+
+Extracting ArcFace Features:  41%|████▏     | 19/46 [00:06<00:09,  2.75it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 20/46 [00:07<00:09,  2.78it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 21/46 [00:07<00:08,  2.78it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 22/46 [00:07<00:08,  2.77it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 23/46 [00:08<00:08,  2.77it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 24/46 [00:08<00:07,  2.76it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 25/46 [00:09<00:07,  2.80it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 26/46 [00:09<00:07,  2.82it/s][A
+
+Extracting ArcFace Features:  59%|█████▊    | 27/46 [00:09<00:06,  2.81it/s][A
+
+Extracting ArcFace Features:  61%|██████    | 28/46 [00:10<00:06,  2.81it/s][A
+
+Extracting ArcFace Features:  63%|██████▎   | 29/46 [00:10<00:05,  2.84it/s][A
+
+Extracting ArcFace Features:  65%|██████▌   | 30/46 [00:10<00:05,  2.82it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 31/46 [00:11<00:05,  2.84it/s][A
+
+Extracting ArcFace Features:  70%|██████▉   | 32/46 [00:11<00:04,  2.84it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 33/46 [00:11<00:04,  2.83it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 34/46 [00:12<00:04,  2.82it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 35/46 [00:12<00:03,  2.79it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 36/46 [00:12<00:03,  2.80it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 37/46 [00:13<00:03,  2.79it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 38/46 [00:13<00:02,  2.80it/s][A
+
+Extracting ArcFace Features:  85%|████████▍ | 39/46 [00:13<00:02,  2.79it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 40/46 [00:14<00:02,  2.82it/s][A
+
+Extracting ArcFace Features:  89%|████████▉ | 41/46 [00:14<00:01,  2.82it/s][A
+
+Extracting ArcFace Features:  91%|█████████▏| 42/46 [00:15<00:01,  2.83it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 43/46 [00:15<00:01,  2.83it/s][A
+
+Extracting ArcFace Features:  96%|█████████▌| 44/46 [00:15<00:00,  2.82it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 45/46 [00:16<00:00,  2.81it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 46/46 [00:16<00:00,  3.04it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  54%|█████▎    | 22/41 [13:59<08:40, 27.40s/it]Error evaluating input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0023_human_talk_en_male.mp4: 参考图像中未检测到人脸，无法进行 ArcFace Consistency 评测。
+
+
+Extracting ArcFace Features:   0%|          | 0/40 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▎         | 1/40 [00:00<00:18,  2.09it/s][A
+
+Extracting ArcFace Features:   5%|▌         | 2/40 [00:00<00:17,  2.13it/s][A
+
+Extracting ArcFace Features:   8%|▊         | 3/40 [00:01<00:17,  2.13it/s][A
+
+Extracting ArcFace Features:  10%|█         | 4/40 [00:01<00:16,  2.13it/s][A
+
+Extracting ArcFace Features:  12%|█▎        | 5/40 [00:02<00:16,  2.13it/s][A
+
+Extracting ArcFace Features:  15%|█▌        | 6/40 [00:02<00:15,  2.14it/s][A
+
+Extracting ArcFace Features:  18%|█▊        | 7/40 [00:03<00:15,  2.15it/s][A
+
+Extracting ArcFace Features:  20%|██        | 8/40 [00:03<00:14,  2.15it/s][A
+
+Extracting ArcFace Features:  22%|██▎       | 9/40 [00:04<00:14,  2.14it/s][A
+
+Extracting ArcFace Features:  25%|██▌       | 10/40 [00:04<00:13,  2.15it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 11/40 [00:05<00:13,  2.15it/s][A
+
+Extracting ArcFace Features:  30%|███       | 12/40 [00:05<00:13,  2.15it/s][A
+
+Extracting ArcFace Features:  32%|███▎      | 13/40 [00:06<00:12,  2.14it/s][A
+
+Extracting ArcFace Features:  35%|███▌      | 14/40 [00:06<00:12,  2.14it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 15/40 [00:07<00:11,  2.10it/s][A
+
+Extracting ArcFace Features:  40%|████      | 16/40 [00:07<00:11,  2.08it/s][A
+
+Extracting ArcFace Features:  42%|████▎     | 17/40 [00:08<00:11,  2.06it/s][A
+
+Extracting ArcFace Features:  45%|████▌     | 18/40 [00:08<00:10,  2.03it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 19/40 [00:09<00:10,  2.03it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 20/40 [00:09<00:09,  2.01it/s][A
+
+Extracting ArcFace Features:  52%|█████▎    | 21/40 [00:10<00:09,  1.98it/s][A
+
+Extracting ArcFace Features:  55%|█████▌    | 22/40 [00:10<00:09,  2.00it/s][A
+
+Extracting ArcFace Features:  57%|█████▊    | 23/40 [00:11<00:08,  1.97it/s][A
+
+Extracting ArcFace Features:  60%|██████    | 24/40 [00:11<00:08,  1.98it/s][A
+
+Extracting ArcFace Features:  62%|██████▎   | 25/40 [00:12<00:07,  1.98it/s][A
+
+Extracting ArcFace Features:  65%|██████▌   | 26/40 [00:12<00:07,  1.99it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 27/40 [00:13<00:06,  2.00it/s][A
+
+Extracting ArcFace Features:  70%|███████   | 28/40 [00:13<00:05,  2.01it/s][A
+
+Extracting ArcFace Features:  72%|███████▎  | 29/40 [00:14<00:05,  2.02it/s][A
+
+Extracting ArcFace Features:  75%|███████▌  | 30/40 [00:14<00:04,  2.01it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 31/40 [00:15<00:04,  2.01it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 32/40 [00:15<00:03,  2.01it/s][A
+
+Extracting ArcFace Features:  82%|████████▎ | 33/40 [00:16<00:03,  2.02it/s][A
+
+Extracting ArcFace Features:  85%|████████▌ | 34/40 [00:16<00:03,  2.00it/s][A
+
+Extracting ArcFace Features:  88%|████████▊ | 35/40 [00:17<00:02,  2.00it/s][A
+
+Extracting ArcFace Features:  90%|█████████ | 36/40 [00:17<00:01,  2.01it/s][A
+
+Extracting ArcFace Features:  92%|█████████▎| 37/40 [00:18<00:01,  1.99it/s][A
+
+Extracting ArcFace Features:  95%|█████████▌| 38/40 [00:18<00:00,  2.01it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 39/40 [00:19<00:00,  1.99it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 40/40 [00:19<00:00,  2.05it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  56%|█████▌    | 23/41 [14:25<08:04, 26.90s/it]
+
+Extracting ArcFace Features:   0%|          | 0/38 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   3%|▎         | 1/38 [00:00<00:21,  1.75it/s][A
+
+Extracting ArcFace Features:   5%|▌         | 2/38 [00:01<00:20,  1.75it/s][A
+
+Extracting ArcFace Features:   8%|▊         | 3/38 [00:01<00:19,  1.76it/s][A
+
+Extracting ArcFace Features:  11%|█         | 4/38 [00:02<00:19,  1.77it/s][A
+
+Extracting ArcFace Features:  13%|█▎        | 5/38 [00:02<00:18,  1.77it/s][A
+
+Extracting ArcFace Features:  16%|█▌        | 6/38 [00:03<00:18,  1.77it/s][A
+
+Extracting ArcFace Features:  18%|█▊        | 7/38 [00:03<00:17,  1.77it/s][A
+
+Extracting ArcFace Features:  21%|██        | 8/38 [00:04<00:16,  1.77it/s][A
+
+Extracting ArcFace Features:  24%|██▎       | 9/38 [00:05<00:16,  1.77it/s][A
+
+Extracting ArcFace Features:  26%|██▋       | 10/38 [00:05<00:15,  1.78it/s][A
+
+Extracting ArcFace Features:  29%|██▉       | 11/38 [00:06<00:14,  1.80it/s][A
+
+Extracting ArcFace Features:  32%|███▏      | 12/38 [00:06<00:14,  1.82it/s][A
+
+Extracting ArcFace Features:  34%|███▍      | 13/38 [00:07<00:13,  1.83it/s][A
+
+Extracting ArcFace Features:  37%|███▋      | 14/38 [00:07<00:13,  1.83it/s][A
+
+Extracting ArcFace Features:  39%|███▉      | 15/38 [00:08<00:12,  1.84it/s][A
+
+Extracting ArcFace Features:  42%|████▏     | 16/38 [00:08<00:11,  1.85it/s][A
+
+Extracting ArcFace Features:  45%|████▍     | 17/38 [00:09<00:11,  1.85it/s][A
+
+Extracting ArcFace Features:  47%|████▋     | 18/38 [00:09<00:10,  1.85it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 19/38 [00:10<00:10,  1.85it/s][A
+
+Extracting ArcFace Features:  53%|█████▎    | 20/38 [00:11<00:09,  1.85it/s][A
+
+Extracting ArcFace Features:  55%|█████▌    | 21/38 [00:11<00:09,  1.85it/s][A
+
+Extracting ArcFace Features:  58%|█████▊    | 22/38 [00:12<00:08,  1.85it/s][A
+
+Extracting ArcFace Features:  61%|██████    | 23/38 [00:12<00:08,  1.85it/s][A
+
+Extracting ArcFace Features:  63%|██████▎   | 24/38 [00:13<00:07,  1.86it/s][A
+
+Extracting ArcFace Features:  66%|██████▌   | 25/38 [00:13<00:07,  1.85it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 26/38 [00:14<00:06,  1.83it/s][A
+
+Extracting ArcFace Features:  71%|███████   | 27/38 [00:14<00:06,  1.81it/s][A
+
+Extracting ArcFace Features:  74%|███████▎  | 28/38 [00:15<00:05,  1.80it/s][A
+
+Extracting ArcFace Features:  76%|███████▋  | 29/38 [00:15<00:05,  1.79it/s][A
+
+Extracting ArcFace Features:  79%|███████▉  | 30/38 [00:16<00:04,  1.78it/s][A
+
+Extracting ArcFace Features:  82%|████████▏ | 31/38 [00:17<00:03,  1.79it/s][A
+
+Extracting ArcFace Features:  84%|████████▍ | 32/38 [00:17<00:03,  1.79it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 33/38 [00:18<00:02,  1.78it/s][A
+
+Extracting ArcFace Features:  89%|████████▉ | 34/38 [00:18<00:02,  1.79it/s][A
+
+Extracting ArcFace Features:  92%|█████████▏| 35/38 [00:19<00:01,  1.78it/s][A
+
+Extracting ArcFace Features:  95%|█████████▍| 36/38 [00:19<00:01,  1.78it/s][A
+
+Extracting ArcFace Features:  97%|█████████▋| 37/38 [00:20<00:00,  1.78it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 38/38 [00:20<00:00,  1.85it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  59%|█████▊    | 24/41 [14:51<07:32, 26.63s/it]
+
+Extracting ArcFace Features:   0%|          | 0/47 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/47 [00:00<00:24,  1.84it/s][A
+
+Extracting ArcFace Features:   4%|▍         | 2/47 [00:01<00:23,  1.94it/s][A
+
+Extracting ArcFace Features:   6%|▋         | 3/47 [00:01<00:22,  1.95it/s][A
+
+Extracting ArcFace Features:   9%|▊         | 4/47 [00:02<00:22,  1.95it/s][A
+
+Extracting ArcFace Features:  11%|█         | 5/47 [00:02<00:21,  1.97it/s][A
+
+Extracting ArcFace Features:  13%|█▎        | 6/47 [00:03<00:20,  1.97it/s][A
+
+Extracting ArcFace Features:  15%|█▍        | 7/47 [00:03<00:20,  1.97it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 8/47 [00:04<00:19,  1.99it/s][A
+
+Extracting ArcFace Features:  19%|█▉        | 9/47 [00:04<00:19,  1.99it/s][A
+
+Extracting ArcFace Features:  21%|██▏       | 10/47 [00:05<00:18,  1.99it/s][A
+
+Extracting ArcFace Features:  23%|██▎       | 11/47 [00:05<00:18,  1.99it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 12/47 [00:06<00:17,  1.99it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 13/47 [00:06<00:16,  2.00it/s][A
+
+Extracting ArcFace Features:  30%|██▉       | 14/47 [00:07<00:16,  2.00it/s][A
+
+Extracting ArcFace Features:  32%|███▏      | 15/47 [00:07<00:15,  2.00it/s][A
+
+Extracting ArcFace Features:  34%|███▍      | 16/47 [00:08<00:15,  2.00it/s][A
+
+Extracting ArcFace Features:  36%|███▌      | 17/47 [00:08<00:15,  2.00it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 18/47 [00:09<00:14,  2.01it/s][A
+
+Extracting ArcFace Features:  40%|████      | 19/47 [00:09<00:13,  2.04it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 20/47 [00:10<00:13,  2.06it/s][A
+
+Extracting ArcFace Features:  45%|████▍     | 21/47 [00:10<00:12,  2.08it/s][A
+
+Extracting ArcFace Features:  47%|████▋     | 22/47 [00:10<00:11,  2.09it/s][A
+
+Extracting ArcFace Features:  49%|████▉     | 23/47 [00:11<00:11,  2.09it/s][A
+
+Extracting ArcFace Features:  51%|█████     | 24/47 [00:11<00:10,  2.10it/s][A
+
+Extracting ArcFace Features:  53%|█████▎    | 25/47 [00:12<00:10,  2.10it/s][A
+
+Extracting ArcFace Features:  55%|█████▌    | 26/47 [00:12<00:09,  2.10it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 27/47 [00:13<00:09,  2.11it/s][A
+
+Extracting ArcFace Features:  60%|█████▉    | 28/47 [00:13<00:09,  2.11it/s][A
+
+Extracting ArcFace Features:  62%|██████▏   | 29/47 [00:14<00:08,  2.11it/s][A
+
+Extracting ArcFace Features:  64%|██████▍   | 30/47 [00:14<00:08,  2.11it/s][A
+
+Extracting ArcFace Features:  66%|██████▌   | 31/47 [00:15<00:07,  2.12it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 32/47 [00:15<00:07,  2.12it/s][A
+
+Extracting ArcFace Features:  70%|███████   | 33/47 [00:16<00:06,  2.12it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 34/47 [00:16<00:06,  2.09it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 35/47 [00:17<00:05,  2.06it/s][A
+
+Extracting ArcFace Features:  77%|███████▋  | 36/47 [00:17<00:05,  2.03it/s][A
+
+Extracting ArcFace Features:  79%|███████▊  | 37/47 [00:18<00:04,  2.02it/s][A
+
+Extracting ArcFace Features:  81%|████████  | 38/47 [00:18<00:04,  2.01it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 39/47 [00:19<00:03,  2.00it/s][A
+
+Extracting ArcFace Features:  85%|████████▌ | 40/47 [00:19<00:03,  2.01it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 41/47 [00:20<00:02,  2.01it/s][A
+
+Extracting ArcFace Features:  89%|████████▉ | 42/47 [00:20<00:02,  2.00it/s][A
+
+Extracting ArcFace Features:  91%|█████████▏| 43/47 [00:21<00:02,  2.00it/s][A
+
+Extracting ArcFace Features:  94%|█████████▎| 44/47 [00:21<00:01,  2.00it/s][A
+
+Extracting ArcFace Features:  96%|█████████▌| 45/47 [00:22<00:01,  2.00it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 46/47 [00:22<00:00,  2.00it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  61%|██████    | 25/41 [15:20<07:17, 27.33s/it]
+
+Extracting ArcFace Features:   0%|          | 0/44 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/44 [00:00<00:24,  1.73it/s][A
+
+Extracting ArcFace Features:   5%|▍         | 2/44 [00:01<00:23,  1.76it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/44 [00:01<00:23,  1.75it/s][A
+
+Extracting ArcFace Features:   9%|▉         | 4/44 [00:02<00:22,  1.74it/s][A
+
+Extracting ArcFace Features:  11%|█▏        | 5/44 [00:02<00:22,  1.76it/s][A
+
+Extracting ArcFace Features:  14%|█▎        | 6/44 [00:03<00:21,  1.75it/s][A
+
+Extracting ArcFace Features:  16%|█▌        | 7/44 [00:03<00:21,  1.75it/s][A
+
+Extracting ArcFace Features:  18%|█▊        | 8/44 [00:04<00:20,  1.75it/s][A
+
+Extracting ArcFace Features:  20%|██        | 9/44 [00:05<00:19,  1.75it/s][A
+
+Extracting ArcFace Features:  23%|██▎       | 10/44 [00:05<00:19,  1.76it/s][A
+
+Extracting ArcFace Features:  25%|██▌       | 11/44 [00:06<00:18,  1.77it/s][A
+
+Extracting ArcFace Features:  27%|██▋       | 12/44 [00:06<00:18,  1.77it/s][A
+
+Extracting ArcFace Features:  30%|██▉       | 13/44 [00:07<00:17,  1.77it/s][A
+
+Extracting ArcFace Features:  32%|███▏      | 14/44 [00:07<00:16,  1.77it/s][A
+
+Extracting ArcFace Features:  34%|███▍      | 15/44 [00:08<00:16,  1.76it/s][A
+
+Extracting ArcFace Features:  36%|███▋      | 16/44 [00:09<00:15,  1.77it/s][A
+
+Extracting ArcFace Features:  39%|███▊      | 17/44 [00:09<00:15,  1.76it/s][A
+
+Extracting ArcFace Features:  41%|████      | 18/44 [00:10<00:14,  1.77it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 19/44 [00:10<00:14,  1.76it/s][A
+
+Extracting ArcFace Features:  45%|████▌     | 20/44 [00:11<00:13,  1.76it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 21/44 [00:11<00:13,  1.76it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 22/44 [00:12<00:12,  1.75it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 23/44 [00:13<00:11,  1.76it/s][A
+
+Extracting ArcFace Features:  55%|█████▍    | 24/44 [00:13<00:11,  1.76it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 25/44 [00:14<00:10,  1.77it/s][A
+
+Extracting ArcFace Features:  59%|█████▉    | 26/44 [00:14<00:10,  1.77it/s][A
+
+Extracting ArcFace Features:  61%|██████▏   | 27/44 [00:15<00:09,  1.77it/s][A
+
+Extracting ArcFace Features:  64%|██████▎   | 28/44 [00:15<00:09,  1.77it/s][A
+
+Extracting ArcFace Features:  66%|██████▌   | 29/44 [00:16<00:08,  1.77it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 30/44 [00:17<00:07,  1.77it/s][A
+
+Extracting ArcFace Features:  70%|███████   | 31/44 [00:17<00:07,  1.77it/s][A
+
+Extracting ArcFace Features:  73%|███████▎  | 32/44 [00:18<00:06,  1.79it/s][A
+
+Extracting ArcFace Features:  75%|███████▌  | 33/44 [00:18<00:06,  1.81it/s][A
+
+Extracting ArcFace Features:  77%|███████▋  | 34/44 [00:19<00:05,  1.83it/s][A
+
+Extracting ArcFace Features:  80%|███████▉  | 35/44 [00:19<00:04,  1.84it/s][A
+
+Extracting ArcFace Features:  82%|████████▏ | 36/44 [00:20<00:04,  1.84it/s][A
+
+Extracting ArcFace Features:  84%|████████▍ | 37/44 [00:20<00:03,  1.85it/s][A
+
+Extracting ArcFace Features:  86%|████████▋ | 38/44 [00:21<00:03,  1.85it/s][A
+
+Extracting ArcFace Features:  89%|████████▊ | 39/44 [00:21<00:02,  1.85it/s][A
+
+Extracting ArcFace Features:  91%|█████████ | 40/44 [00:22<00:02,  1.83it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 41/44 [00:23<00:01,  1.81it/s][A
+
+Extracting ArcFace Features:  95%|█████████▌| 42/44 [00:23<00:01,  1.80it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 43/44 [00:24<00:00,  1.79it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 44/44 [00:24<00:00,  2.10it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  63%|██████▎   | 26/41 [15:49<06:57, 27.85s/it]
+
+Extracting ArcFace Features:   0%|          | 0/44 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/44 [00:00<00:24,  1.74it/s][A
+
+Extracting ArcFace Features:   5%|▍         | 2/44 [00:01<00:23,  1.76it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/44 [00:01<00:23,  1.75it/s][A
+
+Extracting ArcFace Features:   9%|▉         | 4/44 [00:02<00:22,  1.74it/s][A
+
+Extracting ArcFace Features:  11%|█▏        | 5/44 [00:02<00:22,  1.75it/s][A
+
+Extracting ArcFace Features:  14%|█▎        | 6/44 [00:03<00:21,  1.75it/s][A
+
+Extracting ArcFace Features:  16%|█▌        | 7/44 [00:04<00:21,  1.75it/s][A
+
+Extracting ArcFace Features:  18%|█▊        | 8/44 [00:04<00:20,  1.75it/s][A
+
+Extracting ArcFace Features:  20%|██        | 9/44 [00:05<00:20,  1.74it/s][A
+
+Extracting ArcFace Features:  23%|██▎       | 10/44 [00:05<00:19,  1.74it/s][A
+
+Extracting ArcFace Features:  25%|██▌       | 11/44 [00:06<00:18,  1.75it/s][A
+
+Extracting ArcFace Features:  27%|██▋       | 12/44 [00:06<00:18,  1.77it/s][A
+
+Extracting ArcFace Features:  30%|██▉       | 13/44 [00:07<00:17,  1.79it/s][A
+
+Extracting ArcFace Features:  32%|███▏      | 14/44 [00:07<00:16,  1.80it/s][A
+
+Extracting ArcFace Features:  34%|███▍      | 15/44 [00:08<00:15,  1.81it/s][A
+
+Extracting ArcFace Features:  36%|███▋      | 16/44 [00:09<00:15,  1.82it/s][A
+
+Extracting ArcFace Features:  39%|███▊      | 17/44 [00:09<00:14,  1.83it/s][A
+
+Extracting ArcFace Features:  41%|████      | 18/44 [00:10<00:14,  1.83it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 19/44 [00:10<00:13,  1.84it/s][A
+
+Extracting ArcFace Features:  45%|████▌     | 20/44 [00:11<00:13,  1.84it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 21/44 [00:11<00:12,  1.84it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 22/44 [00:12<00:11,  1.84it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 23/44 [00:12<00:11,  1.84it/s][A
+
+Extracting ArcFace Features:  55%|█████▍    | 24/44 [00:13<00:10,  1.84it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 25/44 [00:13<00:10,  1.84it/s][A
+
+Extracting ArcFace Features:  59%|█████▉    | 26/44 [00:14<00:09,  1.84it/s][A
+
+Extracting ArcFace Features:  61%|██████▏   | 27/44 [00:14<00:09,  1.84it/s][A
+
+Extracting ArcFace Features:  64%|██████▎   | 28/44 [00:15<00:08,  1.83it/s][A
+
+Extracting ArcFace Features:  66%|██████▌   | 29/44 [00:16<00:08,  1.83it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 30/44 [00:16<00:07,  1.87it/s][A
+
+Extracting ArcFace Features:  70%|███████   | 31/44 [00:17<00:06,  1.91it/s][A
+
+Extracting ArcFace Features:  73%|███████▎  | 32/44 [00:17<00:06,  1.89it/s][A
+
+Extracting ArcFace Features:  75%|███████▌  | 33/44 [00:18<00:05,  1.86it/s][A
+
+Extracting ArcFace Features:  77%|███████▋  | 34/44 [00:18<00:05,  1.86it/s][A
+
+Extracting ArcFace Features:  80%|███████▉  | 35/44 [00:19<00:04,  1.85it/s][A
+
+Extracting ArcFace Features:  82%|████████▏ | 36/44 [00:19<00:04,  1.83it/s][A
+
+Extracting ArcFace Features:  84%|████████▍ | 37/44 [00:20<00:03,  1.83it/s][A
+
+Extracting ArcFace Features:  86%|████████▋ | 38/44 [00:20<00:03,  1.82it/s][A
+
+Extracting ArcFace Features:  89%|████████▊ | 39/44 [00:21<00:02,  1.82it/s][A
+
+Extracting ArcFace Features:  91%|█████████ | 40/44 [00:22<00:02,  1.83it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 41/44 [00:22<00:01,  1.84it/s][A
+
+Extracting ArcFace Features:  95%|█████████▌| 42/44 [00:23<00:01,  1.83it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 43/44 [00:23<00:00,  1.84it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 44/44 [00:24<00:00,  1.88it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  66%|██████▌   | 27/41 [16:20<06:44, 28.90s/it]
+
+Extracting ArcFace Features:   0%|          | 0/50 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/50 [00:00<00:26,  1.87it/s][A
+
+Extracting ArcFace Features:   4%|▍         | 2/50 [00:01<00:25,  1.91it/s][A
+
+Extracting ArcFace Features:   6%|▌         | 3/50 [00:01<00:24,  1.91it/s][A
+
+Extracting ArcFace Features:   8%|▊         | 4/50 [00:02<00:24,  1.91it/s][A
+
+Extracting ArcFace Features:  10%|█         | 5/50 [00:02<00:23,  1.90it/s][A
+
+Extracting ArcFace Features:  12%|█▏        | 6/50 [00:03<00:23,  1.90it/s][A
+
+Extracting ArcFace Features:  14%|█▍        | 7/50 [00:03<00:22,  1.89it/s][A
+
+Extracting ArcFace Features:  16%|█▌        | 8/50 [00:04<00:22,  1.90it/s][A
+
+Extracting ArcFace Features:  18%|█▊        | 9/50 [00:04<00:21,  1.88it/s][A
+
+Extracting ArcFace Features:  20%|██        | 10/50 [00:05<00:21,  1.87it/s][A
+
+Extracting ArcFace Features:  22%|██▏       | 11/50 [00:05<00:20,  1.88it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 12/50 [00:06<00:20,  1.88it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 13/50 [00:06<00:19,  1.89it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 14/50 [00:07<00:18,  1.93it/s][A
+
+Extracting ArcFace Features:  30%|███       | 15/50 [00:07<00:17,  1.96it/s][A
+
+Extracting ArcFace Features:  32%|███▏      | 16/50 [00:08<00:17,  1.98it/s][A
+
+Extracting ArcFace Features:  34%|███▍      | 17/50 [00:08<00:16,  2.00it/s][A
+
+Extracting ArcFace Features:  36%|███▌      | 18/50 [00:09<00:15,  2.00it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 19/50 [00:09<00:15,  2.01it/s][A
+
+Extracting ArcFace Features:  40%|████      | 20/50 [00:10<00:14,  2.00it/s][A
+
+Extracting ArcFace Features:  42%|████▏     | 21/50 [00:10<00:14,  2.01it/s][A
+
+Extracting ArcFace Features:  44%|████▍     | 22/50 [00:11<00:13,  2.01it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 23/50 [00:11<00:13,  2.02it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 24/50 [00:12<00:12,  2.02it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 25/50 [00:12<00:12,  2.02it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 26/50 [00:13<00:11,  2.02it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 27/50 [00:13<00:11,  2.02it/s][A
+
+Extracting ArcFace Features:  56%|█████▌    | 28/50 [00:14<00:10,  2.02it/s][A
+
+Extracting ArcFace Features:  58%|█████▊    | 29/50 [00:14<00:10,  2.02it/s][A
+
+Extracting ArcFace Features:  60%|██████    | 30/50 [00:15<00:09,  2.02it/s][A
+
+Extracting ArcFace Features:  62%|██████▏   | 31/50 [00:15<00:09,  2.03it/s][A
+
+Extracting ArcFace Features:  64%|██████▍   | 32/50 [00:16<00:08,  2.03it/s][A
+
+Extracting ArcFace Features:  66%|██████▌   | 33/50 [00:16<00:08,  2.03it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 34/50 [00:17<00:07,  2.03it/s][A
+
+Extracting ArcFace Features:  70%|███████   | 35/50 [00:17<00:07,  2.03it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 36/50 [00:18<00:06,  2.03it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 37/50 [00:18<00:06,  2.03it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 38/50 [00:19<00:05,  2.03it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 39/50 [00:19<00:05,  2.02it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 40/50 [00:20<00:04,  2.02it/s][A
+
+Extracting ArcFace Features:  82%|████████▏ | 41/50 [00:20<00:04,  2.02it/s][A
+
+Extracting ArcFace Features:  84%|████████▍ | 42/50 [00:21<00:03,  2.03it/s][A
+
+Extracting ArcFace Features:  86%|████████▌ | 43/50 [00:21<00:03,  2.03it/s][A
+
+Extracting ArcFace Features:  88%|████████▊ | 44/50 [00:22<00:02,  2.03it/s][A
+
+Extracting ArcFace Features:  90%|█████████ | 45/50 [00:22<00:02,  2.03it/s][A
+
+Extracting ArcFace Features:  92%|█████████▏| 46/50 [00:23<00:01,  2.02it/s][A
+
+Extracting ArcFace Features:  94%|█████████▍| 47/50 [00:23<00:01,  2.03it/s][A
+
+Extracting ArcFace Features:  96%|█████████▌| 48/50 [00:24<00:00,  2.03it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 49/50 [00:24<00:00,  2.03it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 50/50 [00:24<00:00,  2.62it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  68%|██████▊   | 28/41 [16:52<06:28, 29.85s/it]
+
+Extracting ArcFace Features:   0%|          | 0/57 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/57 [00:00<00:29,  1.92it/s][A
+
+Extracting ArcFace Features:   4%|▎         | 2/57 [00:01<00:28,  1.94it/s][A
+
+Extracting ArcFace Features:   5%|▌         | 3/57 [00:01<00:27,  1.96it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 4/57 [00:02<00:26,  1.96it/s][A
+
+Extracting ArcFace Features:   9%|▉         | 5/57 [00:02<00:26,  1.96it/s][A
+
+Extracting ArcFace Features:  11%|█         | 6/57 [00:03<00:26,  1.95it/s][A
+
+Extracting ArcFace Features:  12%|█▏        | 7/57 [00:03<00:25,  1.94it/s][A
+
+Extracting ArcFace Features:  14%|█▍        | 8/57 [00:04<00:25,  1.93it/s][A
+
+Extracting ArcFace Features:  16%|█▌        | 9/57 [00:04<00:24,  1.93it/s][A
+
+Extracting ArcFace Features:  18%|█▊        | 10/57 [00:05<00:24,  1.95it/s][A
+
+Extracting ArcFace Features:  19%|█▉        | 11/57 [00:05<00:23,  1.96it/s][A
+
+Extracting ArcFace Features:  21%|██        | 12/57 [00:06<00:22,  1.96it/s][A
+
+Extracting ArcFace Features:  23%|██▎       | 13/57 [00:06<00:22,  1.96it/s][A
+
+Extracting ArcFace Features:  25%|██▍       | 14/57 [00:07<00:21,  1.96it/s][A
+
+Extracting ArcFace Features:  26%|██▋       | 15/57 [00:07<00:21,  1.97it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 16/57 [00:08<00:20,  1.97it/s][A
+
+Extracting ArcFace Features:  30%|██▉       | 17/57 [00:08<00:20,  1.96it/s][A
+
+Extracting ArcFace Features:  32%|███▏      | 18/57 [00:09<00:19,  1.97it/s][A
+
+Extracting ArcFace Features:  33%|███▎      | 19/57 [00:09<00:19,  1.97it/s][A
+
+Extracting ArcFace Features:  35%|███▌      | 20/57 [00:10<00:18,  1.98it/s][A
+
+Extracting ArcFace Features:  37%|███▋      | 21/57 [00:10<00:18,  1.98it/s][A
+
+Extracting ArcFace Features:  39%|███▊      | 22/57 [00:11<00:17,  1.97it/s][A
+
+Extracting ArcFace Features:  40%|████      | 23/57 [00:11<00:17,  1.97it/s][A
+
+Extracting ArcFace Features:  42%|████▏     | 24/57 [00:12<00:16,  1.98it/s][A
+
+Extracting ArcFace Features:  44%|████▍     | 25/57 [00:12<00:16,  1.98it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 26/57 [00:13<00:15,  1.99it/s][A
+
+Extracting ArcFace Features:  47%|████▋     | 27/57 [00:13<00:15,  1.99it/s][A
+
+Extracting ArcFace Features:  49%|████▉     | 28/57 [00:14<00:14,  2.00it/s][A
+
+Extracting ArcFace Features:  51%|█████     | 29/57 [00:14<00:14,  2.00it/s][A
+
+Extracting ArcFace Features:  53%|█████▎    | 30/57 [00:15<00:13,  1.99it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 31/57 [00:15<00:13,  1.99it/s][A
+
+Extracting ArcFace Features:  56%|█████▌    | 32/57 [00:16<00:12,  1.99it/s][A
+
+Extracting ArcFace Features:  58%|█████▊    | 33/57 [00:16<00:12,  1.99it/s][A
+
+Extracting ArcFace Features:  60%|█████▉    | 34/57 [00:17<00:11,  1.99it/s][A
+
+Extracting ArcFace Features:  61%|██████▏   | 35/57 [00:17<00:11,  1.99it/s][A
+
+Extracting ArcFace Features:  63%|██████▎   | 36/57 [00:18<00:10,  1.99it/s][A
+
+Extracting ArcFace Features:  65%|██████▍   | 37/57 [00:18<00:10,  1.99it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 38/57 [00:19<00:09,  2.00it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 39/57 [00:19<00:08,  2.01it/s][A
+
+Extracting ArcFace Features:  70%|███████   | 40/57 [00:20<00:08,  2.00it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 41/57 [00:20<00:08,  2.00it/s][A
+
+Extracting ArcFace Features:  74%|███████▎  | 42/57 [00:21<00:07,  2.00it/s][A
+
+Extracting ArcFace Features:  75%|███████▌  | 43/57 [00:21<00:07,  2.00it/s][A
+
+Extracting ArcFace Features:  77%|███████▋  | 44/57 [00:22<00:06,  2.00it/s][A
+
+Extracting ArcFace Features:  79%|███████▉  | 45/57 [00:22<00:05,  2.01it/s][A
+
+Extracting ArcFace Features:  81%|████████  | 46/57 [00:23<00:05,  2.00it/s][A
+
+Extracting ArcFace Features:  82%|████████▏ | 47/57 [00:23<00:05,  2.00it/s][A
+
+Extracting ArcFace Features:  84%|████████▍ | 48/57 [00:24<00:04,  1.99it/s][A
+
+Extracting ArcFace Features:  86%|████████▌ | 49/57 [00:24<00:04,  1.99it/s][A
+
+Extracting ArcFace Features:  88%|████████▊ | 50/57 [00:25<00:03,  1.99it/s][A
+
+Extracting ArcFace Features:  89%|████████▉ | 51/57 [00:25<00:03,  1.98it/s][A
+
+Extracting ArcFace Features:  91%|█████████ | 52/57 [00:26<00:02,  1.99it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 53/57 [00:26<00:02,  1.99it/s][A
+
+Extracting ArcFace Features:  95%|█████████▍| 54/57 [00:27<00:01,  1.99it/s][A
+
+Extracting ArcFace Features:  96%|█████████▋| 55/57 [00:27<00:01,  1.99it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 56/57 [00:28<00:00,  1.99it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 57/57 [00:28<00:00,  1.99it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  71%|███████   | 29/41 [17:30<06:25, 32.12s/it]
+
+Extracting ArcFace Features:   0%|          | 0/46 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/46 [00:00<00:22,  1.97it/s][A
+
+Extracting ArcFace Features:   4%|▍         | 2/46 [00:01<00:21,  2.01it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/46 [00:01<00:21,  2.01it/s][A
+
+Extracting ArcFace Features:   9%|▊         | 4/46 [00:01<00:20,  2.03it/s][A
+
+Extracting ArcFace Features:  11%|█         | 5/46 [00:02<00:20,  2.05it/s][A
+
+Extracting ArcFace Features:  13%|█▎        | 6/46 [00:02<00:19,  2.05it/s][A
+
+Extracting ArcFace Features:  15%|█▌        | 7/46 [00:03<00:19,  2.05it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 8/46 [00:03<00:18,  2.04it/s][A
+
+Extracting ArcFace Features:  20%|█▉        | 9/46 [00:04<00:18,  2.04it/s][A
+
+Extracting ArcFace Features:  22%|██▏       | 10/46 [00:04<00:17,  2.04it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 11/46 [00:05<00:17,  2.04it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 12/46 [00:05<00:16,  2.03it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 13/46 [00:06<00:16,  2.03it/s][A
+
+Extracting ArcFace Features:  30%|███       | 14/46 [00:06<00:15,  2.03it/s][A
+
+Extracting ArcFace Features:  33%|███▎      | 15/46 [00:07<00:15,  2.03it/s][A
+
+Extracting ArcFace Features:  35%|███▍      | 16/46 [00:07<00:14,  2.04it/s][A
+
+Extracting ArcFace Features:  37%|███▋      | 17/46 [00:08<00:14,  2.04it/s][A
+
+Extracting ArcFace Features:  39%|███▉      | 18/46 [00:08<00:13,  2.04it/s][A
+
+Extracting ArcFace Features:  41%|████▏     | 19/46 [00:09<00:13,  2.04it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 20/46 [00:09<00:12,  2.03it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 21/46 [00:10<00:12,  2.03it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 22/46 [00:10<00:11,  2.02it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 23/46 [00:11<00:11,  2.01it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 24/46 [00:11<00:10,  2.01it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 25/46 [00:12<00:10,  2.02it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 26/46 [00:12<00:09,  2.02it/s][A
+
+Extracting ArcFace Features:  59%|█████▊    | 27/46 [00:13<00:09,  2.02it/s][A
+
+Extracting ArcFace Features:  61%|██████    | 28/46 [00:13<00:08,  2.02it/s][A
+
+Extracting ArcFace Features:  63%|██████▎   | 29/46 [00:14<00:08,  2.03it/s][A
+
+Extracting ArcFace Features:  65%|██████▌   | 30/46 [00:14<00:07,  2.03it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 31/46 [00:15<00:07,  2.04it/s][A
+
+Extracting ArcFace Features:  70%|██████▉   | 32/46 [00:15<00:06,  2.04it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 33/46 [00:16<00:06,  2.04it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 34/46 [00:16<00:05,  2.04it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 35/46 [00:17<00:05,  2.04it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 36/46 [00:17<00:04,  2.04it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 37/46 [00:18<00:04,  2.04it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 38/46 [00:18<00:03,  2.04it/s][A
+
+Extracting ArcFace Features:  85%|████████▍ | 39/46 [00:19<00:03,  2.04it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 40/46 [00:19<00:02,  2.04it/s][A
+
+Extracting ArcFace Features:  89%|████████▉ | 41/46 [00:20<00:02,  2.03it/s][A
+
+Extracting ArcFace Features:  91%|█████████▏| 42/46 [00:20<00:01,  2.03it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 43/46 [00:21<00:01,  2.05it/s][A
+
+Extracting ArcFace Features:  96%|█████████▌| 44/46 [00:21<00:00,  2.07it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 45/46 [00:22<00:00,  2.09it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 46/46 [00:22<00:00,  2.46it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  73%|███████▎  | 30/41 [18:00<05:48, 31.65s/it]
+
+Extracting ArcFace Features:   0%|          | 0/53 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/53 [00:00<00:24,  2.14it/s][A
+
+Extracting ArcFace Features:   4%|▍         | 2/53 [00:00<00:23,  2.16it/s][A
+
+Extracting ArcFace Features:   6%|▌         | 3/53 [00:01<00:23,  2.17it/s][A
+
+Extracting ArcFace Features:   8%|▊         | 4/53 [00:01<00:22,  2.16it/s][A
+
+Extracting ArcFace Features:   9%|▉         | 5/53 [00:02<00:22,  2.16it/s][A
+
+Extracting ArcFace Features:  11%|█▏        | 6/53 [00:02<00:21,  2.16it/s][A
+
+Extracting ArcFace Features:  13%|█▎        | 7/53 [00:03<00:21,  2.16it/s][A
+
+Extracting ArcFace Features:  15%|█▌        | 8/53 [00:03<00:20,  2.16it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 9/53 [00:04<00:20,  2.16it/s][A
+
+Extracting ArcFace Features:  19%|█▉        | 10/53 [00:04<00:19,  2.16it/s][A
+
+Extracting ArcFace Features:  21%|██        | 11/53 [00:05<00:19,  2.16it/s][A
+
+Extracting ArcFace Features:  23%|██▎       | 12/53 [00:05<00:18,  2.16it/s][A
+
+Extracting ArcFace Features:  25%|██▍       | 13/53 [00:06<00:18,  2.17it/s][A
+
+Extracting ArcFace Features:  26%|██▋       | 14/53 [00:06<00:17,  2.17it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 15/53 [00:06<00:17,  2.17it/s][A
+
+Extracting ArcFace Features:  30%|███       | 16/53 [00:07<00:17,  2.16it/s][A
+
+Extracting ArcFace Features:  32%|███▏      | 17/53 [00:07<00:16,  2.17it/s][A
+
+Extracting ArcFace Features:  34%|███▍      | 18/53 [00:08<00:16,  2.16it/s][A
+
+Extracting ArcFace Features:  36%|███▌      | 19/53 [00:08<00:15,  2.16it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 20/53 [00:09<00:15,  2.16it/s][A
+
+Extracting ArcFace Features:  40%|███▉      | 21/53 [00:09<00:14,  2.16it/s][A
+
+Extracting ArcFace Features:  42%|████▏     | 22/53 [00:10<00:14,  2.16it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 23/53 [00:10<00:13,  2.15it/s][A
+
+Extracting ArcFace Features:  45%|████▌     | 24/53 [00:11<00:13,  2.14it/s][A
+
+Extracting ArcFace Features:  47%|████▋     | 25/53 [00:11<00:13,  2.15it/s][A
+
+Extracting ArcFace Features:  49%|████▉     | 26/53 [00:12<00:12,  2.15it/s][A
+
+Extracting ArcFace Features:  51%|█████     | 27/53 [00:12<00:12,  2.16it/s][A
+
+Extracting ArcFace Features:  53%|█████▎    | 28/53 [00:12<00:11,  2.17it/s][A
+
+Extracting ArcFace Features:  55%|█████▍    | 29/53 [00:13<00:11,  2.17it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 30/53 [00:13<00:10,  2.17it/s][A
+
+Extracting ArcFace Features:  58%|█████▊    | 31/53 [00:14<00:10,  2.16it/s][A
+
+Extracting ArcFace Features:  60%|██████    | 32/53 [00:14<00:09,  2.17it/s][A
+
+Extracting ArcFace Features:  62%|██████▏   | 33/53 [00:15<00:09,  2.17it/s][A
+
+Extracting ArcFace Features:  64%|██████▍   | 34/53 [00:15<00:08,  2.18it/s][A
+
+Extracting ArcFace Features:  66%|██████▌   | 35/53 [00:16<00:08,  2.18it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 36/53 [00:16<00:07,  2.18it/s][A
+
+Extracting ArcFace Features:  70%|██████▉   | 37/53 [00:17<00:07,  2.18it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 38/53 [00:17<00:06,  2.18it/s][A
+
+Extracting ArcFace Features:  74%|███████▎  | 39/53 [00:18<00:06,  2.18it/s][A
+
+Extracting ArcFace Features:  75%|███████▌  | 40/53 [00:18<00:05,  2.18it/s][A
+
+Extracting ArcFace Features:  77%|███████▋  | 41/53 [00:18<00:05,  2.18it/s][A
+
+Extracting ArcFace Features:  79%|███████▉  | 42/53 [00:19<00:05,  2.18it/s][A
+
+Extracting ArcFace Features:  81%|████████  | 43/53 [00:19<00:04,  2.18it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 44/53 [00:20<00:04,  2.17it/s][A
+
+Extracting ArcFace Features:  85%|████████▍ | 45/53 [00:20<00:03,  2.17it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 46/53 [00:21<00:03,  2.16it/s][A
+
+Extracting ArcFace Features:  89%|████████▊ | 47/53 [00:21<00:02,  2.16it/s][A
+
+Extracting ArcFace Features:  91%|█████████ | 48/53 [00:22<00:02,  2.16it/s][A
+
+Extracting ArcFace Features:  92%|█████████▏| 49/53 [00:22<00:01,  2.16it/s][A
+
+Extracting ArcFace Features:  94%|█████████▍| 50/53 [00:23<00:01,  2.16it/s][A
+
+Extracting ArcFace Features:  96%|█████████▌| 51/53 [00:23<00:00,  2.17it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 52/53 [00:24<00:00,  2.17it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 53/53 [00:24<00:00,  2.26it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  76%|███████▌  | 31/41 [18:32<05:17, 31.76s/it]
+
+Extracting ArcFace Features:   0%|          | 0/35 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   3%|▎         | 1/35 [00:00<00:13,  2.51it/s][A
+
+Extracting ArcFace Features:   6%|▌         | 2/35 [00:00<00:12,  2.62it/s][A
+
+Extracting ArcFace Features:   9%|▊         | 3/35 [00:01<00:12,  2.66it/s][A
+
+Extracting ArcFace Features:  11%|█▏        | 4/35 [00:01<00:11,  2.67it/s][A
+
+Extracting ArcFace Features:  14%|█▍        | 5/35 [00:01<00:11,  2.69it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 6/35 [00:02<00:10,  2.70it/s][A
+
+Extracting ArcFace Features:  20%|██        | 7/35 [00:02<00:10,  2.70it/s][A
+
+Extracting ArcFace Features:  23%|██▎       | 8/35 [00:02<00:09,  2.71it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 9/35 [00:03<00:09,  2.72it/s][A
+
+Extracting ArcFace Features:  29%|██▊       | 10/35 [00:03<00:09,  2.69it/s][A
+
+Extracting ArcFace Features:  31%|███▏      | 11/35 [00:04<00:08,  2.70it/s][A
+
+Extracting ArcFace Features:  34%|███▍      | 12/35 [00:04<00:08,  2.70it/s][A
+
+Extracting ArcFace Features:  37%|███▋      | 13/35 [00:04<00:08,  2.72it/s][A
+
+Extracting ArcFace Features:  40%|████      | 14/35 [00:05<00:07,  2.73it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 15/35 [00:05<00:07,  2.72it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 16/35 [00:05<00:06,  2.73it/s][A
+
+Extracting ArcFace Features:  49%|████▊     | 17/35 [00:06<00:06,  2.73it/s][A
+
+Extracting ArcFace Features:  51%|█████▏    | 18/35 [00:06<00:06,  2.72it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 19/35 [00:07<00:05,  2.71it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 20/35 [00:07<00:05,  2.67it/s][A
+
+Extracting ArcFace Features:  60%|██████    | 21/35 [00:07<00:05,  2.65it/s][A
+
+Extracting ArcFace Features:  63%|██████▎   | 22/35 [00:08<00:04,  2.63it/s][A
+
+Extracting ArcFace Features:  66%|██████▌   | 23/35 [00:08<00:04,  2.62it/s][A
+
+Extracting ArcFace Features:  69%|██████▊   | 24/35 [00:08<00:04,  2.62it/s][A
+
+Extracting ArcFace Features:  71%|███████▏  | 25/35 [00:09<00:03,  2.61it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 26/35 [00:09<00:03,  2.61it/s][A
+
+Extracting ArcFace Features:  77%|███████▋  | 27/35 [00:10<00:03,  2.60it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 28/35 [00:10<00:02,  2.60it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 29/35 [00:10<00:02,  2.61it/s][A
+
+Extracting ArcFace Features:  86%|████████▌ | 30/35 [00:11<00:01,  2.60it/s][A
+
+Extracting ArcFace Features:  89%|████████▊ | 31/35 [00:11<00:01,  2.58it/s][A
+
+Extracting ArcFace Features:  91%|█████████▏| 32/35 [00:12<00:01,  2.56it/s][A
+
+Extracting ArcFace Features:  94%|█████████▍| 33/35 [00:12<00:00,  2.55it/s][A
+
+Extracting ArcFace Features:  97%|█████████▋| 34/35 [00:12<00:00,  2.54it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  78%|███████▊  | 32/41 [18:52<04:13, 28.19s/it]Error evaluating input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0246_human_talk_en_male.mp4: 参考图像中未检测到人脸，无法进行 ArcFace Consistency 评测。
+
+
+Extracting ArcFace Features:   0%|          | 0/42 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/42 [00:00<00:20,  1.97it/s][A
+
+Extracting ArcFace Features:   5%|▍         | 2/42 [00:01<00:20,  1.96it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/42 [00:01<00:20,  1.95it/s][A
+
+Extracting ArcFace Features:  10%|▉         | 4/42 [00:02<00:19,  1.96it/s][A
+
+Extracting ArcFace Features:  12%|█▏        | 5/42 [00:02<00:18,  1.96it/s][A
+
+Extracting ArcFace Features:  14%|█▍        | 6/42 [00:03<00:18,  1.96it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 7/42 [00:03<00:17,  1.97it/s][A
+
+Extracting ArcFace Features:  19%|█▉        | 8/42 [00:04<00:17,  1.97it/s][A
+
+Extracting ArcFace Features:  21%|██▏       | 9/42 [00:04<00:16,  1.98it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 10/42 [00:05<00:16,  1.98it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 11/42 [00:05<00:15,  1.98it/s][A
+
+Extracting ArcFace Features:  29%|██▊       | 12/42 [00:06<00:15,  1.98it/s][A
+
+Extracting ArcFace Features:  31%|███       | 13/42 [00:06<00:14,  1.97it/s][A
+
+Extracting ArcFace Features:  33%|███▎      | 14/42 [00:07<00:14,  1.97it/s][A
+
+Extracting ArcFace Features:  36%|███▌      | 15/42 [00:07<00:13,  1.97it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 16/42 [00:08<00:13,  1.97it/s][A
+
+Extracting ArcFace Features:  40%|████      | 17/42 [00:08<00:12,  1.96it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 18/42 [00:09<00:12,  1.96it/s][A
+
+Extracting ArcFace Features:  45%|████▌     | 19/42 [00:09<00:11,  1.96it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 20/42 [00:10<00:11,  1.96it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 21/42 [00:10<00:10,  1.97it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 22/42 [00:11<00:10,  1.98it/s][A
+
+Extracting ArcFace Features:  55%|█████▍    | 23/42 [00:11<00:09,  1.98it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 24/42 [00:12<00:09,  1.98it/s][A
+
+Extracting ArcFace Features:  60%|█████▉    | 25/42 [00:12<00:08,  1.97it/s][A
+
+Extracting ArcFace Features:  62%|██████▏   | 26/42 [00:13<00:08,  1.97it/s][A
+
+Extracting ArcFace Features:  64%|██████▍   | 27/42 [00:13<00:07,  1.97it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 28/42 [00:14<00:07,  1.97it/s][A
+
+Extracting ArcFace Features:  69%|██████▉   | 29/42 [00:14<00:06,  1.96it/s][A
+
+Extracting ArcFace Features:  71%|███████▏  | 30/42 [00:15<00:06,  1.96it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 31/42 [00:15<00:05,  1.97it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 32/42 [00:16<00:05,  1.97it/s][A
+
+Extracting ArcFace Features:  79%|███████▊  | 33/42 [00:16<00:04,  1.96it/s][A
+
+Extracting ArcFace Features:  81%|████████  | 34/42 [00:17<00:04,  1.96it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 35/42 [00:17<00:03,  1.96it/s][A
+
+Extracting ArcFace Features:  86%|████████▌ | 36/42 [00:18<00:03,  1.96it/s][A
+
+Extracting ArcFace Features:  88%|████████▊ | 37/42 [00:18<00:02,  1.96it/s][A
+
+Extracting ArcFace Features:  90%|█████████ | 38/42 [00:19<00:02,  1.95it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 39/42 [00:19<00:01,  1.96it/s][A
+
+Extracting ArcFace Features:  95%|█████████▌| 40/42 [00:20<00:01,  1.96it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 41/42 [00:20<00:00,  1.95it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 42/42 [00:21<00:00,  2.34it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  80%|████████  | 33/41 [19:22<03:50, 28.87s/it]
+
+Extracting ArcFace Features:   0%|          | 0/46 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/46 [00:00<00:22,  1.97it/s][A
+
+Extracting ArcFace Features:   4%|▍         | 2/46 [00:01<00:22,  1.98it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/46 [00:01<00:21,  1.99it/s][A
+
+Extracting ArcFace Features:   9%|▊         | 4/46 [00:02<00:21,  1.99it/s][A
+
+Extracting ArcFace Features:  11%|█         | 5/46 [00:02<00:20,  1.99it/s][A
+
+Extracting ArcFace Features:  13%|█▎        | 6/46 [00:03<00:20,  1.99it/s][A
+
+Extracting ArcFace Features:  15%|█▌        | 7/46 [00:03<00:19,  1.99it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 8/46 [00:04<00:18,  2.00it/s][A
+
+Extracting ArcFace Features:  20%|█▉        | 9/46 [00:04<00:18,  2.00it/s][A
+
+Extracting ArcFace Features:  22%|██▏       | 10/46 [00:05<00:17,  2.00it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 11/46 [00:05<00:17,  2.00it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 12/46 [00:06<00:16,  2.01it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 13/46 [00:06<00:16,  2.00it/s][A
+
+Extracting ArcFace Features:  30%|███       | 14/46 [00:07<00:15,  2.00it/s][A
+
+Extracting ArcFace Features:  33%|███▎      | 15/46 [00:07<00:15,  2.00it/s][A
+
+Extracting ArcFace Features:  35%|███▍      | 16/46 [00:08<00:15,  2.00it/s][A
+
+Extracting ArcFace Features:  37%|███▋      | 17/46 [00:08<00:14,  2.00it/s][A
+
+Extracting ArcFace Features:  39%|███▉      | 18/46 [00:09<00:14,  1.99it/s][A
+
+Extracting ArcFace Features:  41%|████▏     | 19/46 [00:09<00:13,  1.99it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 20/46 [00:10<00:13,  2.00it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 21/46 [00:10<00:12,  2.00it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 22/46 [00:11<00:12,  2.00it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 23/46 [00:11<00:11,  2.00it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 24/46 [00:12<00:10,  2.00it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 25/46 [00:12<00:10,  2.01it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 26/46 [00:13<00:09,  2.01it/s][A
+
+Extracting ArcFace Features:  59%|█████▊    | 27/46 [00:13<00:09,  2.01it/s][A
+
+Extracting ArcFace Features:  61%|██████    | 28/46 [00:14<00:08,  2.01it/s][A
+
+Extracting ArcFace Features:  63%|██████▎   | 29/46 [00:14<00:08,  2.01it/s][A
+
+Extracting ArcFace Features:  65%|██████▌   | 30/46 [00:15<00:07,  2.01it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 31/46 [00:15<00:07,  2.00it/s][A
+
+Extracting ArcFace Features:  70%|██████▉   | 32/46 [00:15<00:06,  2.01it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 33/46 [00:16<00:06,  2.01it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 34/46 [00:16<00:05,  2.00it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 35/46 [00:17<00:05,  2.00it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 36/46 [00:17<00:04,  2.00it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 37/46 [00:18<00:04,  2.00it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 38/46 [00:18<00:03,  2.00it/s][A
+
+Extracting ArcFace Features:  85%|████████▍ | 39/46 [00:19<00:03,  2.00it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 40/46 [00:19<00:02,  2.00it/s][A
+
+Extracting ArcFace Features:  89%|████████▉ | 41/46 [00:20<00:02,  2.00it/s][A
+
+Extracting ArcFace Features:  91%|█████████▏| 42/46 [00:20<00:01,  2.00it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 43/46 [00:21<00:01,  2.00it/s][A
+
+Extracting ArcFace Features:  96%|█████████▌| 44/46 [00:21<00:00,  2.00it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 45/46 [00:22<00:00,  2.00it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 46/46 [00:22<00:00,  2.59it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  83%|████████▎ | 34/41 [19:53<03:25, 29.36s/it]
+
+Extracting ArcFace Features:   0%|          | 0/41 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/41 [00:00<00:20,  1.96it/s][A
+
+Extracting ArcFace Features:   5%|▍         | 2/41 [00:01<00:19,  1.99it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/41 [00:01<00:18,  2.00it/s][A
+
+Extracting ArcFace Features:  10%|▉         | 4/41 [00:01<00:18,  2.01it/s][A
+
+Extracting ArcFace Features:  12%|█▏        | 5/41 [00:02<00:17,  2.01it/s][A
+
+Extracting ArcFace Features:  15%|█▍        | 6/41 [00:02<00:17,  2.00it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 7/41 [00:03<00:17,  2.00it/s][A
+
+Extracting ArcFace Features:  20%|█▉        | 8/41 [00:03<00:16,  2.00it/s][A
+
+Extracting ArcFace Features:  22%|██▏       | 9/41 [00:04<00:15,  2.01it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 10/41 [00:04<00:15,  2.01it/s][A
+
+Extracting ArcFace Features:  27%|██▋       | 11/41 [00:05<00:14,  2.00it/s][A
+
+Extracting ArcFace Features:  29%|██▉       | 12/41 [00:05<00:14,  2.00it/s][A
+
+Extracting ArcFace Features:  32%|███▏      | 13/41 [00:06<00:13,  2.01it/s][A
+
+Extracting ArcFace Features:  34%|███▍      | 14/41 [00:06<00:13,  2.01it/s][A
+
+Extracting ArcFace Features:  37%|███▋      | 15/41 [00:07<00:12,  2.01it/s][A
+
+Extracting ArcFace Features:  39%|███▉      | 16/41 [00:07<00:12,  2.01it/s][A
+
+Extracting ArcFace Features:  41%|████▏     | 17/41 [00:08<00:11,  2.01it/s][A
+
+Extracting ArcFace Features:  44%|████▍     | 18/41 [00:08<00:11,  2.01it/s][A
+
+Extracting ArcFace Features:  46%|████▋     | 19/41 [00:09<00:10,  2.00it/s][A
+
+Extracting ArcFace Features:  49%|████▉     | 20/41 [00:09<00:10,  2.00it/s][A
+
+Extracting ArcFace Features:  51%|█████     | 21/41 [00:10<00:10,  2.00it/s][A
+
+Extracting ArcFace Features:  54%|█████▎    | 22/41 [00:10<00:09,  1.99it/s][A
+
+Extracting ArcFace Features:  56%|█████▌    | 23/41 [00:11<00:09,  1.99it/s][A
+
+Extracting ArcFace Features:  59%|█████▊    | 24/41 [00:11<00:08,  1.99it/s][A
+
+Extracting ArcFace Features:  61%|██████    | 25/41 [00:12<00:07,  2.00it/s][A
+
+Extracting ArcFace Features:  63%|██████▎   | 26/41 [00:12<00:07,  2.00it/s][A
+
+Extracting ArcFace Features:  66%|██████▌   | 27/41 [00:13<00:06,  2.01it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 28/41 [00:13<00:06,  2.02it/s][A
+
+Extracting ArcFace Features:  71%|███████   | 29/41 [00:14<00:05,  2.03it/s][A
+
+Extracting ArcFace Features:  73%|███████▎  | 30/41 [00:14<00:05,  2.03it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 31/41 [00:15<00:04,  2.03it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 32/41 [00:15<00:04,  2.04it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 33/41 [00:16<00:03,  2.04it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 34/41 [00:16<00:03,  2.04it/s][A
+
+Extracting ArcFace Features:  85%|████████▌ | 35/41 [00:17<00:02,  2.04it/s][A
+
+Extracting ArcFace Features:  88%|████████▊ | 36/41 [00:17<00:02,  2.04it/s][A
+
+Extracting ArcFace Features:  90%|█████████ | 37/41 [00:18<00:01,  2.04it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 38/41 [00:18<00:01,  2.03it/s][A
+
+Extracting ArcFace Features:  95%|█████████▌| 39/41 [00:19<00:00,  2.03it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 40/41 [00:19<00:00,  2.03it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 41/41 [00:19<00:00,  2.62it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  85%|████████▌ | 35/41 [20:20<02:51, 28.55s/it]
+
+Extracting ArcFace Features:   0%|          | 0/42 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/42 [00:00<00:20,  1.99it/s][A
+
+Extracting ArcFace Features:   5%|▍         | 2/42 [00:00<00:19,  2.01it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/42 [00:01<00:19,  2.01it/s][A
+
+Extracting ArcFace Features:  10%|▉         | 4/42 [00:01<00:18,  2.01it/s][A
+
+Extracting ArcFace Features:  12%|█▏        | 5/42 [00:02<00:18,  2.02it/s][A
+
+Extracting ArcFace Features:  14%|█▍        | 6/42 [00:02<00:17,  2.01it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 7/42 [00:03<00:17,  2.01it/s][A
+
+Extracting ArcFace Features:  19%|█▉        | 8/42 [00:03<00:16,  2.01it/s][A
+
+Extracting ArcFace Features:  21%|██▏       | 9/42 [00:04<00:16,  2.02it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 10/42 [00:04<00:15,  2.02it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 11/42 [00:05<00:15,  2.02it/s][A
+
+Extracting ArcFace Features:  29%|██▊       | 12/42 [00:05<00:14,  2.02it/s][A
+
+Extracting ArcFace Features:  31%|███       | 13/42 [00:06<00:14,  2.02it/s][A
+
+Extracting ArcFace Features:  33%|███▎      | 14/42 [00:06<00:13,  2.02it/s][A
+
+Extracting ArcFace Features:  36%|███▌      | 15/42 [00:07<00:13,  2.02it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 16/42 [00:07<00:12,  2.02it/s][A
+
+Extracting ArcFace Features:  40%|████      | 17/42 [00:08<00:12,  2.02it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 18/42 [00:08<00:11,  2.02it/s][A
+
+Extracting ArcFace Features:  45%|████▌     | 19/42 [00:09<00:11,  2.02it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 20/42 [00:09<00:10,  2.02it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 21/42 [00:10<00:10,  2.02it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 22/42 [00:10<00:09,  2.02it/s][A
+
+Extracting ArcFace Features:  55%|█████▍    | 23/42 [00:11<00:09,  2.02it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 24/42 [00:11<00:08,  2.02it/s][A
+
+Extracting ArcFace Features:  60%|█████▉    | 25/42 [00:12<00:08,  2.03it/s][A
+
+Extracting ArcFace Features:  62%|██████▏   | 26/42 [00:12<00:07,  2.03it/s][A
+
+Extracting ArcFace Features:  64%|██████▍   | 27/42 [00:13<00:07,  2.02it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 28/42 [00:13<00:06,  2.02it/s][A
+
+Extracting ArcFace Features:  69%|██████▉   | 29/42 [00:14<00:06,  2.02it/s][A
+
+Extracting ArcFace Features:  71%|███████▏  | 30/42 [00:14<00:05,  2.02it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 31/42 [00:15<00:05,  2.02it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 32/42 [00:15<00:04,  2.02it/s][A
+
+Extracting ArcFace Features:  79%|███████▊  | 33/42 [00:16<00:04,  2.02it/s][A
+
+Extracting ArcFace Features:  81%|████████  | 34/42 [00:16<00:03,  2.02it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 35/42 [00:17<00:03,  2.02it/s][A
+
+Extracting ArcFace Features:  86%|████████▌ | 36/42 [00:17<00:02,  2.02it/s][A
+
+Extracting ArcFace Features:  88%|████████▊ | 37/42 [00:18<00:02,  2.01it/s][A
+
+Extracting ArcFace Features:  90%|█████████ | 38/42 [00:18<00:01,  2.01it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 39/42 [00:19<00:01,  2.02it/s][A
+
+Extracting ArcFace Features:  95%|█████████▌| 40/42 [00:19<00:00,  2.02it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 41/42 [00:20<00:00,  2.02it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 42/42 [00:20<00:00,  2.18it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  88%|████████▊ | 36/41 [20:50<02:24, 28.95s/it]
+
+Extracting ArcFace Features:   0%|          | 0/40 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▎         | 1/40 [00:00<00:21,  1.84it/s][A
+
+Extracting ArcFace Features:   5%|▌         | 2/40 [00:01<00:20,  1.84it/s][A
+
+Extracting ArcFace Features:   8%|▊         | 3/40 [00:01<00:19,  1.85it/s][A
+
+Extracting ArcFace Features:  10%|█         | 4/40 [00:02<00:19,  1.85it/s][A
+
+Extracting ArcFace Features:  12%|█▎        | 5/40 [00:02<00:18,  1.85it/s][A
+
+Extracting ArcFace Features:  15%|█▌        | 6/40 [00:03<00:18,  1.85it/s][A
+
+Extracting ArcFace Features:  18%|█▊        | 7/40 [00:03<00:17,  1.84it/s][A
+
+Extracting ArcFace Features:  20%|██        | 8/40 [00:04<00:17,  1.85it/s][A
+
+Extracting ArcFace Features:  22%|██▎       | 9/40 [00:04<00:16,  1.85it/s][A
+
+Extracting ArcFace Features:  25%|██▌       | 10/40 [00:05<00:16,  1.85it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 11/40 [00:05<00:15,  1.85it/s][A
+
+Extracting ArcFace Features:  30%|███       | 12/40 [00:06<00:15,  1.85it/s][A
+
+Extracting ArcFace Features:  32%|███▎      | 13/40 [00:07<00:14,  1.85it/s][A
+
+Extracting ArcFace Features:  35%|███▌      | 14/40 [00:07<00:14,  1.85it/s][A
+
+Extracting ArcFace Features:  38%|███▊      | 15/40 [00:08<00:13,  1.85it/s][A
+
+Extracting ArcFace Features:  40%|████      | 16/40 [00:08<00:12,  1.85it/s][A
+
+Extracting ArcFace Features:  42%|████▎     | 17/40 [00:09<00:12,  1.86it/s][A
+
+Extracting ArcFace Features:  45%|████▌     | 18/40 [00:09<00:11,  1.86it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 19/40 [00:10<00:11,  1.86it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 20/40 [00:10<00:10,  1.85it/s][A
+
+Extracting ArcFace Features:  52%|█████▎    | 21/40 [00:11<00:10,  1.85it/s][A
+
+Extracting ArcFace Features:  55%|█████▌    | 22/40 [00:11<00:09,  1.85it/s][A
+
+Extracting ArcFace Features:  57%|█████▊    | 23/40 [00:12<00:09,  1.86it/s][A
+
+Extracting ArcFace Features:  60%|██████    | 24/40 [00:12<00:08,  1.86it/s][A
+
+Extracting ArcFace Features:  62%|██████▎   | 25/40 [00:13<00:08,  1.86it/s][A
+
+Extracting ArcFace Features:  65%|██████▌   | 26/40 [00:14<00:07,  1.86it/s][A
+
+Extracting ArcFace Features:  68%|██████▊   | 27/40 [00:14<00:07,  1.86it/s][A
+
+Extracting ArcFace Features:  70%|███████   | 28/40 [00:15<00:06,  1.85it/s][A
+
+Extracting ArcFace Features:  72%|███████▎  | 29/40 [00:15<00:05,  1.85it/s][A
+
+Extracting ArcFace Features:  75%|███████▌  | 30/40 [00:16<00:05,  1.85it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 31/40 [00:16<00:04,  1.86it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 32/40 [00:17<00:04,  1.85it/s][A
+
+Extracting ArcFace Features:  82%|████████▎ | 33/40 [00:17<00:03,  1.85it/s][A
+
+Extracting ArcFace Features:  85%|████████▌ | 34/40 [00:18<00:03,  1.85it/s][A
+
+Extracting ArcFace Features:  88%|████████▊ | 35/40 [00:18<00:02,  1.85it/s][A
+
+Extracting ArcFace Features:  90%|█████████ | 36/40 [00:19<00:02,  1.86it/s][A
+
+Extracting ArcFace Features:  92%|█████████▎| 37/40 [00:19<00:01,  1.85it/s][A
+
+Extracting ArcFace Features:  95%|█████████▌| 38/40 [00:20<00:01,  1.86it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 39/40 [00:21<00:00,  1.86it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 40/40 [00:21<00:00,  1.86it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  90%|█████████ | 37/41 [21:17<01:53, 28.37s/it]
+
+Extracting ArcFace Features:   0%|          | 0/46 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/46 [00:00<00:22,  1.97it/s][A
+
+Extracting ArcFace Features:   4%|▍         | 2/46 [00:01<00:22,  1.99it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/46 [00:01<00:21,  1.99it/s][A
+
+Extracting ArcFace Features:   9%|▊         | 4/46 [00:02<00:21,  2.00it/s][A
+
+Extracting ArcFace Features:  11%|█         | 5/46 [00:02<00:20,  2.00it/s][A
+
+Extracting ArcFace Features:  13%|█▎        | 6/46 [00:03<00:20,  1.99it/s][A
+
+Extracting ArcFace Features:  15%|█▌        | 7/46 [00:03<00:19,  1.98it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 8/46 [00:04<00:19,  1.98it/s][A
+
+Extracting ArcFace Features:  20%|█▉        | 9/46 [00:04<00:18,  1.98it/s][A
+
+Extracting ArcFace Features:  22%|██▏       | 10/46 [00:05<00:18,  1.98it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 11/46 [00:05<00:17,  1.98it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 12/46 [00:06<00:17,  1.98it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 13/46 [00:06<00:16,  1.98it/s][A
+
+Extracting ArcFace Features:  30%|███       | 14/46 [00:07<00:16,  1.98it/s][A
+
+Extracting ArcFace Features:  33%|███▎      | 15/46 [00:07<00:15,  1.99it/s][A
+
+Extracting ArcFace Features:  35%|███▍      | 16/46 [00:08<00:15,  1.99it/s][A
+
+Extracting ArcFace Features:  37%|███▋      | 17/46 [00:08<00:14,  1.99it/s][A
+
+Extracting ArcFace Features:  39%|███▉      | 18/46 [00:09<00:14,  1.98it/s][A
+
+Extracting ArcFace Features:  41%|████▏     | 19/46 [00:09<00:13,  1.99it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 20/46 [00:10<00:13,  1.99it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 21/46 [00:10<00:12,  1.99it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 22/46 [00:11<00:12,  1.99it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 23/46 [00:11<00:11,  1.99it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 24/46 [00:12<00:11,  1.99it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 25/46 [00:12<00:10,  1.98it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 26/46 [00:13<00:10,  1.99it/s][A
+
+Extracting ArcFace Features:  59%|█████▊    | 27/46 [00:13<00:09,  1.99it/s][A
+
+Extracting ArcFace Features:  61%|██████    | 28/46 [00:14<00:09,  1.99it/s][A
+
+Extracting ArcFace Features:  63%|██████▎   | 29/46 [00:14<00:08,  1.98it/s][A
+
+Extracting ArcFace Features:  65%|██████▌   | 30/46 [00:15<00:08,  1.98it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 31/46 [00:15<00:07,  1.98it/s][A
+
+Extracting ArcFace Features:  70%|██████▉   | 32/46 [00:16<00:07,  1.99it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 33/46 [00:16<00:06,  1.98it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 34/46 [00:17<00:06,  1.98it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 35/46 [00:17<00:05,  1.98it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 36/46 [00:18<00:05,  1.98it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 37/46 [00:18<00:04,  1.98it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 38/46 [00:19<00:04,  1.98it/s][A
+
+Extracting ArcFace Features:  85%|████████▍ | 39/46 [00:19<00:03,  1.98it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 40/46 [00:20<00:03,  1.98it/s][A
+
+Extracting ArcFace Features:  89%|████████▉ | 41/46 [00:20<00:02,  1.98it/s][A
+
+Extracting ArcFace Features:  91%|█████████▏| 42/46 [00:21<00:02,  1.98it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 43/46 [00:21<00:01,  1.98it/s][A
+
+Extracting ArcFace Features:  96%|█████████▌| 44/46 [00:22<00:01,  1.98it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 45/46 [00:22<00:00,  1.98it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  93%|█████████▎| 38/41 [21:46<01:25, 28.60s/it]
+
+Extracting ArcFace Features:   0%|          | 0/46 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/46 [00:00<00:22,  1.96it/s][A
+
+Extracting ArcFace Features:   4%|▍         | 2/46 [00:01<00:23,  1.90it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/46 [00:01<00:22,  1.88it/s][A
+
+Extracting ArcFace Features:   9%|▊         | 4/46 [00:02<00:22,  1.87it/s][A
+
+Extracting ArcFace Features:  11%|█         | 5/46 [00:02<00:22,  1.86it/s][A
+
+Extracting ArcFace Features:  13%|█▎        | 6/46 [00:03<00:21,  1.86it/s][A
+
+Extracting ArcFace Features:  15%|█▌        | 7/46 [00:03<00:21,  1.85it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 8/46 [00:04<00:20,  1.85it/s][A
+
+Extracting ArcFace Features:  20%|█▉        | 9/46 [00:04<00:20,  1.85it/s][A
+
+Extracting ArcFace Features:  22%|██▏       | 10/46 [00:05<00:19,  1.85it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 11/46 [00:05<00:18,  1.85it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 12/46 [00:06<00:18,  1.85it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 13/46 [00:06<00:17,  1.85it/s][A
+
+Extracting ArcFace Features:  30%|███       | 14/46 [00:07<00:17,  1.85it/s][A
+
+Extracting ArcFace Features:  33%|███▎      | 15/46 [00:08<00:16,  1.86it/s][A
+
+Extracting ArcFace Features:  35%|███▍      | 16/46 [00:08<00:16,  1.85it/s][A
+
+Extracting ArcFace Features:  37%|███▋      | 17/46 [00:09<00:15,  1.85it/s][A
+
+Extracting ArcFace Features:  39%|███▉      | 18/46 [00:09<00:15,  1.85it/s][A
+
+Extracting ArcFace Features:  41%|████▏     | 19/46 [00:10<00:14,  1.85it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 20/46 [00:10<00:14,  1.85it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 21/46 [00:11<00:13,  1.85it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 22/46 [00:11<00:12,  1.85it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 23/46 [00:12<00:12,  1.85it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 24/46 [00:12<00:11,  1.85it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 25/46 [00:13<00:11,  1.85it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 26/46 [00:14<00:10,  1.86it/s][A
+
+Extracting ArcFace Features:  59%|█████▊    | 27/46 [00:14<00:10,  1.86it/s][A
+
+Extracting ArcFace Features:  61%|██████    | 28/46 [00:15<00:09,  1.86it/s][A
+
+Extracting ArcFace Features:  63%|██████▎   | 29/46 [00:15<00:09,  1.86it/s][A
+
+Extracting ArcFace Features:  65%|██████▌   | 30/46 [00:16<00:08,  1.86it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 31/46 [00:16<00:08,  1.85it/s][A
+
+Extracting ArcFace Features:  70%|██████▉   | 32/46 [00:17<00:07,  1.86it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 33/46 [00:17<00:07,  1.86it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 34/46 [00:18<00:06,  1.86it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 35/46 [00:18<00:05,  1.85it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 36/46 [00:19<00:05,  1.86it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 37/46 [00:19<00:04,  1.85it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 38/46 [00:20<00:04,  1.85it/s][A
+
+Extracting ArcFace Features:  85%|████████▍ | 39/46 [00:21<00:03,  1.86it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 40/46 [00:21<00:03,  1.86it/s][A
+
+Extracting ArcFace Features:  89%|████████▉ | 41/46 [00:22<00:02,  1.86it/s][A
+
+Extracting ArcFace Features:  91%|█████████▏| 42/46 [00:22<00:02,  1.86it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 43/46 [00:23<00:01,  1.86it/s][A
+
+Extracting ArcFace Features:  96%|█████████▌| 44/46 [00:23<00:01,  1.86it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 45/46 [00:24<00:00,  1.86it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 46/46 [00:24<00:00,  2.14it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  95%|█████████▌| 39/41 [22:18<00:59, 29.83s/it]
+
+Extracting ArcFace Features:   0%|          | 0/46 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   2%|▏         | 1/46 [00:00<00:23,  1.90it/s][A
+
+Extracting ArcFace Features:   4%|▍         | 2/46 [00:01<00:23,  1.91it/s][A
+
+Extracting ArcFace Features:   7%|▋         | 3/46 [00:01<00:22,  1.91it/s][A
+
+Extracting ArcFace Features:   9%|▊         | 4/46 [00:02<00:22,  1.90it/s][A
+
+Extracting ArcFace Features:  11%|█         | 5/46 [00:02<00:21,  1.90it/s][A
+
+Extracting ArcFace Features:  13%|█▎        | 6/46 [00:03<00:21,  1.90it/s][A
+
+Extracting ArcFace Features:  15%|█▌        | 7/46 [00:03<00:20,  1.90it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 8/46 [00:04<00:20,  1.90it/s][A
+
+Extracting ArcFace Features:  20%|█▉        | 9/46 [00:04<00:19,  1.90it/s][A
+
+Extracting ArcFace Features:  22%|██▏       | 10/46 [00:05<00:18,  1.91it/s][A
+
+Extracting ArcFace Features:  24%|██▍       | 11/46 [00:05<00:18,  1.92it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 12/46 [00:06<00:17,  1.92it/s][A
+
+Extracting ArcFace Features:  28%|██▊       | 13/46 [00:06<00:17,  1.92it/s][A
+
+Extracting ArcFace Features:  30%|███       | 14/46 [00:07<00:16,  1.93it/s][A
+
+Extracting ArcFace Features:  33%|███▎      | 15/46 [00:07<00:16,  1.93it/s][A
+
+Extracting ArcFace Features:  35%|███▍      | 16/46 [00:08<00:15,  1.93it/s][A
+
+Extracting ArcFace Features:  37%|███▋      | 17/46 [00:08<00:15,  1.93it/s][A
+
+Extracting ArcFace Features:  39%|███▉      | 18/46 [00:09<00:14,  1.94it/s][A
+
+Extracting ArcFace Features:  41%|████▏     | 19/46 [00:09<00:13,  1.93it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 20/46 [00:10<00:13,  1.94it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 21/46 [00:10<00:12,  1.93it/s][A
+
+Extracting ArcFace Features:  48%|████▊     | 22/46 [00:11<00:12,  1.93it/s][A
+
+Extracting ArcFace Features:  50%|█████     | 23/46 [00:11<00:11,  1.93it/s][A
+
+Extracting ArcFace Features:  52%|█████▏    | 24/46 [00:12<00:11,  1.92it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 25/46 [00:13<00:10,  1.91it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 26/46 [00:13<00:10,  1.91it/s][A
+
+Extracting ArcFace Features:  59%|█████▊    | 27/46 [00:14<00:09,  1.91it/s][A
+
+Extracting ArcFace Features:  61%|██████    | 28/46 [00:14<00:09,  1.91it/s][A
+
+Extracting ArcFace Features:  63%|██████▎   | 29/46 [00:15<00:08,  1.91it/s][A
+
+Extracting ArcFace Features:  65%|██████▌   | 30/46 [00:15<00:08,  1.91it/s][A
+
+Extracting ArcFace Features:  67%|██████▋   | 31/46 [00:16<00:07,  1.91it/s][A
+
+Extracting ArcFace Features:  70%|██████▉   | 32/46 [00:16<00:07,  1.91it/s][A
+
+Extracting ArcFace Features:  72%|███████▏  | 33/46 [00:17<00:06,  1.91it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 34/46 [00:17<00:06,  1.91it/s][A
+
+Extracting ArcFace Features:  76%|███████▌  | 35/46 [00:18<00:05,  1.90it/s][A
+
+Extracting ArcFace Features:  78%|███████▊  | 36/46 [00:18<00:05,  1.91it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 37/46 [00:19<00:04,  1.91it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 38/46 [00:19<00:04,  1.91it/s][A
+
+Extracting ArcFace Features:  85%|████████▍ | 39/46 [00:20<00:03,  1.91it/s][A
+
+Extracting ArcFace Features:  87%|████████▋ | 40/46 [00:20<00:03,  1.90it/s][A
+
+Extracting ArcFace Features:  89%|████████▉ | 41/46 [00:21<00:02,  1.90it/s][A
+
+Extracting ArcFace Features:  91%|█████████▏| 42/46 [00:21<00:02,  1.90it/s][A
+
+Extracting ArcFace Features:  93%|█████████▎| 43/46 [00:22<00:01,  1.90it/s][A
+
+Extracting ArcFace Features:  96%|█████████▌| 44/46 [00:23<00:01,  1.90it/s][A
+
+Extracting ArcFace Features:  98%|█████████▊| 45/46 [00:23<00:00,  1.90it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency:  98%|█████████▊| 40/41 [22:48<00:29, 29.80s/it]
+
+Extracting ArcFace Features:   0%|          | 0/35 [00:00<?, ?it/s][A
+
+Extracting ArcFace Features:   3%|▎         | 1/35 [00:00<00:16,  2.04it/s][A
+
+Extracting ArcFace Features:   6%|▌         | 2/35 [00:01<00:16,  1.95it/s][A
+
+Extracting ArcFace Features:   9%|▊         | 3/35 [00:01<00:16,  1.91it/s][A
+
+Extracting ArcFace Features:  11%|█▏        | 4/35 [00:02<00:16,  1.90it/s][A
+
+Extracting ArcFace Features:  14%|█▍        | 5/35 [00:02<00:15,  1.89it/s][A
+
+Extracting ArcFace Features:  17%|█▋        | 6/35 [00:03<00:15,  1.88it/s][A
+
+Extracting ArcFace Features:  20%|██        | 7/35 [00:03<00:14,  1.88it/s][A
+
+Extracting ArcFace Features:  23%|██▎       | 8/35 [00:04<00:14,  1.88it/s][A
+
+Extracting ArcFace Features:  26%|██▌       | 9/35 [00:04<00:13,  1.89it/s][A
+
+Extracting ArcFace Features:  29%|██▊       | 10/35 [00:05<00:13,  1.88it/s][A
+
+Extracting ArcFace Features:  31%|███▏      | 11/35 [00:05<00:12,  1.89it/s][A
+
+Extracting ArcFace Features:  34%|███▍      | 12/35 [00:06<00:12,  1.88it/s][A
+
+Extracting ArcFace Features:  37%|███▋      | 13/35 [00:06<00:11,  1.89it/s][A
+
+Extracting ArcFace Features:  40%|████      | 14/35 [00:07<00:11,  1.89it/s][A
+
+Extracting ArcFace Features:  43%|████▎     | 15/35 [00:07<00:10,  1.89it/s][A
+
+Extracting ArcFace Features:  46%|████▌     | 16/35 [00:08<00:10,  1.88it/s][A
+
+Extracting ArcFace Features:  49%|████▊     | 17/35 [00:08<00:09,  1.88it/s][A
+
+Extracting ArcFace Features:  51%|█████▏    | 18/35 [00:09<00:09,  1.88it/s][A
+
+Extracting ArcFace Features:  54%|█████▍    | 19/35 [00:10<00:08,  1.88it/s][A
+
+Extracting ArcFace Features:  57%|█████▋    | 20/35 [00:10<00:07,  1.89it/s][A
+
+Extracting ArcFace Features:  60%|██████    | 21/35 [00:11<00:07,  1.88it/s][A
+
+Extracting ArcFace Features:  63%|██████▎   | 22/35 [00:11<00:06,  1.88it/s][A
+
+Extracting ArcFace Features:  66%|██████▌   | 23/35 [00:12<00:06,  1.88it/s][A
+
+Extracting ArcFace Features:  69%|██████▊   | 24/35 [00:12<00:05,  1.88it/s][A
+
+Extracting ArcFace Features:  71%|███████▏  | 25/35 [00:13<00:05,  1.88it/s][A
+
+Extracting ArcFace Features:  74%|███████▍  | 26/35 [00:13<00:04,  1.88it/s][A
+
+Extracting ArcFace Features:  77%|███████▋  | 27/35 [00:14<00:04,  1.88it/s][A
+
+Extracting ArcFace Features:  80%|████████  | 28/35 [00:14<00:03,  1.88it/s][A
+
+Extracting ArcFace Features:  83%|████████▎ | 29/35 [00:15<00:03,  1.88it/s][A
+
+Extracting ArcFace Features:  86%|████████▌ | 30/35 [00:15<00:02,  1.88it/s][A
+
+Extracting ArcFace Features:  89%|████████▊ | 31/35 [00:16<00:02,  1.88it/s][A
+
+Extracting ArcFace Features:  91%|█████████▏| 32/35 [00:16<00:01,  1.88it/s][A
+
+Extracting ArcFace Features:  94%|█████████▍| 33/35 [00:17<00:01,  1.88it/s][A
+
+Extracting ArcFace Features:  97%|█████████▋| 34/35 [00:18<00:00,  1.88it/s][A
+
+Extracting ArcFace Features: 100%|██████████| 35/35 [00:18<00:00,  2.17it/s][A
+
+                                                                            [A
+Evaluating ArcFace Consistency: 100%|██████████| 41/41 [23:13<00:00, 28.45s/it]
+Evaluating ArcFace Consistency: 100%|██████████| 41/41 [23:13<00:00, 34.00s/it]
+Evaluation results saved to evaluation_results_arcface/evaluation_results_arcface_consistency_group1of10.json
+Total videos evaluated: 41

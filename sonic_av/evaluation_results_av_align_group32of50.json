@@ -1,0 +1,363 @@
+[
+    {
+        "video_path": "input_data/results/sonic/0089_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0089_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0089_human_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 78,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "gardening",
+                "calligraphy",
+                "traditional Chinese music",
+                "walking in bamboo groves"
+            ],
+            "personality": "graceful, wise, serene, compassionate, and deeply connected to tradition and nature",
+            "message": "\u5728\u8fd9\u7247\u7af9\u6797\u6df1\u5904\uff0c\u6211\u4eff\u4f5b\u542c\u89c1\u4e86\u5c81\u6708\u7684\u4f4e\u8bed\u3002\u624b\u4e2d\u7684\u6cb9\u7eb8\u4f1e\uff0c\u662f\u6211\u4e0e\u8fc7\u53bb\u5bf9\u8bdd\u7684\u6865\u6881\u3002\u5e74\u8f7b\u65f6\uff0c\u6211\u5e38\u5728\u8fd9\u6837\u7684\u5c0f\u5f84\u4e0a\u6f2b\u6b65\uff0c\u770b\u7af9\u5f71\u5a46\u5a11\uff0c\u542c\u98ce\u8fc7\u6797\u68a2\u3002\u5982\u4eca\uff0c\u6211\u4f9d\u7136\u70ed\u7231\u7740\u8fd9\u4e9b\u5b81\u9759\u7684\u65f6\u5149\u3002\u613f\u4f60\u4e5f\u80fd\u5728\u5306\u5fd9\u7684\u751f\u6d3b\u4e2d\uff0c\u505c\u4e0b\u811a\u6b65\uff0c\u611f\u53d7\u81ea\u7136\u7684\u547c\u5438\uff0c\u503e\u542c\u5185\u5fc3\u7684\u58f0\u97f3\u3002\u5c81\u6708\u867d\u901d\uff0c\u4f46\u4f18\u96c5\u4e0e\u5b81\u9759\uff0c\u6c38\u8fdc\u5c5e\u4e8e\u90a3\u4e9b\u61c2\u5f97\u73cd\u60dc\u7684\u4eba\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u8001\u592a\u592a\u7ad9\u5728\u7af9\u6797\u5c0f\u5f84\u4e2d\uff0c\u624b\u6301\u4e00\u628a\u53e4\u5178\u6cb9\u7eb8\u4f1e\uff0c\u4e00\u8fb9\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u4e00\u8fb9\u7f13\u7f13\u5411\u524d\u8d70\uff0c\u955c\u5934\u968f\u7740\u5979\u7684\u6b65\u4f10\u6162\u6162\u5f80\u540e\u9000\uff0c\u4fdd\u6301\u5979\u59cb\u7ec8\u5728\u753b\u9762\u4e2d\u592e\u3002\u5979\u8eab\u7740\u7cbe\u81f4\u7684\u65d7\u888d\uff0c\u53cc\u624b\u81ea\u7136\u63e1\u4f1e\uff0c\u5076\u5c14\u8f7b\u62ac\u624b\u8c03\u6574\u4f1e\u67c4\uff0c\u59ff\u6001\u4f18\u96c5\u4ece\u5bb9\uff0c\u80cc\u666f\u662f\u6591\u9a73\u7684\u7af9\u5f71\u4e0e\u9752\u77f3\u5c0f\u8def\uff0c\u9633\u5149\u900f\u8fc7\u7af9\u53f6\u6d12\u4e0b\u67d4\u548c\u5149\u5f71\uff0c\u8425\u9020\u51fa\u5b81\u9759\u60a0\u8fdc\u7684\u6c1b\u56f4\u3002\u955c\u5934\u56fa\u5b9a\uff0c\u753b\u9762\u7a33\u5b9a\uff0c\u7a81\u51fa\u4eba\u7269\u4e0e\u81ea\u7136\u73af\u5883\u7684\u548c\u8c10\u4ea4\u878d\u3002",
+            "en_prompt": "An elderly woman stands on a path through a bamboo grove, holding a classic oil-paper umbrella. She speaks toward the camera while slowly walking forward. The camera gradually pulls back, keeping her centered in the frame. She wears an elegant cheongsam, holding the umbrella naturally with both hands, occasionally lifting one hand to adjust the handle, exuding grace and composure. The background features dappled bamboo shadows and a stone pathway, with sunlight filtering through the leaves, casting soft, gentle light and creating a serene, tranquil atmosphere. The shot remains steady and fixed, emphasizing the harmonious blend between the woman and her natural surroundings.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0089_human_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.10843373493975904,
+                "num_audio_peaks": 140,
+                "num_video_peaks": 44,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0108_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0108_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0108_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 72,
+            "nationality": "British",
+            "speaking_language": "English",
+            "hobbies": [
+                "fishing",
+                "walking in nature",
+                "gardening"
+            ],
+            "personality": "calm, patient, wise, kind-hearted",
+            "message": "Fishing isn\u2019t just about catching fish\u2014it\u2019s about peace, patience, and being present in the moment. I\u2019ve spent decades by rivers and lakes, and each cast brings me closer to nature and myself. The quiet, the breeze, the sound of water\u2014it\u2019s therapy. I hope you find your own quiet corner, whether it\u2019s fishing, walking, or simply sitting and watching the world go by. Life moves fast, but we don\u2019t have to. Take a breath. Be still. Enjoy the simple things.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u8001\u7237\u7237\u7ad9\u5728\u7530\u91ce\u91cc\uff0c\u4e00\u624b\u63e1\u7740\u9c7c\u7aff\uff0c\u53e6\u4e00\u624b\u81ea\u7136\u5782\u4e0b\uff0c\u795e\u60c5\u4e13\u6ce8\u5730\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u5076\u5c14\u7528\u63e1\u7aff\u7684\u624b\u8f7b\u8f7b\u8c03\u6574\u59ff\u52bf\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u80cc\u666f\u662f\u6674\u6717\u7684\u84dd\u5929\u548c\u7eff\u6cb9\u6cb9\u7684\u8349\u5730\uff0c\u8fdc\u5904\u6709\u51e0\u68f5\u6811\u548c\u4e00\u5ea7\u5c0f\u5c4b\uff0c\u8425\u9020\u51fa\u5b81\u9759\u60a0\u95f2\u7684\u5782\u9493\u6c1b\u56f4\u3002",
+            "en_prompt": "An elderly man stands in a field, holding a fishing rod in one hand while the other hand hangs naturally by his side. He speaks directly to the camera with a focused expression, occasionally adjusting his posture slightly with the hand holding the rod. The camera remains fixed. The background features a clear blue sky and lush green grass, with a few trees and a small cottage visible in the distance, creating a peaceful and relaxed fishing atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0108_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.23195876288659795,
+                "num_audio_peaks": 120,
+                "num_video_peaks": 119,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0144_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0144_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0144_human_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 62,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "reading",
+                "drinking tea",
+                "collecting porcelain",
+                "wearing traditional jewelry"
+            ],
+            "personality": "graceful, wise, cultured, calm, and refined",
+            "message": "\u5c81\u6708\u5982\u8336\uff0c\u8d8a\u54c1\u8d8a\u6709\u6ecb\u5473\u3002\u6211\u7231\u5728\u4e66\u67b6\u524d\u6ce1\u4e00\u58f6\u6e05\u8336\uff0c\u6234\u7740\u773c\u955c\u7ec6\u7ec6\u7ffb\u9605\u65e7\u4e66\uff0c\u611f\u53d7\u65f6\u5149\u7684\u6c89\u6dc0\u3002\u7fe1\u7fe0\u956f\u5b50\u4e0e\u91d1\u8fb9\u773c\u955c\uff0c\u662f\u5c81\u6708\u8d60\u4e88\u6211\u7684\u4f18\u96c5\u3002\u6211\u4e0d\u8ffd\u6c42\u6d6e\u534e\uff0c\u53ea\u613f\u5728\u5b81\u9759\u4e2d\u6c89\u6dc0\u667a\u6167\uff0c\u4e0e\u4e66\u4e3a\u4f34\uff0c\u4e0e\u8336\u4e3a\u53cb\u3002\u4eba\u751f\u5982\u4e66\uff0c\u6bcf\u4e00\u9875\u90fd\u503c\u5f97\u8ba4\u771f\u9605\u8bfb\uff1b\u751f\u6d3b\u5982\u8336\uff0c\u6bcf\u4e00\u53e3\u90fd\u503c\u5f97\u7ec6\u7ec6\u54c1\u5473\u3002\u613f\u4f60\u6211\u90fd\u80fd\u5728\u55a7\u56a3\u4e2d\uff0c\u5b88\u4f4f\u5185\u5fc3\u7684\u5b81\u9759\u4e0e\u4ece\u5bb9\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u6b63\u5728\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u4e00\u624b\u4f18\u96c5\u5730\u6367\u7740\u4e00\u53ea\u9752\u82b1\u74f7\u8336\u676f\uff0c\u53e6\u4e00\u53ea\u624b\u8f7b\u6258\u7740\u4e00\u526f\u91d1\u8fb9\u773c\u955c\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u5979\u4f69\u6234\u7740\u6e29\u6da6\u7684\u7389\u8033\u5760\u548c\u7389\u956f\uff0c\u8eab\u7740\u6df1\u84dd\u8272\u7c97\u9488\u7ec7\u6bdb\u8863\uff0c\u80cc\u666f\u662f\u6ee1\u8f7d\u4e66\u7c4d\u7684\u4e66\u67b6\uff0c\u6574\u4f53\u6c1b\u56f4\u5b81\u9759\u800c\u77e5\u6027\u3002\u5979\u9762\u5e26\u6e29\u548c\u5fae\u7b11\uff0c\u76ee\u5149\u4ece\u5bb9\uff0c\u4eff\u4f5b\u6b63\u5728\u4e0e\u955c\u5934\u524d\u7684\u89c2\u4f17\u5206\u4eab\u4e00\u6bb5\u60a0\u7136\u7684\u5348\u540e\u65f6\u5149\u3002",
+            "en_prompt": "The woman in the image is speaking directly to the camera, elegantly holding a blue-and-white porcelain teacup in one hand and gently cradling a pair of gold-rimmed glasses in the other. The camera remains stationary. She wears smooth jade earrings and a jade bracelet, dressed in a dark blue chunky-knit sweater. The background features a bookshelf filled with books, creating a calm and intellectual atmosphere. She smiles warmly, her gaze composed and serene, as if sharing a peaceful afternoon moment with the audience in front of the camera.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0144_human_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.24666666666666667,
+                "num_audio_peaks": 168,
+                "num_video_peaks": 206,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0155_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0155_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0155_human_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 52,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "reading business books",
+                "attending professional seminars",
+                "practicing calligraphy"
+            ],
+            "personality": "confident, professional, composed, and approachable",
+            "message": "\u5404\u4f4d\u540c\u4e8b\uff0c\u5927\u5bb6\u597d\u3002\u4f5c\u4e3a\u4e00\u540d\u7ba1\u7406\u8005\uff0c\u6211\u59cb\u7ec8\u76f8\u4fe1\uff0c\u4e13\u4e1a\u4e0e\u771f\u8bda\u662f\u8d62\u5f97\u5c0a\u91cd\u7684\u57fa\u7840\u3002\u65e0\u8bba\u9762\u5bf9\u6311\u6218\u8fd8\u662f\u673a\u9047\uff0c\u6211\u4eec\u90fd\u5e94\u4fdd\u6301\u51b7\u9759\u4e0e\u4e13\u6ce8\u3002\u5b66\u4e60\u6c38\u65e0\u6b62\u5883\uff0c\u6211\u9f13\u52b1\u5927\u5bb6\u6301\u7eed\u63d0\u5347\u81ea\u6211\uff0c\u52c7\u4e8e\u521b\u65b0\u3002\u5728\u56e2\u961f\u4e2d\uff0c\u6211\u4eec\u4e0d\u4ec5\u662f\u540c\u4e8b\uff0c\u66f4\u662f\u4f19\u4f34\u3002\u8ba9\u6211\u4eec\u643a\u624b\u5e76\u8fdb\uff0c\u5171\u540c\u521b\u9020\u66f4\u9ad8\u6548\u3001\u66f4\u548c\u8c10\u7684\u5de5\u4f5c\u73af\u5883\u3002\u613f\u6211\u4eec\u6bcf\u4e2a\u4eba\u90fd\u80fd\u5728\u5de5\u4f5c\u4e2d\u627e\u5230\u6210\u5c31\u611f\u4e0e\u4ef7\u503c\u3002\u8c22\u8c22\u5927\u5bb6\uff01",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u7ad9\u5728\u4f1a\u8bae\u5ba4\u4e2d\u592e\uff0c\u4e00\u624b\u62ff\u7740\u6587\u4ef6\u5939\uff0c\u53e6\u4e00\u624b\u81ea\u7136\u5782\u653e\uff0c\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u5076\u5c14\u7528\u624b\u6307\u8f7b\u70b9\u6587\u4ef6\u5939\u5f3a\u8c03\u91cd\u70b9\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u80cc\u666f\u662f\u767d\u677f\u548c\u6295\u5f71\u5c4f\u5e55\uff0c\u8425\u9020\u4e13\u4e1a\u5546\u52a1\u6c1b\u56f4\u3002",
+            "en_prompt": "The woman in the image stands in the center of the conference room, holding a folder in one hand and letting the other hand rest naturally by her side, speaking directly to the camera. Occasionally, she lightly taps the folder with her finger to emphasize key points. The camera remains fixed. In the background, there is a whiteboard and a projection screen, creating a professional business atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0155_human_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.0,
+                "num_audio_peaks": 114,
+                "num_video_peaks": 3,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0075_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0075_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0075_human_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 25,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "flower arrangement",
+                "photography",
+                "reading",
+                "traveling"
+            ],
+            "personality": "gentle, thoughtful, artistic, and kind-hearted",
+            "message": "\u751f\u6d3b\u4e2d\u6700\u7f8e\u7684\u77ac\u95f4\uff0c\u5f80\u5f80\u85cf\u5728\u90a3\u4e9b\u4e0d\u7ecf\u610f\u7684\u7ec6\u8282\u91cc\u3002\u4e00\u6735\u82b1\u7684\u7efd\u653e\uff0c\u4e00\u7f15\u9633\u5149\u7684\u6d12\u843d\uff0c\u90fd\u80fd\u8ba9\u6211\u611f\u53d7\u5230\u4e16\u754c\u7684\u6e29\u67d4\u3002\u6211\u559c\u6b22\u7528\u955c\u5934\u8bb0\u5f55\u4e0b\u8fd9\u4e9b\u7f8e\u597d\uff0c\u4e5f\u559c\u6b22\u7528\u53cc\u624b\u4e3a\u4ed6\u4eba\u7f16\u7ec7\u82b1\u675f\uff0c\u4f20\u9012\u4e00\u4efd\u5fc3\u610f\u3002\u5e0c\u671b\u6bcf\u4e2a\u4eba\u90fd\u80fd\u5728\u5fd9\u788c\u4e2d\u505c\u4e0b\u811a\u6b65\uff0c\u53d1\u73b0\u8eab\u8fb9\u7684\u8bd7\u610f\u4e0e\u6e29\u6696\u3002\u613f\u4f60\u6211\u90fd\u80fd\u50cf\u82b1\u4e00\u6837\uff0c\u4e0d\u4e89\u4e0d\u62a2\uff0c\u5374\u81ea\u6709\u82ac\u82b3\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u6b63\u5728\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u624b\u4e2d\u6367\u7740\u4e00\u675f\u9c9c\u82b1\uff0c\u5076\u5c14\u7528\u624b\u6307\u8f7b\u70b9\u82b1\u675f\u6216\u5fae\u5fae\u4fa7\u5934\uff0c\u955c\u5934\u56fa\u5b9a\u3002",
+            "en_prompt": "The woman in the image is speaking directly to the camera, holding a bouquet of fresh flowers. Occasionally, she gently taps the bouquet with her fingers or slightly turns her head. The camera remains stationary.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0075_human_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.2764976958525346,
+                "num_audio_peaks": 108,
+                "num_video_peaks": 169,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0069_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0069_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0069_human_talk_en_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 28,
+            "nationality": "Pakistani",
+            "speaking_language": "English",
+            "hobbies": [
+                "fashion styling",
+                "photography",
+                "traveling",
+                "gardening"
+            ],
+            "personality": "confident, elegant, creative, and culturally proud",
+            "message": "I am proud to wear traditional attire with a modern twist, blending heritage with contemporary style. Fashion is my language, and I express myself through every outfit I choose. I love capturing moments through photography and exploring new places. My home is filled with greenery and art, reflecting my love for nature and beauty. I believe in embracing culture while staying true to oneself. Life is a journey of self-expression, and I cherish every step.",
+            "source": "pexels",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u7ad9\u5728\u5ba4\u5185\uff0c\u4e00\u8fb9\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\u4e00\u8fb9\u5f80\u524d\u8d70\uff0c\u955c\u5934\u968f\u7740\u4eba\u7269\u7684\u8d70\u52a8\u6162\u6162\u5f80\u540e\u9000\uff0c\u4fdd\u6301\u4eba\u7269\u5728\u753b\u9762\u4e2d\u3002\u5979\u8eab\u7740\u7cbe\u81f4\u7684\u5370\u82b1\u957f\u886b\uff0c\u642d\u914d\u8f7b\u76c8\u7684\u62ab\u80a9\u548c\u767d\u8272\u957f\u88e4\uff0c\u811a\u8e29\u95ea\u4eae\u51c9\u978b\uff0c\u53cc\u624b\u81ea\u7136\u4ea4\u53e0\u4e8e\u8eab\u524d\u3002\u80cc\u666f\u662f\u6e29\u99a8\u7684\u5bb6\u5c45\u73af\u5883\uff0c\u6709\u85e4\u7f16\u6905\u3001\u7eff\u690d\u548c\u88c5\u9970\u82b1\u74f6\uff0c\u8425\u9020\u51fa\u4f18\u96c5\u8212\u9002\u7684\u6c1b\u56f4\u3002",
+            "en_prompt": "The woman in the image stands indoors, speaking toward the camera while walking forward. The camera slowly pulls back as she moves, keeping her centered in the frame. She wears an elegant printed kurta, paired with a lightweight dupatta and white trousers, and sparkly sandals. Her hands are naturally clasped in front of her. The background features a cozy home setting with a rattan chair, green plants, and decorative vases, creating an elegant and comfortable atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0069_human_talk_en_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.0,
+                "num_audio_peaks": 138,
+                "num_video_peaks": 0,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0035_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0035_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0035_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 32,
+            "nationality": "Iranian",
+            "speaking_language": "English",
+            "hobbies": [
+                "fitness",
+                "photography",
+                "traveling",
+                "reading"
+            ],
+            "personality": "confident, thoughtful, calm, and detail-oriented",
+            "message": "I believe in living with purpose and intention. Every day is an opportunity to grow, learn, and connect with the world around us. I find peace in quiet moments and strength in movement\u2014whether it\u2019s lifting weights, capturing a sunset, or diving into a good book. I value authenticity and strive to be present in every interaction. Life is too short for regrets, so I choose to embrace challenges and cherish the journey. Let\u2019s make every moment count.",
+            "source": "pexels",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u6b63\u5728\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u53cc\u624b\u63d2\u5728\u88e4\u515c\u91cc\uff0c\u5076\u5c14\u8f7b\u5fae\u8c03\u6574\u59ff\u52bf\u4ee5\u5339\u914d\u8bf4\u8bdd\u5185\u5bb9\uff0c\u955c\u5934\u56fa\u5b9a\u3002",
+            "en_prompt": "The man in the image is speaking directly to the camera, with both hands in his pockets, occasionally making slight posture adjustments to match the content of his speech. The camera remains fixed.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0035_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.12121212121212122,
+                "num_audio_peaks": 129,
+                "num_video_peaks": 56,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0330_comic_sing_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0330_comic_sing_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0330_comic_sing_en_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 17,
+            "nationality": "Japanese",
+            "speaking_language": "Japanese",
+            "hobbies": [
+                "listening to music",
+                "drawing",
+                "reading light novels",
+                "stargazing"
+            ],
+            "personality": "calm, thoughtful, kind-hearted, and introverted but observant",
+            "message": "\u9633\u5149\u6d12\u5728\u7a97\u8fb9\uff0c\u8033\u673a\u91cc\u6d41\u6dcc\u7740\u8f7b\u67d4\u7684\u65cb\u5f8b\uff0c\u8fd9\u4e00\u523b\uff0c\u4e16\u754c\u4eff\u4f5b\u53ea\u5269\u4e0b\u6211\u548c\u97f3\u4e50\u3002\u6211\u559c\u6b22\u5b89\u9759\u5730\u5750\u5728\u7a97\u524d\uff0c\u770b\u7740\u5929\u7a7a\u7684\u4e91\u6735\u6162\u6162\u98d8\u8fc7\uff0c\u60f3\u8c61\u5b83\u4eec\u53d8\u6210\u4e0d\u540c\u7684\u6545\u4e8b\u3002\u867d\u7136\u6211\u4e0d\u5e38\u8bf4\u8bdd\uff0c\u4f46\u6211\u7684\u5185\u5fc3\u603b\u662f\u5145\u6ee1\u6e29\u67d4\u548c\u597d\u5947\u3002\u5e0c\u671b\u6bcf\u4e2a\u4eba\u90fd\u80fd\u627e\u5230\u5c5e\u4e8e\u81ea\u5df1\u7684\u5b81\u9759\u89d2\u843d\uff0c\u50cf\u6211\u4e00\u6837\uff0c\u7528\u5fc3\u611f\u53d7\u751f\u6d3b\u4e2d\u7684\u6bcf\u4e00\u4efd\u7f8e\u597d\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u89d2\u8272\u6b63\u5728\u5531\u6b4c\uff0c\u5fae\u98ce\u8f7b\u62c2\u5979\u7684\u957f\u53d1\uff0c\u5979\u773c\u795e\u6e29\u67d4\u5730\u671b\u5411\u8fdc\u65b9\uff0c\u4eff\u4f5b\u6c89\u6d78\u5728\u97f3\u4e50\u7684\u4e16\u754c\u91cc\u3002",
+            "en_prompt": "The character in the image is singing, with a gentle breeze lightly brushing through her long hair. She gazes softly into the distance, seemingly immersed in the world of music.",
+            "main_character": "comic"
+        },
+        "image_path": "input_data/benchmark_v4/0330_comic_sing_en_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.2543103448275862,
+                "num_audio_peaks": 104,
+                "num_video_peaks": 187,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0018_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0018_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0018_human_talk_en_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 25,
+            "nationality": "Vietnamese",
+            "speaking_language": "English",
+            "hobbies": [
+                "photography",
+                "gardening",
+                "traditional dress fashion",
+                "nature walks"
+            ],
+            "personality": "graceful, kind-hearted, artistic, and serene",
+            "message": "Hello! I\u2019m a young woman who loves embracing the beauty of nature and tradition. Wearing my traditional \u00e1o d\u00e0i, I feel connected to my roots and proud of my culture. I enjoy capturing moments through photography and spending quiet afternoons by the water. I believe in living mindfully, with kindness and grace. Life is a beautiful journey\u2014let\u2019s cherish every moment together.",
+            "source": "pexels",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u6b63\u5bf9\u7740\u955c\u5934\u8bf4\u8bdd\uff0c\u624b\u8f7b\u63e1\u4e00\u4e2a\u7f16\u7ec7\u8349\u5305\uff0c\u5305\u4e0a\u70b9\u7f00\u7740\u4e00\u6735\u767d\u8272\u82b1\u6735\u3002\u5979\u8eab\u7740\u7c89\u8272\u5370\u82b1\u4f20\u7edf\u957f\u88d9\uff0c\u7ad9\u5728\u6c34\u8fb9\u7eff\u6811\u73af\u7ed5\u7684\u5b81\u9759\u73af\u5883\u4e2d\uff0c\u955c\u5934\u56fa\u5b9a\uff0c\u753b\u9762\u6e29\u67d4\u606c\u9759\u3002",
+            "en_prompt": "The woman in the image is speaking directly to the camera, gently holding a woven straw bag adorned with a white flower. She is wearing a pink floral traditional long dress, standing by the water in a serene environment surrounded by green trees. The camera remains stationary, capturing a gentle and peaceful scene.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0018_human_talk_en_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.26424870466321243,
+                "num_audio_peaks": 119,
+                "num_video_peaks": 125,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0163_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0163_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0163_human_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 45,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "traditional Chinese embroidery",
+                "calligraphy",
+                "tea ceremony",
+                "classical Chinese music"
+            ],
+            "personality": "graceful, composed, respectful, culturally proud, and warm-hearted",
+            "message": "\u5728\u8fd9\u706f\u706b\u9611\u73ca\u7684\u53e4\u8857\uff0c\u6211\u8eab\u7740\u7956\u8f88\u4f20\u4e0b\u7684\u65d7\u888d\uff0c\u624b\u6367\u7ee3\u82b1\u7ea2\u888b\uff0c\u4eff\u4f5b\u4e0e\u65f6\u5149\u5bf9\u8bdd\u3002\u6bcf\u4e00\u9488\u4e00\u7ebf\uff0c\u90fd\u627f\u8f7d\u7740\u5bf9\u4f20\u7edf\u7684\u656c\u610f\u4e0e\u70ed\u7231\u3002\u6211\u613f\u5c06\u8fd9\u4efd\u4e1c\u65b9\u4e4b\u7f8e\u4f20\u9012\u7ed9\u4e0b\u4e00\u4ee3\uff0c\u8ba9\u6587\u5316\u5728\u8840\u8109\u4e2d\u5ef6\u7eed\u3002\u613f\u4f60\u6211\u90fd\u80fd\u5728\u5feb\u8282\u594f\u7684\u751f\u6d3b\u4e2d\uff0c\u9759\u4e0b\u5fc3\u6765\uff0c\u611f\u53d7\u90a3\u4e00\u4efd\u6e29\u6da6\u5982\u7389\u7684\u4e1c\u65b9\u97f5\u5473\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u7ad9\u5728\u53e4\u8272\u53e4\u9999\u7684\u706f\u7b3c\u8857\u5df7\u4e2d\uff0c\u4e00\u8fb9\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u4e00\u8fb9\u8f7b\u8f7b\u6574\u7406\u624b\u4e2d\u7ea2\u8272\u7ee3\u82b1\u5e03\u888b\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u5979\u8eab\u7740\u7cbe\u81f4\u7684\u523a\u7ee3\u65d7\u888d\uff0c\u4f69\u6234\u7fe1\u7fe0\u624b\u956f\uff0c\u795e\u60c5\u6e29\u5a49\uff0c\u80cc\u666f\u6696\u5149\u706f\u7b3c\u6447\u66f3\uff0c\u8425\u9020\u51fa\u6d53\u539a\u7684\u4e1c\u65b9\u591c\u5e02\u6c1b\u56f4\u3002",
+            "en_prompt": "The woman in the image stands in an old-fashioned alley adorned with traditional lanterns, speaking directly to the camera while gently adjusting the red embroidered drawstring bag in her hands. The camera remains fixed. She wears an exquisitely embroidered cheongsam and jade bracelets, with a gentle and graceful expression. In the background, warm lanterns sway softly, creating a rich and atmospheric Eastern night market ambiance.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0163_human_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.1895424836601307,
+                "num_audio_peaks": 74,
+                "num_video_peaks": 108,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0004_human_sing_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0004_human_sing_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0004_human_sing_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 22,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "playing traditional musical instruments",
+                "wearing ethnic costumes",
+                "singing folk songs",
+                "exploring nature"
+            ],
+            "personality": "graceful, passionate, artistic, and deeply connected to her cultural heritage",
+            "message": "\u5728\u8fd9\u7247\u8fbd\u9614\u7684\u8349\u539f\u4e0a\uff0c\u6211\u7528\u7435\u7436\u8bc9\u8bf4\u7956\u5148\u7684\u6545\u4e8b\uff0c\u7528\u94f6\u9970\u6620\u7167\u5929\u7a7a\u7684\u84dd\u3002\u6211\u662f\u6765\u81ea\u82d7\u65cf\u7684\u5c11\u5973\uff0c\u6bcf\u4e00\u4ef6\u94f6\u9970\u90fd\u627f\u8f7d\u7740\u7956\u8f88\u7684\u795d\u798f\uff0c\u6bcf\u4e00\u6bb5\u65cb\u5f8b\u90fd\u6d41\u6dcc\u7740\u5c71\u5ddd\u7684\u547c\u5438\u3002\u6211\u70ed\u7231\u6211\u7684\u6587\u5316\uff0c\u4e5f\u70ed\u7231\u8fd9\u81ea\u7531\u7684\u5929\u5730\u3002\u613f\u6211\u7684\u6b4c\u58f0\u80fd\u7a7f\u8d8a\u98ce\uff0c\u62b5\u8fbe\u6bcf\u4e00\u4e2a\u6e34\u671b\u5b81\u9759\u7684\u5fc3\u7075\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u7ad9\u5728\u5e7f\u9614\u7684\u8349\u539f\u4e0a\uff0c\u8eab\u7740\u534e\u4e3d\u7684\u6c11\u65cf\u670d\u9970\uff0c\u5934\u6234\u7cbe\u81f4\u94f6\u9970\u5934\u51a0\uff0c\u624b\u6301\u4e00\u628a\u88c5\u9970\u7cbe\u7f8e\u7684\u4e50\u5668\uff0c\u6b63\u6df1\u60c5\u5730\u6f14\u5531\u3002\u5979\u795e\u60c5\u4e13\u6ce8\uff0c\u76ee\u5149\u67d4\u548c\uff0c\u4eff\u4f5b\u5728\u7528\u6b4c\u58f0\u8bc9\u8bf4\u53e4\u8001\u7684\u6545\u4e8b\u3002\u80cc\u666f\u662f\u84dd\u5929\u767d\u4e91\u548c\u8fde\u7ef5\u8d77\u4f0f\u7684\u9752\u5c71\uff0c\u9633\u5149\u6d12\u5728\u5979\u7684\u8eab\u4e0a\uff0c\u4e3a\u6574\u4e2a\u753b\u9762\u589e\u6dfb\u4e86\u4e00\u62b9\u6e29\u6696\u7684\u8272\u5f69\u3002",
+            "en_prompt": "The woman in the image stands on a vast grassland, wearing elaborate traditional ethnic attire, adorned with an intricate silver headdress, and holding a beautifully decorated musical instrument, singing with deep emotion. Her expression is focused, her gaze gentle, as if telling ancient stories through her song. The background features a blue sky with white clouds and rolling green mountains, with sunlight bathing her, adding a warm hue to the entire scene.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0004_human_sing_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.28378378378378377,
+                "num_audio_peaks": 78,
+                "num_video_peaks": 112,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    }
+]

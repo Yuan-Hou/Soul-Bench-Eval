@@ -1,0 +1,4452 @@
+[
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0033_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0033_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0033_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0033_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.862693786621094,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.862693786621094
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0040_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0040_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0040_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0040_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.687155723571777,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.687155723571777
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0080_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0080_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0080_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0080_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.023357391357422,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.023357391357422
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0031_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0031_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0031_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0031_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.010324478149414,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.010324478149414
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0073_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0073_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0073_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0073_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.123136520385742,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.123136520385742
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0128_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0128_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0128_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0128_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.418050765991211,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.418050765991211
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0181_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0181_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0181_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0181_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.416969299316406,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.416969299316406
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0037_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0037_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0037_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0037_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 4.683327674865723,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    4.683327674865723
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0204_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0204_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0204_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0204_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.753469467163086,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.753469467163086
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0220_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0220_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0220_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0220_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.605208396911621,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.605208396911621
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0159_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0159_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0159_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0159_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.318109512329102,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.318109512329102
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0131_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0131_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0131_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0131_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.1104583740234375,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.1104583740234375
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0153_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0153_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0153_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0153_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.9880475997924805,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.9880475997924805
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0056_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0056_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0056_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0056_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.189074516296387,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.189074516296387
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0081_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0081_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0081_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0081_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.432685852050781,
+                "av_offset": -1,
+                "num_crops": 1,
+                "crop_offsets": [
+                    -1
+                ],
+                "crop_confidences": [
+                    7.432685852050781
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0027_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0027_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0027_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0027_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.466785430908203,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.466785430908203
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0252_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0252_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0252_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0252_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.124861717224121,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.124861717224121
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0122_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0122_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0122_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0122_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.418808937072754,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.418808937072754
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0255_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0255_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0255_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0255_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.844878196716309,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.844878196716309
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0179_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0179_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0179_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0179_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.709547996520996,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.709547996520996
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0215_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0215_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0215_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0215_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.6134443283081055,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.6134443283081055
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0085_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0085_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0085_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0085_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.752405166625977,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.752405166625977
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0244_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0244_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0244_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0244_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.933754920959473,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.933754920959473
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0226_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0226_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0226_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0226_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.04459285736084,
+                "av_offset": -1,
+                "num_crops": 1,
+                "crop_offsets": [
+                    -1
+                ],
+                "crop_confidences": [
+                    7.04459285736084
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0029_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0029_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0029_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0029_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.762660026550293,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.762660026550293
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0138_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0138_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0138_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0138_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.90849494934082,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.90849494934082
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0062_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0062_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0062_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0062_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.8482666015625,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.8482666015625
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0145_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0145_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0145_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0145_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.371999740600586,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.371999740600586
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0030_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0030_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0030_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0030_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.667367935180664,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.667367935180664
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0217_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0217_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0217_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0217_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.372407913208008,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.372407913208008
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0126_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0126_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0126_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0126_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.35378646850586,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.35378646850586
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0121_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0121_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0121_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0121_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 9.624652862548828,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    9.624652862548828
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0048_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0048_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0048_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0048_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 4.960273742675781,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    4.960273742675781
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0182_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0182_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0182_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0182_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.578878402709961,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.578878402709961
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0199_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0199_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0199_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0199_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.072789192199707,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.072789192199707
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0169_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0169_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0169_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0169_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.282282829284668,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.282282829284668
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0194_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0194_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0194_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0194_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.910869598388672,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.910869598388672
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0171_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0171_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0171_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0171_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.346331596374512,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.346331596374512
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0055_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0055_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0055_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0055_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.5629730224609375,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.5629730224609375
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0109_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0109_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0109_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0109_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.540046691894531,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.540046691894531
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0066_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0066_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0066_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0066_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.465083122253418,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.465083122253418
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0158_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0158_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0158_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0158_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.100791931152344,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.100791931152344
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0016_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0016_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0016_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0016_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.678837776184082,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.678837776184082
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0058_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0058_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0058_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0058_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.678706169128418,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.678706169128418
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0139_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0139_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0139_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0139_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.875075340270996,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.875075340270996
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0151_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0151_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0151_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0151_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.425418853759766,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.425418853759766
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0237_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0237_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0237_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0237_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.901098251342773,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.901098251342773
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0082_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0082_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0082_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0082_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.52204704284668,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.52204704284668
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0251_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0251_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0251_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0251_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.872122764587402,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.872122764587402
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0216_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0216_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0216_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0216_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.54281997680664,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.54281997680664
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0021_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0021_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0021_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0021_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 4.636866569519043,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    4.636866569519043
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0189_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0189_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0189_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0189_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.108182907104492,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.108182907104492
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0072_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0072_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0072_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0072_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.318742752075195,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.318742752075195
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0161_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0161_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0161_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0161_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.9724531173706055,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.9724531173706055
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0206_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0206_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0206_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0206_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.57376766204834,
+                "av_offset": -1,
+                "num_crops": 1,
+                "crop_offsets": [
+                    -1
+                ],
+                "crop_confidences": [
+                    6.57376766204834
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0045_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0045_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0045_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0045_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.4916582107543945,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.4916582107543945
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0025_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0025_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0025_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0025_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.847134590148926,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.847134590148926
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0134_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0134_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0134_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0134_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.447986602783203,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.447986602783203
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0089_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0089_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0089_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0089_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.825486183166504,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.825486183166504
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0065_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0065_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0065_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0065_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.505274772644043,
+                "av_offset": -1,
+                "num_crops": 1,
+                "crop_offsets": [
+                    -1
+                ],
+                "crop_confidences": [
+                    7.505274772644043
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0100_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0100_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0100_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0100_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.001338005065918,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.001338005065918
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0208_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0208_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0208_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0208_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.622149467468262,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.622149467468262
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0106_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0106_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0106_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0106_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.610014915466309,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.610014915466309
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0108_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0108_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0108_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0108_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.613834381103516,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.613834381103516
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0205_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0205_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0205_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0205_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.049068450927734,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.049068450927734
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0172_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0172_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0172_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0172_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.443826675415039,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.443826675415039
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0235_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0235_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0235_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0235_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.2011003494262695,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.2011003494262695
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0185_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0185_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0185_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0185_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.499814033508301,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.499814033508301
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0170_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0170_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0170_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0170_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.002080917358398,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.002080917358398
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0114_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0114_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0114_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0114_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.212695121765137,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.212695121765137
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0053_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0053_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0053_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0053_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.61185359954834,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.61185359954834
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0213_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0213_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0213_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0213_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.472326278686523,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.472326278686523
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0060_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0060_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0060_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0060_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 4.326927185058594,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    4.326927185058594
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0034_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0034_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0034_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0034_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.975584030151367,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.975584030151367
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0107_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0107_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0107_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0107_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.229963302612305,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.229963302612305
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0224_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0224_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0224_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0224_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.6521196365356445,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.6521196365356445
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0236_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0236_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0236_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0236_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.940217971801758,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.940217971801758
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0142_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0142_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0142_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0142_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.379415512084961,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.379415512084961
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0125_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0125_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0125_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0125_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.878322601318359,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.878322601318359
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0077_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0077_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0077_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0077_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.564959526062012,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.564959526062012
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0157_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0157_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0157_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0157_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.342845916748047,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.342845916748047
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0104_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0104_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0104_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0104_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.436618804931641,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.436618804931641
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0152_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0152_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0152_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0152_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.055647850036621,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.055647850036621
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0243_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0243_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0243_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0243_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.057466506958008,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.057466506958008
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0112_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0112_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0112_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0112_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.866530418395996,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.866530418395996
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0150_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0150_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0150_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0150_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.959026336669922,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.959026336669922
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0203_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0203_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0203_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0203_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.069659233093262,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.069659233093262
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0113_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0113_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0113_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0113_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.339984893798828,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.339984893798828
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0079_human_talk_cn_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0079_human_talk_cn_male.wav",
+        "text_path": "input_data/benchmark_v4/0079_human_talk_cn_male.json",
+        "image_path": "input_data/benchmark_v4/0079_human_talk_cn_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.364520072937012,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.364520072937012
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0231_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0231_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0231_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0231_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.906059265136719,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.906059265136719
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0136_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0136_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0136_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0136_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.26954460144043,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.26954460144043
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0144_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0144_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0144_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0144_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.238574028015137,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.238574028015137
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0187_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0187_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0187_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0187_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 4.944660186767578,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    4.944660186767578
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0207_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0207_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0207_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0207_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.498405456542969,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.498405456542969
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0041_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0041_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0041_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0041_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.791064262390137,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.791064262390137
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0228_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0228_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0228_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0228_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.004958152770996,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.004958152770996
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0184_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0184_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0184_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0184_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 3.3804311752319336,
+                "av_offset": -8,
+                "num_crops": 2,
+                "crop_offsets": [
+                    0,
+                    -15
+                ],
+                "crop_confidences": [
+                    6.649570465087891,
+                    0.11129188537597656
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0052_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0052_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0052_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0052_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.677903175354004,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.677903175354004
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0155_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0155_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0155_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0155_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.478737831115723,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.478737831115723
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0247_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0247_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0247_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0247_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.5810136795043945,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.5810136795043945
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0212_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0212_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0212_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0212_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.422802925109863,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.422802925109863
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0074_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0074_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0074_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0074_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.735273361206055,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.735273361206055
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0178_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0178_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0178_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0178_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.528491973876953,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.528491973876953
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0195_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0195_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0195_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0195_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.027210235595703,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.027210235595703
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0218_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0218_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0218_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0218_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.352542877197266,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.352542877197266
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0075_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0075_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0075_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0075_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.719921112060547,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.719921112060547
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0069_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0069_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0069_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0069_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.859195709228516,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.859195709228516
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0214_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0214_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0214_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0214_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.607361793518066,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.607361793518066
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0168_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0168_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0168_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0168_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.513969421386719,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.513969421386719
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0057_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0057_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0057_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0057_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.739336013793945,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.739336013793945
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0120_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0120_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0120_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0120_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.404025077819824,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.404025077819824
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0015_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0015_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0015_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0015_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.636064529418945,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.636064529418945
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0024_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0024_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0024_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0024_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.174830436706543,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.174830436706543
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0176_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0176_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0176_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0176_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.471126556396484,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.471126556396484
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0227_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0227_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0227_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0227_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.358980178833008,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.358980178833008
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0064_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0064_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0064_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0064_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.3717451095581055,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.3717451095581055
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0211_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0211_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0211_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0211_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.572744369506836,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.572744369506836
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0019_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0019_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0019_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0019_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.557238578796387,
+                "av_offset": -1,
+                "num_crops": 1,
+                "crop_offsets": [
+                    -1
+                ],
+                "crop_confidences": [
+                    7.557238578796387
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0130_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0130_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0130_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0130_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.524585723876953,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.524585723876953
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0032_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0032_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0032_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0032_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.337441444396973,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.337441444396973
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0129_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0129_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0129_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0129_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.501506805419922,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.501506805419922
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0250_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0250_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0250_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0250_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.905912399291992,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.905912399291992
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0239_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0239_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0239_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0239_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.31545352935791,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.31545352935791
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0105_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0105_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0105_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0105_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 4.568334579467773,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    4.568334579467773
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0230_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0230_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0230_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0230_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.27055549621582,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.27055549621582
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0241_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0241_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0241_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0241_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.735734939575195,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.735734939575195
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0193_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0193_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0193_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0193_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.97263240814209,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.97263240814209
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0164_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0164_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0164_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0164_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.853668212890625,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.853668212890625
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0254_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0254_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0254_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0254_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.752420425415039,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.752420425415039
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0140_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0140_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0140_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0140_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.546907424926758,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.546907424926758
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0076_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0076_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0076_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0076_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.334455490112305,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.334455490112305
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0118_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0118_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0118_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0118_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.524942398071289,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.524942398071289
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0086_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0086_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0086_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0086_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.738339424133301,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.738339424133301
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0023_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0023_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0023_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0023_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.018757820129395,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.018757820129395
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0097_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0097_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0097_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0097_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.843877792358398,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.843877792358398
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0035_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0035_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0035_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0035_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.518284797668457,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.518284797668457
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0233_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0233_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0233_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0233_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.935811996459961,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.935811996459961
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0202_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0202_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0202_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0202_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.782066345214844,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.782066345214844
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0166_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0166_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0166_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0166_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.251136779785156,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.251136779785156
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0093_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0093_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0093_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0093_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 9.414703369140625,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    9.414703369140625
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0141_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0141_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0141_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0141_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.9461212158203125,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.9461212158203125
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0068_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0068_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0068_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0068_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.902220726013184,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.902220726013184
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0099_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0099_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0099_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0099_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.412359237670898,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.412359237670898
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0061_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0061_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0061_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0061_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.590288162231445,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.590288162231445
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0084_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0084_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0084_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0084_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.01109504699707,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.01109504699707
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0143_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0143_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0143_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0143_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.236863136291504,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.236863136291504
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0198_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0198_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0198_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0198_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.9207000732421875,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.9207000732421875
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0044_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0044_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0044_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0044_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.931434631347656,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.931434631347656
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0127_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0127_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0127_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0127_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.895495414733887,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.895495414733887
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0119_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0119_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0119_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0119_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.568718910217285,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.568718910217285
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0110_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0110_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0110_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0110_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 4.928531646728516,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    4.928531646728516
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0190_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0190_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0190_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0190_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.900936126708984,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.900936126708984
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0173_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0173_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0173_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0173_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.1908416748046875,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.1908416748046875
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0201_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0201_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0201_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0201_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.250186920166016,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.250186920166016
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0242_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0242_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0242_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0242_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.728850364685059,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.728850364685059
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0197_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0197_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0197_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0197_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.49106502532959,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.49106502532959
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0232_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0232_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0232_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0232_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.878508567810059,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.878508567810059
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0046_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0046_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0046_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0046_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.481387138366699,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.481387138366699
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0249_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0249_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0249_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0249_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.935469627380371,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.935469627380371
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0225_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0225_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0225_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0225_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.231815338134766,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.231815338134766
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0018_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0018_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0018_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0018_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.325839042663574,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.325839042663574
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0090_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0090_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0090_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0090_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.708854675292969,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.708854675292969
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0133_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0133_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0133_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0133_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.33371639251709,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.33371639251709
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0248_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0248_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0248_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0248_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.966429710388184,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.966429710388184
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0071_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0071_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0071_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0071_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.190260887145996,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.190260887145996
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0102_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0102_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0102_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0102_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.485145568847656,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.485145568847656
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0051_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0051_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0051_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0051_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 4.992402076721191,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    4.992402076721191
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0042_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0042_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0042_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0042_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 3.8358335494995117,
+                "av_offset": 1,
+                "num_crops": 1,
+                "crop_offsets": [
+                    1
+                ],
+                "crop_confidences": [
+                    3.8358335494995117
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0117_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0117_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0117_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0117_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.836230278015137,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.836230278015137
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0028_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0028_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0028_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0028_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.480402946472168,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.480402946472168
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0123_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0123_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0123_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0123_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.656353950500488,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.656353950500488
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0163_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0163_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0163_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0163_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.103399276733398,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.103399276733398
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0246_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0246_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0246_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0246_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.096921920776367,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.096921920776367
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0186_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0186_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0186_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0186_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.928133010864258,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.928133010864258
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0094_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0094_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0094_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0094_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.543193817138672,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.543193817138672
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0095_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0095_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0095_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0095_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.272902488708496,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.272902488708496
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0188_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0188_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0188_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0188_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.605066299438477,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.605066299438477
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0135_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0135_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0135_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0135_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.965412139892578,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.965412139892578
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0222_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0222_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0222_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0222_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.278897285461426,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.278897285461426
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0137_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0137_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0137_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0137_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.164501190185547,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.164501190185547
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0020_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0020_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0020_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0020_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.133453369140625,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.133453369140625
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0083_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0083_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0083_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0083_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.984758377075195,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.984758377075195
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0223_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0223_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0223_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0223_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 4.292659282684326,
+                "av_offset": 0,
+                "num_crops": 2,
+                "crop_offsets": [
+                    0,
+                    1
+                ],
+                "crop_confidences": [
+                    7.797922134399414,
+                    0.7873964309692383
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0154_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0154_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0154_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0154_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.804713249206543,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.804713249206543
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0039_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0039_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0039_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0039_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.707727432250977,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.707727432250977
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0253_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0253_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0253_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0253_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.369213104248047,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.369213104248047
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0036_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0036_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0036_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0036_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.8053741455078125,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.8053741455078125
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0101_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0101_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0101_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0101_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.226089477539062,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.226089477539062
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0043_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0043_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0043_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0043_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.893387794494629,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.893387794494629
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0063_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0063_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0063_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0063_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.103696823120117,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.103696823120117
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0156_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0156_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0156_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0156_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.864500045776367,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.864500045776367
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0047_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0047_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0047_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0047_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.320441246032715,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.320441246032715
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0165_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0165_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0165_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0165_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.897377014160156,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.897377014160156
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0087_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0087_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0087_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0087_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.474236488342285,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.474236488342285
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0229_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0229_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0229_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0229_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.241549491882324,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.241549491882324
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0124_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0124_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0124_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0124_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.667523384094238,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.667523384094238
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0049_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0049_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0049_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0049_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.48319149017334,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.48319149017334
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0054_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0054_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0054_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0054_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 4.791995048522949,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    4.791995048522949
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0132_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0132_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0132_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0132_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.991542816162109,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.991542816162109
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0059_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0059_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0059_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0059_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.83670711517334,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.83670711517334
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0070_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0070_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0070_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0070_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.483953475952148,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.483953475952148
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0174_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0174_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0174_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0174_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.993464469909668,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.993464469909668
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0210_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0210_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0210_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0210_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.312556266784668,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.312556266784668
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0067_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0067_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0067_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0067_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.628984451293945,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.628984451293945
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0234_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0234_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0234_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0234_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.54298210144043,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.54298210144043
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0177_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0177_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0177_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0177_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.783782005310059,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.783782005310059
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0092_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0092_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0092_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0092_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.319832801818848,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.319832801818848
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0149_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0149_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0149_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0149_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.132656097412109,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.132656097412109
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0096_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0096_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0096_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0096_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.5793657302856445,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.5793657302856445
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0192_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0192_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0192_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0192_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.55286979675293,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.55286979675293
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0183_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0183_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0183_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0183_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.978435516357422,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.978435516357422
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0245_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0245_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0245_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0245_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.524824142456055,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.524824142456055
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0146_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0146_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0146_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0146_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.636446952819824,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.636446952819824
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0022_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0022_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0022_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0022_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.293893814086914,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.293893814086914
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0175_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0175_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0175_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0175_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.683012008666992,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.683012008666992
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0191_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0191_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0191_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0191_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.4237565994262695,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.4237565994262695
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0147_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0147_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0147_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0147_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.321619033813477,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.321619033813477
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0103_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0103_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0103_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0103_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 8.020777702331543,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    8.020777702331543
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0162_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0162_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0162_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0162_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.96669864654541,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.96669864654541
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0180_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0180_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0180_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0180_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.063315391540527,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.063315391540527
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0098_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0098_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0098_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0098_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.824318885803223,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.824318885803223
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0196_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0196_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0196_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0196_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.001430511474609,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.001430511474609
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0148_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0148_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0148_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0148_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.455711364746094,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.455711364746094
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0088_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0088_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0088_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0088_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.421542167663574,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.421542167663574
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0221_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0221_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0221_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0221_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.013733863830566,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.013733863830566
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0240_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0240_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0240_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0240_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.479739189147949,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.479739189147949
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0078_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0078_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0078_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0078_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.532717704772949,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.532717704772949
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0111_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0111_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0111_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0111_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.550667762756348,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.550667762756348
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0014_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0014_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0014_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0014_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.533927917480469,
+                "av_offset": -1,
+                "num_crops": 1,
+                "crop_offsets": [
+                    -1
+                ],
+                "crop_confidences": [
+                    6.533927917480469
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0050_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0050_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0050_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0050_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 5.510134696960449,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    5.510134696960449
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0160_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0160_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0160_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0160_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 7.587248802185059,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    7.587248802185059
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0116_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0116_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0116_human_talk_en_female.json",
+        "image_path": "input_data/benchmark_v4/0116_human_talk_en_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.9673871994018555,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.9673871994018555
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0017_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0017_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0017_human_talk_cn_female.json",
+        "image_path": "input_data/benchmark_v4/0017_human_talk_cn_female.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.446714401245117,
+                "av_offset": 1,
+                "num_crops": 1,
+                "crop_offsets": [
+                    1
+                ],
+                "crop_confidences": [
+                    6.446714401245117
+                ]
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/benchmark_v4_tia2v_5B_mix_1106-1_1080p_fps25_step25_cfg4_seed1/0026_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0026_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0026_human_talk_en_male.json",
+        "image_path": "input_data/benchmark_v4/0026_human_talk_en_male.png",
+        "results": {
+            "latent_sync": {
+                "confidence": 6.890707015991211,
+                "av_offset": 0,
+                "num_crops": 1,
+                "crop_offsets": [
+                    0
+                ],
+                "crop_confidences": [
+                    6.890707015991211
+                ]
+            }
+        }
+    }
+]

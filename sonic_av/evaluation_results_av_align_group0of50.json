@@ -1,0 +1,135 @@
+[
+    {
+        "video_path": "input_data/results/sonic/0153_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0153_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0153_human_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 28,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "traditional Chinese embroidery",
+                "classical Chinese music",
+                "calligraphy",
+                "tea ceremony"
+            ],
+            "personality": "graceful, elegant, culturally proud, and introspective",
+            "message": "\u6211\u70ed\u7231\u4e2d\u534e\u4f20\u7edf\u6587\u5316\uff0c\u65d7\u888d\u4e0d\u4ec5\u662f\u670d\u9970\uff0c\u66f4\u662f\u6c11\u65cf\u7cbe\u795e\u7684\u4f53\u73b0\u3002\u6bcf\u4e00\u9053\u523a\u7ee3\u3001\u6bcf\u4e00\u679a\u7389\u9970\uff0c\u90fd\u627f\u8f7d\u7740\u5343\u5e74\u7684\u5320\u5fc3\u4e0e\u6545\u4e8b\u3002\u6211\u613f\u5c06\u8fd9\u4efd\u7f8e\u4f20\u627f\u4e0b\u53bb\uff0c\u8ba9\u66f4\u591a\u4eba\u611f\u53d7\u4e1c\u65b9\u5973\u6027\u7684\u6e29\u5a49\u4e0e\u529b\u91cf\u3002\u5728\u5feb\u8282\u594f\u7684\u73b0\u4ee3\u751f\u6d3b\u4e2d\uff0c\u6211\u575a\u6301\u6162\u4e0b\u6765\uff0c\u54c1\u8336\u3001\u542c\u53e4\u7b5d\u3001\u5199\u4e66\u6cd5\uff0c\u8ba9\u5fc3\u7075\u56de\u5f52\u5b81\u9759\u3002\u4f20\u7edf\u4e0d\u662f\u675f\u7f1a\uff0c\u800c\u662f\u6ecb\u517b\u7075\u9b42\u7684\u6e90\u6cc9\u3002\u613f\u4f60\u6211\u5171\u5b88\u8fd9\u4efd\u4f18\u96c5\uff0c\u8ba9\u6587\u5316\u4e4b\u5149\u6c38\u4e0d\u7184\u706d\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u53cc\u624b\u8f7b\u63e1\u624b\u4e2d\u7ea2\u8272\u7ee3\u82b1\u624b\u5305\uff0c\u5076\u5c14\u5fae\u5fae\u8c03\u6574\u59ff\u52bf\u4ee5\u914d\u5408\u8868\u8fbe\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u5979\u8eab\u7740\u7cbe\u81f4\u7684\u6d45\u8272\u523a\u7ee3\u65d7\u888d\uff0c\u4f69\u6234\u7fe0\u7eff\u8272\u7fe1\u7fe0\u8033\u5760\u4e0e\u624b\u956f\uff0c\u80cc\u666f\u662f\u53e4\u5178\u96d5\u82b1\u5c4f\u98ce\uff0c\u6574\u4f53\u6c1b\u56f4\u5178\u96c5\u7aef\u5e84\u3002",
+            "en_prompt": "The woman in the image is speaking directly to the camera, gently holding a red embroidered clutch in both hands, occasionally making slight posture adjustments to match her expression. The camera remains fixed. She is wearing an elegant light-colored embroidered qipao, adorned with emerald green jade earrings and bracelets. The background features a classical carved screen, creating an overall refined and dignified atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0153_human_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.19230769230769232,
+                "num_audio_peaks": 121,
+                "num_video_peaks": 127,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0342_human_dance_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0342_human_dance_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0342_human_dance_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 20,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "dancing",
+                "calligraphy",
+                "traditional music",
+                "flower arrangement",
+                "wearing Hanfu"
+            ],
+            "personality": "graceful, gentle, artistic, introspective, and deeply connected to tradition",
+            "message": "\u5728\u8fd9\u53e4\u8272\u53e4\u9999\u7684\u5eca\u6a90\u4e0b\uff0c\u6211\u4eff\u4f5b\u7a7f\u8d8a\u4e86\u5343\u5e74\u65f6\u5149\u3002\u6c49\u670d\u7684\u8f7b\u7eb1\u968f\u98ce\u98d8\u821e\uff0c\u5982\u68a6\u4f3c\u5e7b\u3002\u6211\u70ed\u7231\u4f20\u7edf\u6587\u5316\uff0c\u559c\u6b22\u7528\u821e\u8e48\u8bc9\u8bf4\u53e4\u8001\u7684\u6545\u4e8b\uff0c\u7528\u7b14\u58a8\u4e66\u5199\u5fc3\u4e2d\u7684\u8bd7\u610f\u3002\u6bcf\u4e00\u6b21\u8f6c\u8eab\uff0c\u90fd\u662f\u5bf9\u7f8e\u7684\u81f4\u656c\uff1b\u6bcf\u4e00\u6b65\u8f7b\u79fb\uff0c\u90fd\u627f\u8f7d\u7740\u5bf9\u4e1c\u65b9\u7f8e\u5b66\u7684\u656c\u4ef0\u3002\u613f\u66f4\u591a\u4eba\u80fd\u611f\u53d7\u5230\u8fd9\u4efd\u6e29\u5a49\u4e0e\u96c5\u81f4\uff0c\u8ba9\u4f20\u7edf\u4e4b\u7f8e\u5728\u73b0\u4ee3\u751f\u6d3b\u4e2d\u7ee7\u7eed\u7efd\u653e\u5149\u5f69\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\uff0c\u8eab\u7740\u7c89\u7d2b\u6e10\u53d8\u534e\u670d\u7684\u53e4\u98ce\u4f73\u4eba\uff0c\u5728\u53e4\u5178\u5eca\u67f1\u95f4\u7fe9\u7136\u8d77\u821e\u3002\u5979\u7684\u957f\u53d1\u5982\u58a8\uff0c\u5934\u6234\u7e41\u590d\u82b1\u94bf\uff0c\u8863\u8882\u98d8\u98d8\u5982\u4e91\u971e\uff0c\u7ee3\u82b1\u70b9\u7f00\u80a9\u8896\uff0c\u968f\u821e\u59ff\u8f7b\u76c8\u6d41\u8f6c\u3002\u80cc\u666f\u662f\u6df1\u8272\u6728\u8d28\u5eca\u9053\uff0c\u5149\u5f71\u6726\u80e7\uff0c\u886c\u5f97\u5979\u5982\u4ed9\u5b50\u964d\u4e34\u3002\u955c\u5934\u7f13\u7f13\u73af\u7ed5\uff0c\u6355\u6349\u5979\u56de\u7738\u6d45\u7b11\u3001\u65cb\u8f6c\u8212\u8896\u7684\u7075\u52a8\u77ac\u95f4\uff0c\u88d9\u6446\u5982\u98ce\u4e2d\u82b1\u6d77\uff0c\u6b65\u5c65\u8f7b\u76c8\u5982\u8776\u821e\u3002\u97f3\u4e50\u60a0\u626c\u5a49\u8f6c\uff0c\u821e\u59ff\u67d4\u7f8e\u5a49\u7ea6\u3002",
+            "en_prompt": "In the scene, a graceful woman in traditional Chinese attire, adorned in a flowing pink-to-purple gradient gown, dances elegantly among classical wooden pillars. Her long, jet-black hair cascades down, embellished with intricate floral headdress ornaments. Her sleeves flutter like clouds and rosy hues, embroidered with delicate flowers on the shoulders and sleeves, swirling gently with her movements. The background features a dark wooden corridor, with soft, diffused lighting that enhances her ethereal presence, as if a celestial being has descended. The camera slowly circles around her, capturing her delicate smile as she turns her head, and the fluid motion of her spinning and extending sleeves. Her skirt billows like a floral sea in the wind, and her steps are light and graceful, resembling a butterfly in flight. Accompanied by a melodious and lyrical soundtrack, her dance is soft, elegant, and full of poetic charm.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0342_human_dance_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.14912280701754385,
+                "num_audio_peaks": 78,
+                "num_video_peaks": 184,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0247_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0247_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0247_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 27,
+            "nationality": "American",
+            "speaking_language": "English",
+            "hobbies": [
+                "music production",
+                "fashion design",
+                "dancing",
+                "attending award shows"
+            ],
+            "personality": "confident, expressive, bold, creative, charismatic",
+            "message": "I\u2019m here to celebrate the art of music and fashion! This pink cowboy suit? It\u2019s not just a look \u2014 it\u2019s a statement. I believe in being unapologetically yourself, no matter what the world says. Every stitch, every gold accent, every smile \u2014 it\u2019s all about confidence and joy. I\u2019m proud to represent boldness and creativity on this red carpet. To everyone chasing their dreams: wear your colors loud, stand tall, and never let fear dim your light. Let\u2019s make the world brighter, one bold choice at a time.",
+            "source": "pexels",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u7ad9\u5728\u7ea2\u6bef\u4e0a\uff0c\u8eab\u7a7f\u4eae\u773c\u7684\u7c89\u8272\u725b\u4ed4\u5957\u88c5\uff0c\u5934\u6234\u540c\u8272\u7cfb\u725b\u4ed4\u5e3d\uff0c\u53cc\u624b\u81ea\u7136\u4ea4\u53e0\u4e8e\u8eab\u524d\uff0c\u6b63\u5728\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u80cc\u666f\u662f\u683c\u83b1\u7f8e\u5956\u6807\u5fd7\u6027\u7684\u9ed1\u8272\u83f1\u683c\u5899\uff0c\u6574\u4f53\u6c1b\u56f4\u534e\u4e3d\u800c\u5145\u6ee1\u6d3b\u529b\u3002",
+            "en_prompt": "The man in the image stands on the red carpet, wearing a striking pink cowboy outfit with a matching pink cowboy hat. His hands are naturally crossed in front of him as he speaks directly to the camera. The camera remains fixed. The background features the iconic black quilted wall of the Grammy Awards, creating an overall glamorous and vibrant atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0247_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.15083798882681565,
+                "num_audio_peaks": 135,
+                "num_video_peaks": 71,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0011_human_sing_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0011_human_sing_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0011_human_sing_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 30,
+            "nationality": "American",
+            "speaking_language": "English",
+            "hobbies": [
+                "playing acoustic guitar",
+                "singing",
+                "writing music",
+                "recording in home studio"
+            ],
+            "personality": "passionate, introspective, creative, and emotionally expressive",
+            "message": "Music is my soul\u2019s language. When I strum the guitar and sing into the microphone, I\u2019m not just performing\u2014I\u2019m sharing pieces of my heart. Every note carries a story, a memory, or a feeling too deep for words. I find peace in the simplicity of a single chord and power in the raw honesty of a song. This space, with its quiet walls and soft light, is where I become most myself. I hope my music touches someone, reminds them they\u2019re not alone, and inspires them to create their own sound. Keep playing, keep singing, keep being brave.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u6b63\u5728\u5531\u6b4c\uff0c\u4e00\u8fb9\u5f39\u594f\u624b\u4e2d\u7684\u5409\u4ed6\u3002",
+            "en_prompt": "The man in the image is singing while playing the guitar in his hands.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0011_human_sing_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.07058823529411765,
+                "num_audio_peaks": 63,
+                "num_video_peaks": 28,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    }
+]

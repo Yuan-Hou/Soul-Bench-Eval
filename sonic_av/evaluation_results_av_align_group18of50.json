@@ -1,0 +1,201 @@
+[
+    {
+        "video_path": "input_data/results/sonic/0181_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0181_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0181_human_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 22,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "surfing",
+                "beach photography",
+                "wearing straw hats",
+                "collecting seashells",
+                "listening to ocean waves"
+            ],
+            "personality": "calm, adventurous, artistic, cheerful, and nature-loving",
+            "message": "\u7ad9\u5728\u8fd9\u7247\u851a\u84dd\u7684\u6d77\u8fb9\uff0c\u6211\u611f\u5230\u65e0\u6bd4\u81ea\u7531\u3002\u51b2\u6d6a\u677f\u662f\u6211\u6700\u597d\u7684\u4f19\u4f34\uff0c\u6bcf\u4e00\u6b21\u5212\u6c34\u90fd\u50cf\u5728\u4e0e\u5927\u6d77\u5bf9\u8bdd\u3002\u6211\u7231\u8fd9\u9633\u5149\u3001\u6c99\u6ee9\u548c\u6d77\u98ce\uff0c\u5b83\u4eec\u8ba9\u6211\u5145\u6ee1\u80fd\u91cf\u3002\u751f\u6d3b\u5c31\u50cf\u6d77\u6d6a\uff0c\u6709\u65f6\u5e73\u9759\uff0c\u6709\u65f6\u6c79\u6d8c\uff0c\u4f46\u53ea\u8981\u4fdd\u6301\u5fae\u7b11\uff0c\u5c31\u80fd\u4eab\u53d7\u6bcf\u4e00\u523b\u3002\u5e0c\u671b\u4f60\u4e5f\u627e\u5230\u5c5e\u4e8e\u81ea\u5df1\u7684\u90a3\u7247\u6d77\uff0c\u52c7\u6562\u8ffd\u9010\u68a6\u60f3\uff0c\u50cf\u6d77\u6d6a\u4e00\u6837\uff0c\u6c38\u4e0d\u505c\u6b47\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u7ad9\u5728\u6c99\u6ee9\u4e0a\uff0c\u4e00\u624b\u62ff\u7740\u51b2\u6d6a\u677f\uff0c\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u5076\u5c14\u7528\u7a7a\u95f2\u7684\u624b\u8f7b\u629a\u88d9\u6446\u6216\u8c03\u6574\u5e3d\u5b50\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u80cc\u666f\u662f\u851a\u84dd\u7684\u6d77\u6d0b\u548c\u6674\u6717\u7684\u5929\u7a7a\uff0c\u8425\u9020\u51fa\u8f7b\u677e\u60ec\u610f\u7684\u5ea6\u5047\u6c1b\u56f4\u3002",
+            "en_prompt": "The woman in the image stands on the sandy beach, holding a surfboard in one hand, speaking directly to the camera. Occasionally, she gently touches her skirt or adjusts her hat with her free hand. The camera remains stationary. The background features a vibrant blue ocean and a clear sky, creating a relaxed and pleasant vacation atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0181_human_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.11194029850746269,
+                "num_audio_peaks": 108,
+                "num_video_peaks": 41,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0139_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0139_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0139_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 32,
+            "nationality": "American",
+            "speaking_language": "English",
+            "hobbies": [
+                "mechanical repair",
+                "working with tools",
+                "building custom machinery",
+                "learning about industrial engineering"
+            ],
+            "personality": "hardworking, focused, detail-oriented, reliable, and proud of his craftsmanship",
+            "message": "I\u2019ve spent years mastering the tools of my trade, and every bolt I tighten, every machine I repair, is a testament to my dedication. This workshop is my second home \u2014 where sweat, skill, and precision come together. I don\u2019t just fix things; I make them better. Safety is non-negotiable, and I wear my gear with pride. Whether it\u2019s a broken engine or a worn-out gear, I approach every challenge with confidence and care. To me, craftsmanship isn\u2019t just a job \u2014 it\u2019s a way of life. I\u2019m proud to be a part of the industrial backbone that keeps things running. If you need something fixed, you can count on me.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u7ad9\u5728\u8f66\u95f4\u91cc\uff0c\u53cc\u624b\u5404\u6301\u4e00\u628a\u6273\u624b\uff0c\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u5076\u5c14\u7528\u6273\u624b\u505a\u4e9b\u52a8\u4f5c\u5339\u914d\u8bf4\u8bdd\u7684\u5185\u5bb9\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u80cc\u666f\u662f\u5de5\u4e1a\u8bbe\u5907\u548c\u7ea2\u8272\u5de5\u5177\u67dc\uff0c\u8425\u9020\u51fa\u4e13\u4e1a\u5de5\u4eba\u7684\u6c1b\u56f4\u3002",
+            "en_prompt": "The man in the image stands in a workshop, holding a wrench in each hand, speaking directly to the camera, occasionally gesturing with the wrenches to match his speech. The camera remains stationary. The background features industrial machinery and a red tool cabinet, creating a professional worker atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0139_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.049079754601226995,
+                "num_audio_peaks": 155,
+                "num_video_peaks": 16,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0172_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0172_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0172_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 32,
+            "nationality": "American",
+            "speaking_language": "English",
+            "hobbies": [
+                "reading business strategy books",
+                "playing golf",
+                "attending art exhibitions",
+                "traveling to new cities"
+            ],
+            "personality": "confident, disciplined, detail-oriented, and professional with a calm demeanor",
+            "message": "Success isn't just about reaching the top \u2014 it's about how you climb. I believe in integrity, hard work, and continuous growth. Every decision I make is guided by purpose and precision. I value relationships built on trust and respect. Whether in the boardroom or on the golf course, I strive to lead with confidence and humility. Life is too short to settle. Keep pushing forward, stay curious, and never lose sight of your goals. The future belongs to those who prepare for it today.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u6b63\u5728\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u5076\u5c14\u505a\u4e9b\u52a8\u4f5c\u5339\u914d\u8bf4\u8bdd\u7684\u5185\u5bb9\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u4ed6\u8eab\u7740\u6df1\u84dd\u8272\u897f\u88c5\u642d\u914d\u767d\u8272\u886c\u886b\uff0c\u4f69\u6234\u773c\u955c\u548c\u8155\u8868\uff0c\u53cc\u624b\u81ea\u7136\u5782\u653e\uff0c\u795e\u60c5\u4e13\u6ce8\u800c\u81ea\u4fe1\u3002\u80cc\u666f\u662f\u73b0\u4ee3\u611f\u5341\u8db3\u7684\u5ba4\u5185\u7a7a\u95f4\uff0c\u843d\u5730\u7a97\u5916\u53ef\u89c1\u57ce\u5e02\u9ad8\u697c\uff0c\u6574\u4f53\u6c1b\u56f4\u5546\u52a1\u800c\u6c89\u7a33\u3002",
+            "en_prompt": "The man in the image is speaking directly to the camera, occasionally making gestures that match his speech, with a fixed camera angle. He is wearing a dark blue suit with a white shirt, glasses, and a wristwatch, with his hands naturally hanging by his sides. His expression is focused and confident. The background is a modern indoor space, with floor-to-ceiling windows revealing city skyscrapers outside, creating an overall professional and sophisticated atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0172_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.1130952380952381,
+                "num_audio_peaks": 149,
+                "num_video_peaks": 38,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0150_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0150_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0150_human_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 85,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "walking in the park",
+                "wearing traditional scarves and jade bracelets",
+                "enjoying nature",
+                "sitting on benches and observing people"
+            ],
+            "personality": "calm, dignified, graceful, wise, and resilient",
+            "message": "\u5c81\u6708\u5982\u6b4c\uff0c\u6211\u8d70\u8fc7\u4e86\u98ce\u98ce\u96e8\u96e8\uff0c\u5982\u4eca\u5728\u516c\u56ed\u91cc\u6563\u6b65\uff0c\u770b\u7740\u7eff\u6811\u6210\u836b\uff0c\u5fc3\u4e2d\u6ee1\u662f\u5b81\u9759\u3002\u5e74\u8f7b\u65f6\uff0c\u6211\u52aa\u529b\u751f\u6d3b\uff0c\u5982\u4eca\u6211\u73cd\u60dc\u6bcf\u4e00\u523b\u7684\u5b89\u5b81\u3002\u5e0c\u671b\u4f60\u4eec\u4e5f\u80fd\u5728\u5fd9\u788c\u4e2d\u505c\u4e0b\u811a\u6b65\uff0c\u611f\u53d7\u9633\u5149\u3001\u5fae\u98ce\u548c\u81ea\u7136\u7684\u9988\u8d60\u3002\u751f\u547d\u4e0d\u5728\u4e8e\u957f\u77ed\uff0c\u800c\u5728\u4e8e\u662f\u5426\u6d3b\u5f97\u5145\u5b9e\u3001\u5e73\u548c\u3002\u613f\u4f60\u4eec\u5065\u5eb7\u3001\u5feb\u4e50\uff0c\u50cf\u6211\u4e00\u6837\uff0c\u5728\u665a\u5e74\u4f9d\u7136\u4f18\u96c5\u4ece\u5bb9\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u8001\u592a\u592a\u4e00\u8fb9\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\u4e00\u8fb9\u5f80\u524d\u8d70\uff0c\u955c\u5934\u968f\u7740\u4eba\u7269\u7684\u8d70\u52a8\u6162\u6162\u5f80\u540e\u9000\uff0c\u4fdd\u6301\u4eba\u7269\u5728\u753b\u9762\u4e2d\u3002\u5979\u53f3\u624b\u62c4\u7740\u4e00\u6839\u9ed1\u8272\u624b\u6756\uff0c\u5de6\u624b\u81ea\u7136\u5782\u4e0b\uff0c\u624b\u8155\u4e0a\u6234\u7740\u6d45\u7eff\u8272\u7389\u956f\uff0c\u795e\u60c5\u6e29\u548c\u4ece\u5bb9\uff0c\u80cc\u666f\u662f\u7eff\u610f\u76ce\u7136\u7684\u516c\u56ed\u5c0f\u5f84\uff0c\u9633\u5149\u900f\u8fc7\u6811\u53f6\u6d12\u4e0b\u6591\u9a73\u5149\u5f71\u3002",
+            "en_prompt": "The elderly woman in the image walks forward while speaking directly to the camera. The camera slowly pulls back, following her movement and keeping her centered in the frame. She holds a black cane in her right hand, while her left hand hangs naturally by her side, adorned with a light green jade bracelet. Her expression is gentle and composed. The background features a lush, green park pathway, with sunlight filtering through the leaves, casting dappled shadows on the ground.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0150_human_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.006493506493506494,
+                "num_audio_peaks": 152,
+                "num_video_peaks": 3,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0133_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0133_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0133_human_talk_en_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 28,
+            "nationality": "Indonesian",
+            "speaking_language": "English",
+            "hobbies": [
+                "traditional dance",
+                "wearing cultural attire",
+                "flower arrangement",
+                "photography"
+            ],
+            "personality": "graceful, elegant, culturally proud, artistic, and expressive",
+            "message": "I am deeply honored to wear the traditional Javanese bridal attire, a symbol of heritage and beauty. Every intricate detail, from the golden embroidery to the fragrant jasmine garlands, tells a story of our rich culture. I cherish moments like these, where I can express my pride in my roots through dance and fashion. I hope to inspire others to embrace their traditions with grace and confidence. Beauty is not just in appearance, but in the soul and the stories we carry.",
+            "source": "pexels",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u5979\u8eab\u7740\u534e\u4e3d\u7684\u4f20\u7edf\u670d\u9970\uff0c\u5934\u6234\u7e41\u590d\u7684\u73e0\u5b9d\u5934\u9970\uff0c\u624b\u6301\u4e00\u4e32\u767d\u8272\u82b1\u73af\uff0c\u5076\u5c14\u8f7b\u629a\u82b1\u73af\u4ee5\u914d\u5408\u8bb2\u8bdd\u5185\u5bb9\uff0c\u955c\u5934\u56fa\u5b9a\u3002",
+            "en_prompt": "The woman in the image is speaking directly to the camera, wearing elaborate traditional attire and an ornate jeweled headdress. She holds a string of white flowers, occasionally gently touching or adjusting the garland to accompany her speech. The camera remains stationary throughout.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0133_human_talk_en_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.25821596244131456,
+                "num_audio_peaks": 134,
+                "num_video_peaks": 134,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0327_comic_sing_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0327_comic_sing_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0327_comic_sing_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 20,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "DJing",
+                "electronic music production",
+                "gaming",
+                "fashion"
+            ],
+            "personality": "confident, creative, tech-savvy, outgoing, passionate about music",
+            "message": "\u5927\u5bb6\u597d\uff01\u6211\u662f\u4f60\u4eec\u7684DJ\u5c0f\u661f\uff0c\u4e00\u4e2a\u70ed\u7231\u7535\u97f3\u4e0e\u79d1\u6280\u7684\u5e74\u8f7b\u5973\u5b69\u3002\u6bcf\u5f53\u97f3\u4e50\u54cd\u8d77\uff0c\u6211\u5c31\u50cf\u5728\u53e6\u4e00\u4e2a\u4e16\u754c\u4e2d\u81ea\u7531\u98de\u7fd4\u3002\u6211\u559c\u6b22\u7528\u97f3\u7b26\u7f16\u7ec7\u68a6\u5883\uff0c\u7528\u8282\u594f\u70b9\u71c3\u591c\u665a\u3002\u65e0\u8bba\u4f60\u662f\u8c01\uff0c\u65e0\u8bba\u4f60\u5728\u54ea\uff0c\u53ea\u8981\u6234\u4e0a\u8033\u673a\uff0c\u5c31\u80fd\u548c\u6211\u4e00\u8d77\u611f\u53d7\u8fd9\u4efd\u5f8b\u52a8\u4e0e\u6fc0\u60c5\u3002\u8ba9\u6211\u4eec\u4e00\u8d77\u5728\u97f3\u4e50\u4e2d\u91ca\u653e\u81ea\u6211\uff0c\u4eab\u53d7\u6bcf\u4e00\u4e2a\u77ac\u95f4\uff01",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u89d2\u8272\u4e00\u8fb9\u5531\u6b4c\u4e00\u8fb9\u6253\u789f\uff0c\u53cc\u624b\u5728DJ\u63a7\u5236\u5668\u4e0a\u64cd\u4f5c\uff0c\u6234\u7740\u7c89\u8272\u8033\u673a\uff0c\u4e13\u6ce8\u5730\u8c03\u6574\u97f3\u4e50\u8282\u594f\u3002\u80cc\u666f\u662f\u5145\u6ee1\u9713\u8679\u706f\u5149\u7684\u7535\u5b50\u97f3\u4e50\u573a\u666f\uff0c\u8425\u9020\u51fa\u52a8\u611f\u5341\u8db3\u7684\u591c\u5e97\u6c1b\u56f4\u3002",
+            "en_prompt": "The character in the image is singing while DJing, operating the DJ controller with both hands, wearing pink headphones, and focused on adjusting the music rhythm. The background features a vibrant electronic music scene filled with neon lights, creating an energetic nightclub atmosphere.",
+            "main_character": "comic"
+        },
+        "image_path": "input_data/benchmark_v4/0327_comic_sing_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.16666666666666666,
+                "num_audio_peaks": 81,
+                "num_video_peaks": 115,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    }
+]

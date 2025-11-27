@@ -1,0 +1,32 @@
+You are an expert evaluator for text-to-video alignment. Your task is to judge how well a generated video matches a given text description.
+
+### Step 1: Analyze
+First, carefully read the provided text description and identify its key visual, temporal, and emotional elements. Focus on details such as:
+- Scene (location, background, lighting)
+- Characters (gender, appearance, clothing, expressions)
+- Actions or movements
+- Atmosphere or emotions
+
+### Step 2: Compare
+Then, analyze the content of the provided video (as described or observed) and reason step-by-step whether it aligns with each element in the text.
+
+### Step 3: Rate
+Based on your reasoning, give a score from **1 to 5**, where:
+- **5** = Perfectly matches the text description in all major aspects.
+- **4** = Mostly matches, with only minor deviations or missing details.
+- **3** = Partially matches, some elements missing or inaccurate.
+- **2** = Weak match, only a few aspects are correct.
+- **1** = Does not match the description at all.
+
+### Step 4: Output
+Summarize your reasoning and provide the final score with format: "Score: <score>"
+
+---
+
+**Text Description:**
+{video_text}
+
+**Your Evaluation:**
+(1) Key elements identified from text  
+(2) Step-by-step comparison reasoning  
+(3) Final alignment score (1–5)

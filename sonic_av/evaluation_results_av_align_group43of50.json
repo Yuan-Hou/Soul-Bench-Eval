@@ -1,0 +1,100 @@
+[
+    {
+        "video_path": "input_data/results/sonic/0126_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0126_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0126_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 42,
+            "nationality": "American",
+            "speaking_language": "English",
+            "hobbies": [
+                "classic cars",
+                "outdoor activities",
+                "watch collecting"
+            ],
+            "personality": "confident, calm, introspective, and passionate about vintage automobiles",
+            "message": "I\u2019ve always believed that a car is more than just metal and engine\u2014it\u2019s a story, a piece of history, a reflection of who you are. This classic ride? It\u2019s been with me through long road trips, quiet mornings, and moments of reflection. I love the way the sun hits the chrome, the sound of the engine, the feel of the steering wheel in my hands. It\u2019s not just a hobby; it\u2019s a connection to the past and a reminder to live with purpose. Life\u2019s too short to drive in the fast lane without meaning. I\u2019m just a man who appreciates the journey.",
+            "source": "pexels",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u6b63\u501a\u9760\u5728\u4e00\u8f86\u84dd\u8272\u7ecf\u5178\u6c7d\u8f66\u65c1\uff0c\u4e00\u8fb9\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u4e00\u8fb9\u7528\u53f3\u624b\u81ea\u7136\u642d\u5728\u8f66\u95e8\u4e0a\uff0c\u955c\u5934\u56fa\u5b9a\u3002",
+            "en_prompt": "The man in the image is leaning against a blue classic car, speaking toward the camera while naturally resting his right hand on the car door. The camera remains stationary.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0126_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.22966507177033493,
+                "num_audio_peaks": 158,
+                "num_video_peaks": 99,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0188_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0188_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0188_human_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 25,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "reading",
+                "photography",
+                "traveling",
+                "learning calligraphy"
+            ],
+            "personality": "gentle, thoughtful, optimistic, and artistic",
+            "message": "\u4f60\u597d\uff0c\u6211\u662f\u6765\u81ea\u4e2d\u56fd\u7684\u4e00\u4f4d\u5e74\u8f7b\u5973\u6027\u3002\u6211\u70ed\u7231\u751f\u6d3b\u4e2d\u7684\u7f8e\u597d\u77ac\u95f4\uff0c\u559c\u6b22\u7528\u955c\u5934\u8bb0\u5f55\u4e0b\u65c5\u9014\u4e2d\u7684\u98ce\u666f\uff0c\u4e5f\u4eab\u53d7\u5728\u4e66\u9875\u95f4\u5bfb\u627e\u5fc3\u7075\u7684\u5b81\u9759\u3002\u4e66\u6cd5\u8ba9\u6211\u9759\u5fc3\uff0c\u9605\u8bfb\u8ba9\u6211\u6210\u957f\u3002\u6211\u76f8\u4fe1\uff0c\u6e29\u67d4\u4e0e\u575a\u6301\u540c\u6837\u91cd\u8981\u3002\u613f\u4f60\u6211\u90fd\u80fd\u5728\u5e73\u51e1\u7684\u65e5\u5b50\u91cc\uff0c\u6d3b\u51fa\u5c5e\u4e8e\u81ea\u5df1\u7684\u8bd7\u610f\u4e0e\u5149\u8292\u3002\u613f\u4e16\u754c\u6e29\u67d4\u5f85\u4f60\uff0c\u4e5f\u613f\u4f60\u6e29\u67d4\u5f85\u4e16\u754c\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u5979\u5986\u5bb9\u7cbe\u81f4\uff0c\u68d5\u8272\u5377\u53d1\u4f18\u96c5\u76d8\u8d77\uff0c\u4f69\u6234\u91d1\u8272\u5c0f\u8033\u73af\uff0c\u8eab\u7a7f\u767d\u8272\u857e\u4e1d\u4e0a\u8863\uff0c\u795e\u60c5\u6e29\u67d4\u4e13\u6ce8\uff0c\u80cc\u666f\u67d4\u548c\u6e29\u6696\uff0c\u8425\u9020\u51fa\u4e00\u79cd\u9759\u8c27\u800c\u9ad8\u7ea7\u7684\u6c1b\u56f4\u3002",
+            "en_prompt": "The woman in the image is speaking directly to the camera with a fixed shot. She has\u7cbe\u81f4 makeup, elegant brown curly hair styled up, and wears small gold earrings. She is dressed in a white lace top, with a gentle and focused expression. The background is soft and warm, creating a serene and sophisticated atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0188_human_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.21468926553672316,
+                "num_audio_peaks": 85,
+                "num_video_peaks": 130,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0043_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0043_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0043_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 42,
+            "nationality": "American",
+            "speaking_language": "English",
+            "hobbies": [
+                "motorcycling",
+                "urban exploration",
+                "classic rock music",
+                "photography"
+            ],
+            "personality": "confident, independent, introspective, and fiercely loyal to those he trusts",
+            "message": "The city never sleeps, and neither do I. Every street has a story, every engine a heartbeat. I ride not to escape, but to feel alive \u2014 the wind, the roar, the freedom. I\u2019ve seen sunrises over steel canyons and rainstorms on empty highways. Life\u2019s too short for noise without meaning. I\u2019m not here to impress anyone. I\u2019m here to live, to ride, to breathe deep. If you\u2019re looking for a hero, look elsewhere. If you\u2019re looking for someone who stands in the middle of the road and doesn\u2019t blink \u2014 that\u2019s me.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u7ad9\u5728\u57ce\u5e02\u8857\u9053\u4e2d\u592e\uff0c\u4e00\u8fb9\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u4e00\u8fb9\u81ea\u7136\u5730\u7528\u53f3\u624b\u63d0\u7740\u4e00\u4e2a\u9ed1\u8272\u6469\u6258\u8f66\u5934\u76d4\uff0c\u5de6\u624b\u63d2\u5728\u88e4\u515c\u91cc\uff0c\u5076\u5c14\u914d\u5408\u8bf4\u8bdd\u5185\u5bb9\u505a\u51fa\u624b\u52bf\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u80cc\u666f\u662f\u9ec4\u660f\u65f6\u5206\u7684\u57ce\u5e02\u8857\u666f\uff0c\u8f66\u706f\u548c\u8def\u706f\u5f62\u6210\u6e29\u6696\u7684\u5149\u6591\uff0c\u8425\u9020\u51fa\u9177\u98d2\u7684\u6c1b\u56f4\u3002",
+            "en_prompt": "The man in the image stands in the center of a city street, speaking directly to the camera while naturally holding a black motorcycle helmet in his right hand and keeping his left hand in his pocket. Occasionally, he gestures with his hands to emphasize his speech. The camera remains fixed. The background features an urban street scene at dusk, with car headlights and streetlights creating warm bokeh effects, contributing to a cool and stylish atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0043_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.008547008547008548,
+                "num_audio_peaks": 115,
+                "num_video_peaks": 3,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    }
+]

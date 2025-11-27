@@ -1,0 +1,19 @@
+Command: python evaluate.py --model_input_dir ./input_data/benchmark_v4 --model_output_dir input_data/results/sonic/ --results_dir ./sonic_av --evaluate_subjects av_align --device cuda:6 --batch_size 16 --sampling 0 --model_args {} --group_id 40 --group_total 50
+GPU: 6
+============================================================
+
+Using hash-based file partitioning: group 40 of 50
+Running evaluation for subject: av_align
+
+Evaluating AV-Align (downsample=1x):   0%|          | 0/8 [00:00<?, ?it/s]
+Evaluating AV-Align (downsample=1x):  12%|█▎        | 1/8 [01:17<09:04, 77.84s/it]
+Evaluating AV-Align (downsample=1x):  25%|██▌       | 2/8 [02:12<06:26, 64.47s/it]
+Evaluating AV-Align (downsample=1x):  38%|███▊      | 3/8 [03:19<05:27, 65.55s/it]
+Evaluating AV-Align (downsample=1x):  50%|█████     | 4/8 [04:13<04:03, 60.96s/it]
+Evaluating AV-Align (downsample=1x):  62%|██████▎   | 5/8 [04:59<02:46, 55.63s/it]
+Evaluating AV-Align (downsample=1x):  75%|███████▌  | 6/8 [05:45<01:44, 52.29s/it]
+Evaluating AV-Align (downsample=1x):  88%|████████▊ | 7/8 [06:19<00:46, 46.16s/it]
+Evaluating AV-Align (downsample=1x): 100%|██████████| 8/8 [06:47<00:00, 40.34s/it]
+Evaluating AV-Align (downsample=1x): 100%|██████████| 8/8 [06:47<00:00, 50.89s/it]
+Evaluation results saved to sonic_av/evaluation_results_av_align_group40of50.json
+Total videos evaluated: 8

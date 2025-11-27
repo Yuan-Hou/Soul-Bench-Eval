@@ -1,0 +1,168 @@
+[
+    {
+        "video_path": "input_data/results/sonic/0255_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0255_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0255_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 35,
+            "nationality": "Indian",
+            "speaking_language": "English",
+            "hobbies": [
+                "working out",
+                "reading about technology",
+                "listening to music",
+                "spending time with family"
+            ],
+            "personality": "friendly, optimistic, hardworking, and approachable",
+            "message": "Hello! I'm proud to be part of a team that helps people build, create, and improve their homes. Every day in the warehouse is a chance to learn, grow, and connect with others. I love the energy of this environment and the satisfaction of knowing I\u2019m contributing to something meaningful. Whether it\u2019s organizing supplies or helping a customer find what they need, I bring my best attitude. Life is all about small joys and big efforts\u2014let\u2019s keep smiling and moving forward together!",
+            "source": "pexels",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u6b63\u5728\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u53cc\u624b\u63d2\u5728\u53e3\u888b\u91cc\uff0c\u9762\u5e26\u5fae\u7b11\uff0c\u955c\u5934\u56fa\u5b9a\u3002",
+            "en_prompt": "The man in the image is speaking directly to the camera, with both hands in his pockets, smiling warmly. The camera remains stationary.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0255_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.013513513513513514,
+                "num_audio_peaks": 139,
+                "num_video_peaks": 11,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0213_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0213_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0213_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 35,
+            "nationality": "American",
+            "speaking_language": "English",
+            "hobbies": [
+                "cooking",
+                "experimenting with new recipes",
+                "gardening",
+                "reading culinary books"
+            ],
+            "personality": "dedicated, disciplined, passionate, detail-oriented, and confident",
+            "message": "In the kitchen, every dish is a story, and every ingredient has a voice. I believe in the power of food to connect people, to bring joy, and to express creativity. I\u2019ve spent years mastering techniques, but I still approach each meal with curiosity and respect. Cooking is not just a job\u2014it\u2019s a craft, a passion, and a way of life. I\u2019m always learning, always improving, and always striving to create something that not only tastes great but also tells a story. That\u2019s what makes me a chef.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u7ad9\u5728\u53a8\u623f\u91cc\uff0c\u4e00\u624b\u6301\u7740\u91d1\u5c5e\u9505\u94f2\uff0c\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u5076\u5c14\u7528\u9505\u94f2\u8f7b\u70b9\u6216\u505a\u51fa\u5f3a\u8c03\u52a8\u4f5c\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u80cc\u666f\u662f\u4e13\u4e1a\u53a8\u623f\u73af\u5883\uff0c\u53ef\u89c1\u7076\u53f0\u3001\u9505\u5177\u548c\u8c03\u6599\u67b6\uff0c\u8425\u9020\u51fa\u771f\u5b9e\u70f9\u996a\u573a\u666f\u6c1b\u56f4\u3002",
+            "en_prompt": "The man in the image stands in a kitchen, holding a metal spatula in one hand, speaking directly to the camera, occasionally tapping or gesturing with the spatula for emphasis. The camera remains fixed. The background features a professional kitchen environment, with visible stovetops, pots, and spice racks, creating an authentic cooking scene atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0213_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.12121212121212122,
+                "num_audio_peaks": 144,
+                "num_video_peaks": 41,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0340_comic_sing_cn_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0340_comic_sing_cn_male.wav",
+        "text_path": "input_data/benchmark_v4/0340_comic_sing_cn_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 16,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "singing",
+                "dancing",
+                "playing guitar",
+                "listening to music",
+                "drawing"
+            ],
+            "personality": "cheerful, kind-hearted, passionate, confident, and always eager to inspire others with his music",
+            "message": "\u5927\u5bb6\u597d\uff01\u6211\u662f\u5c0f\u661f\uff0c\u4e00\u4e2a\u70ed\u7231\u97f3\u4e50\u7684\u5c11\u5e74\u3002\u6bcf\u5f53\u6211\u62ff\u8d77\u9ea6\u514b\u98ce\uff0c\u5c31\u4eff\u4f5b\u62e5\u6709\u4e86\u6574\u4e2a\u4e16\u754c\u3002\u97f3\u4e50\u662f\u6211\u8868\u8fbe\u60c5\u611f\u7684\u65b9\u5f0f\uff0c\u4e5f\u662f\u6211\u4e0e\u5927\u5bb6\u8fde\u63a5\u7684\u6865\u6881\u3002\u65e0\u8bba\u4f60\u6b64\u523b\u662f\u5f00\u5fc3\u8fd8\u662f\u96be\u8fc7\uff0c\u6211\u90fd\u5e0c\u671b\u6211\u7684\u6b4c\u58f0\u80fd\u5e26\u7ed9\u4f60\u6e29\u6696\u548c\u529b\u91cf\u3002\u6211\u4f1a\u7ee7\u7eed\u52aa\u529b\uff0c\u7528\u771f\u8bda\u548c\u70ed\u60c5\u5531\u51fa\u5c5e\u4e8e\u6211\u4eec\u7684\u9752\u6625\u65cb\u5f8b\u3002\u8c22\u8c22\u4f60\u4e00\u76f4\u966a\u4f34\u6211\uff0c\u672a\u6765\u6211\u4eec\u4e00\u8d77\u95ea\u8000\uff01",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u89d2\u8272\u6b63\u5728\u5531\u6b4c\uff0c\u4ed6\u8eab\u7a7f\u767d\u8272\u897f\u88c5\u642d\u914d\u7c89\u8272\u886c\u886b\uff0c\u624b\u6301\u9ea6\u514b\u98ce\uff0c\u795e\u60c5\u4e13\u6ce8\u800c\u6e29\u67d4\uff0c\u4eff\u4f5b\u6c89\u6d78\u5728\u97f3\u4e50\u7684\u4e16\u754c\u4e2d\u3002",
+            "en_prompt": "The character in the image is singing, wearing a white suit with a pink shirt, holding a microphone, with a focused and gentle expression, as if immersed in the world of music.",
+            "main_character": "comic"
+        },
+        "image_path": "input_data/benchmark_v4/0340_comic_sing_cn_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.2857142857142857,
+                "num_audio_peaks": 102,
+                "num_video_peaks": 159,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0074_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0074_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0074_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 42,
+            "nationality": "American",
+            "speaking_language": "English",
+            "hobbies": [
+                "photography",
+                "motorcycling",
+                "hiking",
+                "reading philosophy"
+            ],
+            "personality": "intense, introspective, resilient, and deeply thoughtful. He carries the weight of experience in his eyes and has a quiet strength that commands respect.",
+            "message": "I\u2019ve seen the world through the lens of my camera and the wind on my face while riding. Life isn\u2019t about avoiding pain\u2014it\u2019s about understanding it, learning from it, and moving forward with purpose. I don\u2019t chase perfection; I chase meaning. Every scar, every wrinkle, every moment of silence tells a story. I\u2019m not who I was ten years ago, and I\u2019m not who I\u2019ll be ten years from now. But right here, right now, I\u2019m present. And that\u2019s enough.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u4ed6\u795e\u60c5\u4e13\u6ce8\uff0c\u76ee\u5149\u76f4\u89c6\u955c\u5934\uff0c\u9762\u90e8\u8868\u60c5\u7565\u5e26\u4e25\u8083\uff0c\u5634\u89d2\u5fae\u62bf\uff0c\u5c55\u73b0\u51fa\u6210\u719f\u7a33\u91cd\u7684\u6c14\u8d28\u3002\u4ed6\u7559\u6709\u77ed\u80e1\u987b\uff0c\u9b13\u89d2\u7565\u663e\u82b1\u767d\uff0c\u8033\u5782\u4f69\u6234\u7740\u94f6\u8272\u5706\u73af\u8033\u9970\uff0c\u7a7f\u7740\u6df1\u8272\u4f11\u95f2\u4e0a\u8863\u3002\u80cc\u666f\u4e3a\u7eaf\u9ed1\u8272\uff0c\u7a81\u663e\u4eba\u7269\u4e3b\u4f53\uff0c\u5149\u7ebf\u67d4\u548c\u805a\u7126\u4e8e\u9762\u90e8\uff0c\u8425\u9020\u51fa\u6c89\u7a33\u3001\u5185\u655b\u7684\u6c1b\u56f4\u3002",
+            "en_prompt": "The man in the image is speaking directly to the camera with a fixed shot. He appears focused, maintaining steady eye contact with the lens, his expression slightly serious, lips gently pressed together, exuding a mature and composed demeanor. He has a short beard with slightly graying sideburns, and wears silver hoop earrings in both earlobes. He is dressed in a dark casual top. The background is pure black, emphasizing the subject, with soft lighting focused on his face, creating a calm and introspective atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0074_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.3611111111111111,
+                "num_audio_peaks": 114,
+                "num_video_peaks": 131,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0095_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0095_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0095_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 58,
+            "nationality": "British",
+            "speaking_language": "English",
+            "hobbies": [
+                "collecting vintage pocket watches",
+                "reading classic literature",
+                "traveling by steam train",
+                "writing letters by hand"
+            ],
+            "personality": "dignified, punctual, thoughtful, and nostalgic",
+            "message": "Time, like a steam train, moves forward with unwavering purpose. I cherish each moment, marked by the steady tick of my pocket watch. The scent of coal and the whistle of the engine remind me of journeys past and dreams yet to come. In a world rushing toward the future, I find solace in tradition, in the elegance of a top hat and a well-tailored coat. I am not bound by the clock, but I honor it. Let us not forget the beauty of a slow, deliberate life, where every second is savored, not wasted.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u7ad9\u5728\u706b\u8f66\u7ad9\u53f0\uff0c\u8eab\u7740\u590d\u53e4\u7ec5\u58eb\u88c5\u675f\uff0c\u624b\u6301\u6000\u8868\u4e0e\u624b\u6756\uff0c\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u5076\u5c14\u7528\u624b\u6307\u8f7b\u70b9\u6000\u8868\u4ee5\u5f3a\u8c03\u65f6\u95f4\u4e3b\u9898\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u80cc\u666f\u4e2d\u84b8\u6c7d\u706b\u8f66\u6b63\u7f13\u7f13\u9a76\u5165\u7ad9\u53f0\uff0c\u70df\u96fe\u7f2d\u7ed5\uff0c\u8425\u9020\u51fa\u6d53\u539a\u7684\u7ef4\u591a\u5229\u4e9a\u65f6\u4ee3\u6c1b\u56f4\u3002",
+            "en_prompt": "The man in the image stands on a train station platform, dressed in vintage gentleman attire, holding a pocket watch and a cane, speaking directly to the camera. Occasionally, he gently taps the pocket watch with his finger to emphasize the theme of time. The camera remains fixed. In the background, a steam train slowly pulls into the platform, billowing smoke, creating a rich Victorian-era atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0095_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.0,
+                "num_audio_peaks": 133,
+                "num_video_peaks": 2,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    }
+]

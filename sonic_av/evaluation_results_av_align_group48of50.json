@@ -1,0 +1,300 @@
+[
+    {
+        "video_path": "input_data/results/sonic/0215_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0215_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0215_human_talk_en_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 25,
+            "nationality": "American",
+            "speaking_language": "English",
+            "hobbies": [
+                "shopping",
+                "fashion",
+                "traveling",
+                "photography"
+            ],
+            "personality": "confident, stylish, outgoing, and adventurous",
+            "message": "Life is too short to wear boring clothes. I believe in living boldly, embracing every moment with confidence and grace. Whether I\u2019m strolling by a fountain at night or exploring a new city, I carry my style and spirit with me. Fashion isn\u2019t just about looking good\u2014it\u2019s about feeling empowered. I love discovering new trends, supporting local brands, and capturing memories through my lens. Here\u2019s to chasing dreams, making memories, and always staying true to who you are.",
+            "source": "pexels",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u4e00\u8fb9\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\u4e00\u8fb9\u5f80\u524d\u8d70\uff0c\u955c\u5934\u968f\u7740\u4eba\u7269\u7684\u8d70\u52a8\u6162\u6162\u5f80\u540e\u9000\uff0c\u4fdd\u6301\u4eba\u7269\u5728\u753b\u9762\u4e2d\u3002\u5979\u8eab\u7a7f\u767d\u8272\u9732\u80a9\u77ed\u88d9\uff0c\u624b\u63d0\u4e00\u4e2a\u9ed1\u8272\u8d2d\u7269\u888b\uff0c\u811a\u8e29\u767d\u8272\u8774\u8776\u7ed3\u9ad8\u8ddf\u978b\uff0c\u80cc\u666f\u662f\u55b7\u6cc9\u4e0e\u7d2b\u8272\u706f\u5149\uff0c\u6574\u4f53\u6c1b\u56f4\u65f6\u5c1a\u4f18\u96c5\u3002",
+            "en_prompt": "The woman in the image walks forward while speaking to the camera, and the camera slowly pulls back, keeping her centered in the frame. She wears a white off-the-shoulder mini dress, carries a black shopping bag, and wears white high heels with bows. The background features a fountain illuminated with purple lights, creating an overall fashionable and elegant atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0215_human_talk_en_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.021897810218978103,
+                "num_audio_peaks": 132,
+                "num_video_peaks": 8,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0021_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0021_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0021_human_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 58,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "tea ceremony",
+                "traditional embroidery",
+                "calligraphy",
+                "classical Chinese music"
+            ],
+            "personality": "graceful, wise, gentle, respectful, traditional",
+            "message": "\u8336\u9999\u8885\u8885\uff0c\u5c81\u6708\u9759\u597d\u3002\u6211\u4e00\u751f\u949f\u7231\u8fd9\u676f\u4e2d\u4e4b\u7269\uff0c\u5b83\u4e0d\u4ec5\u6da6\u6cfd\u8eab\u5fc3\uff0c\u66f4\u627f\u8f7d\u7740\u4e2d\u534e\u6587\u5316\u7684\u6df1\u539a\u5e95\u8574\u3002\u6bcf\u4e00\u7f15\u9999\u6c14\uff0c\u90fd\u662f\u65f6\u5149\u7684\u4f4e\u8bed\uff1b\u6bcf\u4e00\u9053\u5de5\u5e8f\uff0c\u90fd\u662f\u5320\u5fc3\u7684\u4f20\u627f\u3002\u6211\u613f\u5c06\u8fd9\u4efd\u5b81\u9759\u4e0e\u7f8e\u597d\uff0c\u4f20\u9012\u7ed9\u6bcf\u4e00\u4f4d\u61c2\u5f97\u54c1\u5473\u751f\u6d3b\u7684\u4eba\u3002\u613f\u4f60\u6211\u4e8e\u55a7\u56a3\u4e2d\u5bfb\u5f97\u4e00\u65b9\u51c0\u571f\uff0c\u4ee5\u8336\u4f1a\u53cb\uff0c\u4ee5\u5fc3\u76f8\u4ea4\uff0c\u5171\u8d4f\u8fd9\u4eba\u95f4\u81f3\u5473\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u53cc\u624b\u8f7b\u6258\u7740\u4e00\u53ea\u9752\u82b1\u74f7\u8336\u676f\uff0c\u59ff\u6001\u4f18\u96c5\u4ece\u5bb9\uff0c\u955c\u5934\u56fa\u5b9a\u3002",
+            "en_prompt": "The woman in the image is speaking directly to the camera, gently holding a blue-and-white porcelain teacup with both hands, exuding an elegant and composed demeanor. The camera remains stationary.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0021_human_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.16993464052287582,
+                "num_audio_peaks": 99,
+                "num_video_peaks": 80,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0065_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0065_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0065_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 42,
+            "nationality": "American",
+            "speaking_language": "English",
+            "hobbies": [
+                "reading",
+                "coffee tasting",
+                "watch collecting",
+                "indoor gardening"
+            ],
+            "personality": "calm, thoughtful, intelligent, and introspective",
+            "message": "Good morning. I\u2019m sipping my coffee, enjoying the quiet moment. Life moves fast, but I try to slow down and appreciate the small things \u2014 a well-brewed cup, a good book, or just sitting still and thinking. I believe in balance: work hard, but also rest well. I value honesty, deep conversations, and simple pleasures. If you\u2019re reading this, maybe you\u2019re also seeking a moment of peace. Take a breath. You\u2019re doing better than you think.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u6b63\u7aef\u7740\u4e00\u676f\u5496\u5561\uff0c\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u5076\u5c14\u7528\u7a7a\u95f2\u7684\u624b\u8f7b\u6276\u676f\u6cbf\u6216\u81ea\u7136\u5730\u505a\u51fa\u624b\u52bf\u5339\u914d\u8bf4\u8bdd\u5185\u5bb9\uff0c\u955c\u5934\u56fa\u5b9a\u3002",
+            "en_prompt": "The man in the image is holding a cup of coffee and speaking directly to the camera, occasionally using his free hand to gently touch the rim of the cup or naturally gesture to match his speech. The camera remains stationary.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0065_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.23756906077348067,
+                "num_audio_peaks": 94,
+                "num_video_peaks": 130,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0107_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0107_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0107_human_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 22,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "reading",
+                "writing",
+                "visiting libraries",
+                "learning new languages"
+            ],
+            "personality": "calm, intelligent, curious, thoughtful, and kind-hearted",
+            "message": "\u5728\u4e66\u67b6\u95f4\u7a7f\u884c\uff0c\u6211\u603b\u80fd\u627e\u5230\u5c5e\u4e8e\u81ea\u5df1\u7684\u5b81\u9759\u89d2\u843d\u3002\u6bcf\u4e00\u672c\u4e66\u90fd\u50cf\u4e00\u6247\u95e8\uff0c\u5e26\u6211\u8d70\u8fdb\u4e0d\u540c\u7684\u4e16\u754c\u3002\u9605\u8bfb\u8ba9\u6211\u5b66\u4f1a\u601d\u8003\uff0c\u4e5f\u8ba9\u6211\u66f4\u61c2\u5f97\u503e\u542c\u4ed6\u4eba\u3002\u6211\u70ed\u7231\u6587\u5b57\u7684\u529b\u91cf\uff0c\u5b83\u80fd\u6cbb\u6108\u5fc3\u7075\uff0c\u4e5f\u80fd\u70b9\u71c3\u68a6\u60f3\u3002\u613f\u6211\u4eec\u90fd\u80fd\u5728\u5fd9\u788c\u7684\u751f\u6d3b\u4e2d\uff0c\u4e3a\u81ea\u5df1\u7559\u4e00\u7247\u9605\u8bfb\u7684\u51c0\u571f\uff0c\u8ba9\u601d\u60f3\u81ea\u7531\u751f\u957f\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u7ad9\u5728\u56fe\u4e66\u9986\u4e66\u67b6\u95f4\uff0c\u53cc\u624b\u6367\u7740\u4e00\u672c\u6253\u5f00\u7684\u4e66\uff0c\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u5076\u5c14\u7528\u624b\u6307\u8f7b\u70b9\u4e66\u9875\u4ee5\u5339\u914d\u8bf4\u8bdd\u5185\u5bb9\uff0c\u955c\u5934\u56fa\u5b9a\u3002",
+            "en_prompt": "The woman in the image stands between library bookshelves, holding an open book with both hands, speaking directly to the camera, occasionally lightly pointing at the pages with her finger to match her speech, with a fixed camera shot.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0107_human_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.21768707482993196,
+                "num_audio_peaks": 97,
+                "num_video_peaks": 82,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0274_comic_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0274_comic_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0274_comic_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 8,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "dancing",
+                "singing",
+                "wearing traditional costumes",
+                "playing with silk ribbons"
+            ],
+            "personality": "cheerful, curious, graceful, and full of imagination",
+            "message": "\u5927\u5bb6\u597d\uff01\u6211\u662f\u6765\u81ea\u53e4\u8001\u4e1c\u65b9\u7684\u5c0f\u620f\u5a03\uff0c\u7a7f\u7740\u534e\u4e3d\u7684\u620f\u670d\uff0c\u5934\u6234\u7cbe\u7f8e\u7684\u5934\u9970\uff0c\u50cf\u4e00\u6735\u76db\u5f00\u7684\u82b1\u3002\u6211\u6700\u7231\u5728\u821e\u53f0\u4e0a\u7fe9\u7fe9\u8d77\u821e\uff0c\u7528\u6b4c\u58f0\u548c\u52a8\u4f5c\u8bb2\u8ff0\u52a8\u4eba\u7684\u6545\u4e8b\u3002\u867d\u7136\u5e74\u7eaa\u5c0f\uff0c\u4f46\u6211\u5bf9\u4eac\u5267\u5145\u6ee1\u70ed\u7231\uff0c\u6bcf\u5929\u90fd\u5728\u7ec3\u4e60\u3002\u5e0c\u671b\u4f60\u4eec\u4e5f\u559c\u6b22\u4e2d\u56fd\u4f20\u7edf\u6587\u5316\uff0c\u8ba9\u6211\u4eec\u4e00\u8d77\u611f\u53d7\u5b83\u7684\u7f8e\u4e3d\u4e0e\u9b45\u529b\uff01",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u89d2\u8272\u8eab\u7740\u534e\u4e3d\u7684\u620f\u66f2\u670d\u9970\uff0c\u5934\u6234\u7cbe\u81f4\u5934\u9970\uff0c\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u53cc\u624b\u81ea\u7136\u5c55\u5f00\uff0c\u505a\u51fa\u4f18\u96c5\u7684\u620f\u66f2\u624b\u52bf\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u80cc\u666f\u4e3a\u53e4\u5178\u4e2d\u5f0f\u5ba4\u5185\uff0c\u6c1b\u56f4\u5178\u96c5\uff0c\u89d2\u8272\u795e\u60c5\u4e13\u6ce8\uff0c\u4eff\u4f5b\u5728\u8bb2\u8ff0\u4e00\u6bb5\u52a8\u4eba\u7684\u620f\u66f2\u6545\u4e8b\u3002",
+            "en_prompt": "The character in the image is dressed in elaborate traditional opera attire, wearing an intricate headdress, facing the camera and speaking, with both hands naturally extended, making graceful opera hand gestures. The camera remains stationary. The background features a classical Chinese interior, exuding an elegant atmosphere. The character's expression is focused, as if narrating a touching opera story.",
+            "main_character": "comic"
+        },
+        "image_path": "input_data/benchmark_v4/0274_comic_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.2336448598130841,
+                "num_audio_peaks": 115,
+                "num_video_peaks": 149,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0301_comic_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0301_comic_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0301_comic_talk_en_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 14,
+            "nationality": "Japanese",
+            "speaking_language": "English",
+            "hobbies": [
+                "reading manga",
+                "drawing anime characters",
+                "listening to J-pop music",
+                "playing video games"
+            ],
+            "personality": "cheerful, kind-hearted, curious, and a bit shy when meeting new people",
+            "message": "Hi there! I'm Anya, a student at a regular school, but I have a secret\u2014sometimes I can read minds! It\u2019s fun, but also a little tricky. I love learning new things and making friends. I\u2019m not the best at schoolwork, but I try my hardest. I enjoy drawing and watching anime in my free time. I hope we can become good friends and share fun moments together! Let\u2019s make this school year amazing!",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u89d2\u8272\u6b63\u5750\u5728\u6559\u5ba4\u7684\u8bfe\u684c\u524d\uff0c\u53cc\u624b\u81ea\u7136\u4ea4\u53e0\u653e\u5728\u684c\u4e0a\uff0c\u9762\u5e26\u5fae\u7b11\u770b\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u80cc\u666f\u662f\u6559\u5ba4\u9ed1\u677f\u548c\u8bfe\u684c\uff0c\u8425\u9020\u51fa\u6e29\u99a8\u7684\u6821\u56ed\u6c1b\u56f4\u3002\u89d2\u8272\u7c89\u8272\u77ed\u53d1\u3001\u732b\u8033\u9020\u578b\u548c\u6821\u670d\u7ea2\u9886\u7ed3\u5341\u5206\u53ef\u7231\uff0c\u9002\u5408\u7528\u4e8e\u8f7b\u677e\u6d3b\u6cfc\u7684\u53e3\u64ad\u5185\u5bb9\u3002",
+            "en_prompt": "The character in the image is sitting at a desk in a classroom, with hands naturally folded on the table, smiling and speaking directly to the camera. The camera remains fixed. The background features a classroom blackboard and desks, creating a warm and cozy school atmosphere. The character's short pink hair, cat ears, and school uniform with a red bow tie are very cute, making it suitable for lively and cheerful video narration content.",
+            "main_character": "comic"
+        },
+        "image_path": "input_data/benchmark_v4/0301_comic_talk_en_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.24537037037037038,
+                "num_audio_peaks": 112,
+                "num_video_peaks": 157,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0319_comic_sing_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0319_comic_sing_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0319_comic_sing_en_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 16,
+            "nationality": "Japanese",
+            "speaking_language": "English",
+            "hobbies": [
+                "playing guitar",
+                "drawing",
+                "reading fantasy novels",
+                "listening to music"
+            ],
+            "personality": "gentle, introspective, creative, and kind-hearted",
+            "message": "I love sitting by the window, letting the sunlight warm my skin while I strum my guitar. Music helps me express what words can\u2019t. I dream of creating songs that touch people\u2019s hearts, just like the stories I read. I\u2019m shy sometimes, but my music speaks for me. I hope one day, someone will hear my song and feel the peace I feel when I play. The world is beautiful, and I want to share its quiet magic through my music.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u89d2\u8272\u4e00\u8fb9\u5531\u6b4c\u4e00\u8fb9\u5f39\u594f\u624b\u4e2d\u7684\u5409\u4ed6\uff0c\u5979\u5750\u5728\u7a97\u8fb9\u7684\u6728\u51f3\u4e0a\uff0c\u94f6\u767d\u8272\u7684\u53cc\u9a6c\u5c3e\u968f\u98ce\u8f7b\u626c\uff0c\u7eff\u8272\u7684\u773c\u7738\u6e29\u67d4\u5730\u6ce8\u89c6\u524d\u65b9\uff0c\u7a97\u5916\u662f\u5b81\u9759\u7684\u6e56\u5149\u5c71\u8272\uff0c\u9633\u5149\u900f\u8fc7\u7a97\u68c2\u6d12\u5728\u5979\u7684\u80a9\u5934\uff0c\u8425\u9020\u51fa\u6e29\u6696\u800c\u5b81\u9759\u7684\u6c1b\u56f4\u3002",
+            "en_prompt": "The character in the image is singing while playing the guitar in her hands. She sits on a wooden stool by the window, her silver-white twin tails gently swaying in the breeze. Her green eyes gaze softly ahead. Outside the window lies a tranquil landscape of lakes and mountains. Sunlight streams through the window frame, casting a warm glow on her shoulders, creating a cozy and peaceful atmosphere.",
+            "main_character": "comic"
+        },
+        "image_path": "input_data/benchmark_v4/0319_comic_sing_en_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.19330855018587362,
+                "num_audio_peaks": 97,
+                "num_video_peaks": 224,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0146_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0146_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0146_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 34,
+            "nationality": "American",
+            "speaking_language": "English",
+            "hobbies": [
+                "mountaineering",
+                "backpacking",
+                "photography",
+                "hiking",
+                "outdoor survival"
+            ],
+            "personality": "adventurous, determined, resilient, calm under pressure, environmentally conscious",
+            "message": "Standing atop this peak, surrounded by endless snow-capped mountains and clouds below, I feel both humbled and alive. Every step up was a challenge, but the view makes it all worth it. This journey taught me that perseverance and respect for nature are the true rewards. I carry the mountains in my heart, and I\u2019m ready for the next climb. Adventure isn\u2019t just about reaching the summit\u2014it\u2019s about the journey, the breath, the silence, and the moment you realize you\u2019re part of something much bigger.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u7ad9\u5728\u96ea\u5c71\u4e4b\u5dc5\uff0c\u8eab\u7740\u4e13\u4e1a\u767b\u5c71\u88c5\u5907\uff0c\u53cc\u624b\u63e1\u7740\u767b\u5c71\u6756\uff0c\u80cc\u666f\u662f\u58ee\u4e3d\u7684\u96ea\u5cf0\u4e0e\u4e91\u6d77\u3002\u4ed6\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u5076\u5c14\u914d\u5408\u5185\u5bb9\u505a\u51fa\u624b\u52bf\uff0c\u955c\u5934\u56fa\u5b9a\u3002",
+            "en_prompt": "The man in the image stands atop a snowy mountain peak, wearing professional mountaineering gear, holding trekking poles in both hands. The background features majestic snow-capped peaks and a sea of clouds. He is speaking directly to the camera, occasionally gesturing to emphasize his points, with a fixed camera shot.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0146_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.048,
+                "num_audio_peaks": 123,
+                "num_video_peaks": 8,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0008_human_sing_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0008_human_sing_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0008_human_sing_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 22,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "playing electric guitar",
+                "listening to rock music",
+                "wearing stylish outfits",
+                "performing on stage"
+            ],
+            "personality": "confident, passionate, artistic, expressive, and slightly mysterious",
+            "message": "\u97f3\u4e50\u662f\u6211\u7684\u7075\u9b42\uff0c\u7535\u5409\u4ed6\u662f\u6211\u6700\u4eb2\u5bc6\u7684\u4f19\u4f34\u3002\u6bcf\u5f53\u6307\u5c16\u5212\u8fc7\u7434\u5f26\uff0c\u6211\u4eff\u4f5b\u80fd\u89e6\u6478\u5230\u5185\u5fc3\u7684\u706b\u7130\u3002\u821e\u53f0\u4e0a\u7684\u5149\u6655\u8ba9\u6211\u611f\u5230\u81ea\u7531\uff0c\u6bcf\u4e00\u4e2a\u97f3\u7b26\u90fd\u662f\u6211\u60c5\u7eea\u7684\u91ca\u653e\u3002\u6211\u4e0d\u8ffd\u6c42\u5b8c\u7f8e\uff0c\u53ea\u8ffd\u6c42\u771f\u5b9e\u3002\u65e0\u8bba\u4e16\u754c\u5982\u4f55\u55a7\u56a3\uff0c\u6211\u53ea\u60f3\u7528\u97f3\u4e50\u8bc9\u8bf4\u81ea\u5df1\u7684\u6545\u4e8b\u3002\u5e0c\u671b\u6211\u7684\u65cb\u5f8b\u80fd\u89e6\u52a8\u4f60\u7684\u5fc3\u5f26\uff0c\u8ba9\u4f60\u5728\u5fd9\u788c\u7684\u751f\u6d3b\u4e2d\uff0c\u627e\u5230\u7247\u523b\u7684\u5171\u9e23\u4e0e\u5b81\u9759\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u6b63\u5728\u5531\u6b4c\uff0c\u4e00\u8fb9\u5f39\u594f\u624b\u4e2d\u7684\u7535\u5409\u4ed6\u3002\u5979\u7a7f\u7740\u7eff\u8272\u82b1\u7eb9\u62b9\u80f8\u4e0a\u8863\u548c\u9ec4\u8272\u82b1\u5349\u77ed\u88d9\uff0c\u957f\u53d1\u62ab\u80a9\uff0c\u80cc\u666f\u662f\u6e29\u6696\u7684\u821e\u53f0\u706f\u5149\uff0c\u8425\u9020\u51fa\u68a6\u5e7b\u7684\u6f14\u51fa\u6c1b\u56f4\u3002",
+            "en_prompt": "The woman in the image is singing while playing the electric guitar in her hands. She is wearing a green floral strapless top and a yellow floral mini skirt, with long hair flowing over her shoulders. The background features warm stage lighting, creating a dreamy performance atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0008_human_sing_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.2463768115942029,
+                "num_audio_peaks": 99,
+                "num_video_peaks": 159,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    }
+]

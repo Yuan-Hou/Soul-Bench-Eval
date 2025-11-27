@@ -1,0 +1,198 @@
+[
+    {
+        "video_path": "input_data/results/sonic/0256_comic_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0256_comic_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0256_comic_talk_en_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 16,
+            "nationality": "Dutch",
+            "speaking_language": "English",
+            "hobbies": [
+                "painting",
+                "reading classical literature",
+                "listening to baroque music"
+            ],
+            "personality": "curious, gentle, introspective, artistic",
+            "message": "I am a young woman from the 17th century, painted by Vermeer. Though my world was quiet and simple, I found beauty in light, color, and the quiet moments of life. I wear my pearl earring not for show, but as a symbol of my inner grace. I dream of a world where art speaks louder than words, where every glance holds meaning. I hope you see not just my face, but the soul behind it \u2014 a soul that longs for connection, understanding, and the timeless power of beauty.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u89d2\u8272\u6b63\u5728\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u5979\u5934\u6234\u84dd\u9ec4\u76f8\u95f4\u7684\u5934\u5dfe\uff0c\u8033\u5760\u73cd\u73e0\u8033\u73af\uff0c\u8eab\u7740\u6696\u8272\u8c03\u8863\u886b\uff0c\u80cc\u666f\u662f\u7f24\u7eb7\u7684\u5f69\u8272\u6d82\u9e26\u7ebf\u6761\uff0c\u8425\u9020\u51fa\u6d3b\u6cfc\u53c8\u590d\u53e4\u7684\u827a\u672f\u6c1b\u56f4\u3002\u89d2\u8272\u773c\u795e\u6e29\u67d4\uff0c\u5634\u89d2\u5fae\u626c\uff0c\u4eff\u4f5b\u5728\u5a13\u5a13\u8bb2\u8ff0\u4e00\u4e2a\u5173\u4e8e\u827a\u672f\u4e0e\u9752\u6625\u7684\u6545\u4e8b\u3002",
+            "en_prompt": "The character in the image is speaking directly to the camera, with a fixed shot. She wears a blue-and-yellow headscarf, a pearl earring, and warm-toned clothing. The background features vibrant, colorful graffiti-like lines, creating a lively yet retro artistic atmosphere. Her eyes are gentle, and her lips are slightly upturned, as if softly narrating a story about art and youth.",
+            "main_character": "comic"
+        },
+        "image_path": "input_data/benchmark_v4/0256_comic_talk_en_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.24669603524229075,
+                "num_audio_peaks": 114,
+                "num_video_peaks": 169,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0060_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0060_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0060_human_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 32,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "reading classical literature",
+                "practicing calligraphy",
+                "enjoying traditional Chinese music",
+                "traveling to historical sites"
+            ],
+            "personality": "graceful, introspective, elegant, and deeply rooted in cultural heritage",
+            "message": "\u4eba\u751f\u5982\u8bd7\uff0c\u5c81\u6708\u5982\u6b4c\u3002\u6211\u59cb\u7ec8\u76f8\u4fe1\uff0c\u771f\u6b63\u7684\u7f8e\u4e0d\u5728\u4e8e\u5916\u8868\u7684\u534e\u4e3d\uff0c\u800c\u5728\u4e8e\u5185\u5fc3\u7684\u5b81\u9759\u4e0e\u4fee\u517b\u3002\u6211\u559c\u6b22\u5728\u6668\u5149\u4e2d\u8bfb\u4e00\u672c\u53e4\u7c4d\uff0c\u5728\u58a8\u9999\u4e2d\u4e66\u5199\u5fc3\u8bed\u3002\u6bcf\u4e00\u6b21\u65c5\u884c\uff0c\u90fd\u8ba9\u6211\u66f4\u8d34\u8fd1\u8fd9\u7247\u571f\u5730\u7684\u7075\u9b42\u3002\u613f\u6211\u4eec\u90fd\u80fd\u5728\u6d6e\u8e81\u7684\u4e16\u754c\u91cc\uff0c\u5b88\u4f4f\u4e00\u4efd\u4ece\u5bb9\u4e0e\u8bd7\u610f\uff0c\u7528\u6e29\u67d4\u7684\u76ee\u5149\u770b\u5f85\u751f\u6d3b\uff0c\u7528\u575a\u5b9a\u7684\u4fe1\u5ff5\u8d70\u597d\u6bcf\u4e00\u6b65\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u5979\u4f69\u6234\u7740\u7cbe\u81f4\u7684\u6c34\u6ef4\u5f62\u8033\u5760\uff0c\u795e\u60c5\u6e29\u5a49\uff0c\u76ee\u5149\u67d4\u548c\u5730\u6ce8\u89c6\u7740\u955c\u5934\uff0c\u5c55\u73b0\u51fa\u4f18\u96c5\u4ece\u5bb9\u7684\u6c14\u8d28\u3002\u80cc\u666f\u67d4\u548c\u865a\u5316\uff0c\u7a81\u51fa\u4eba\u7269\u4e3b\u4f53\uff0c\u6574\u4f53\u6c1b\u56f4\u5b81\u9759\u800c\u9ad8\u7ea7\u3002",
+            "en_prompt": "The woman in the image is speaking directly to the camera with a fixed shot. She is wearing elegant teardrop-shaped earrings, her expression gentle and serene, her gaze softly directed at the camera, exuding a graceful and composed demeanor. The background is softly blurred, emphasizing the subject, creating an overall atmosphere of tranquility and sophistication.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0060_human_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.22631578947368422,
+                "num_audio_peaks": 89,
+                "num_video_peaks": 144,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0064_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0064_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0064_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 24,
+            "nationality": "American",
+            "speaking_language": "English",
+            "hobbies": [
+                "reading business books",
+                "playing basketball",
+                "learning new technologies"
+            ],
+            "personality": "confident, ambitious, detail-oriented, and goal-driven",
+            "message": "I believe in hard work and continuous growth. Every day is a new opportunity to learn, improve, and achieve more. I\u2019m passionate about innovation and building a successful future. I value integrity, professionalism, and staying true to my goals. Whether it\u2019s a challenging project or a new skill, I face it with determination. I\u2019m not just building a career\u2014I\u2019m building a legacy. Stay focused, stay driven, and never stop believing in yourself.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u6b63\u5728\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u53f3\u624b\u8f7b\u63e1\u9886\u5e26\uff0c\u5de6\u624b\u6301\u7740\u4e00\u4e2a\u9ed1\u8272\u6587\u4ef6\u5939\uff0c\u955c\u5934\u56fa\u5b9a\u3002",
+            "en_prompt": "The man in the image is speaking directly to the camera, his right hand lightly gripping his tie, and his left hand holding a black folder. The camera remains stationary.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0064_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.015384615384615385,
+                "num_audio_peaks": 122,
+                "num_video_peaks": 10,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0097_human_talk_en_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0097_human_talk_en_female.wav",
+        "text_path": "input_data/benchmark_v4/0097_human_talk_en_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 25,
+            "nationality": "Indian",
+            "speaking_language": "English",
+            "hobbies": [
+                "photography",
+                "exploring urban streets",
+                "listening to music",
+                "wearing vintage accessories"
+            ],
+            "personality": "confident, artistic, introspective, and independent",
+            "message": "I find beauty in the everyday\u2014gritty streets, soft light, and quiet moments. My camera is my voice, capturing stories that words can't tell. I love walking through cities, discovering hidden corners and fleeting emotions. I wear my jewelry not for fashion, but for meaning\u2014each piece tells a story. I\u2019m not loud, but I\u2019m present. I believe in authenticity, in being true to myself, even when the world tries to mold me. Life is a photo waiting to be taken\u2014frame by frame, moment by moment.",
+            "source": "pexels",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u53cc\u624b\u8f7b\u63e1\u7740\u4e00\u53f0\u590d\u53e4\u6536\u97f3\u673a\uff0c\u5076\u5c14\u7528\u624b\u6307\u8f7b\u70b9\u8bbe\u5907\uff0c\u914d\u5408\u8bf4\u8bdd\u5185\u5bb9\uff0c\u955c\u5934\u56fa\u5b9a\u3002",
+            "en_prompt": "The woman in the image is speaking directly to the camera, holding a vintage radio gently with both hands, occasionally tapping the device with her fingers to accompany her speech, with a fixed camera shot.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0097_human_talk_en_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.24015748031496062,
+                "num_audio_peaks": 150,
+                "num_video_peaks": 165,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0098_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0098_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0098_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 20,
+            "nationality": "American",
+            "speaking_language": "English",
+            "hobbies": [
+                "photography",
+                "hiking",
+                "reading",
+                "playing guitar"
+            ],
+            "personality": "friendly, confident, outgoing, optimistic",
+            "message": "Hi there! I'm just a guy who loves exploring the world around me\u2014whether it\u2019s through a camera lens, a good book, or a hike in the woods. I believe life is full of beautiful moments waiting to be discovered. I\u2019m always up for a chat, a laugh, or a new adventure. If you\u2019re ever looking for someone to share a smile or a story with, I\u2019m your guy. Let\u2019s make some memories together!",
+            "source": "pexels",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u5b69\u6b63\u9760\u5728\u7816\u5899\u8fb9\uff0c\u53cc\u81c2\u4ea4\u53c9\u4e8e\u80f8\u524d\uff0c\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u955c\u5934\u56fa\u5b9a\u3002",
+            "en_prompt": "The boy in the image is leaning against a brick wall, arms crossed over his chest, speaking directly to the camera, with a fixed shot.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0098_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.3223684210526316,
+                "num_audio_peaks": 102,
+                "num_video_peaks": 99,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0160_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0160_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0160_human_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 20,
+            "nationality": "Vietnamese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "photography",
+                "reading classical literature",
+                "traditional dance",
+                "calligraphy"
+            ],
+            "personality": "gentle, thoughtful, artistic, and deeply connected to her cultural heritage",
+            "message": "\u6211\u70ed\u7231\u4f20\u7edf\u6587\u5316\uff0c\u5c24\u5176\u662f\u4f20\u7edf\u670d\u9970\u5e26\u6765\u7684\u4f18\u96c5\u4e0e\u5b81\u9759\u3002\u6bcf\u4e00\u4ef6 Ao Dai \u90fd\u50cf\u5728\u8bc9\u8bf4\u4e00\u4e2a\u6545\u4e8b\uff0c\u627f\u8f7d\u7740\u5386\u53f2\u4e0e\u60c5\u611f\u3002\u6211\u559c\u6b22\u5728\u81ea\u7136\u4e2d\u6f2b\u6b65\uff0c\u7528\u955c\u5934\u8bb0\u5f55\u4e0b\u77ac\u95f4\u7684\u7f8e\u3002\u8bfb\u4e66\u548c\u4e66\u6cd5\u8ba9\u6211\u5185\u5fc3\u5e73\u9759\uff0c\u821e\u8e48\u5219\u8ba9\u6211\u8868\u8fbe\u60c5\u611f\u3002\u6211\u5e0c\u671b\u901a\u8fc7\u6211\u7684\u65b9\u5f0f\uff0c\u8ba9\u66f4\u591a\u4eba\u611f\u53d7\u5230\u4e1c\u65b9\u7f8e\u5b66\u7684\u9b45\u529b\u3002\u751f\u6d3b\u4e0d\u5fc5\u5306\u5fd9\uff0c\u6162\u4e0b\u6765\uff0c\u624d\u80fd\u770b\u89c1\u771f\u6b63\u7684\u7f8e\u3002",
+            "source": "pexels",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u5b69\u6b63\u5728\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u5076\u5c14\u505a\u4e9b\u52a8\u4f5c\u5339\u914d\u8bf4\u8bdd\u7684\u5185\u5bb9\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u5979\u8eab\u7a7f\u767d\u8272\u7ee3\u82b1\u4e0a\u8863\uff0c\u957f\u53d1\u62ab\u80a9\uff0c\u795e\u60c5\u6e29\u67d4\uff0c\u80cc\u666f\u662f\u6a21\u7cca\u7684\u7eff\u690d\u4e0e\u767d\u8272\u82b1\u6735\uff0c\u8425\u9020\u51fa\u6e05\u65b0\u81ea\u7136\u7684\u6c1b\u56f4\u3002",
+            "en_prompt": "The girl in the image is speaking directly to the camera, occasionally making gestures that match her speech, with a fixed camera angle. She is wearing a white embroidered top, with long hair flowing over her shoulders, and a gentle expression. The background features blurred green plants and white flowers, creating a fresh and natural atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0160_human_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.20816326530612245,
+                "num_audio_peaks": 123,
+                "num_video_peaks": 173,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    }
+]

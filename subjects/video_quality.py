@@ -88,15 +88,15 @@ def _prepare_finevq_repo(
 def _ensure_link(source: Path, destination: Path) -> None:
     """Create a symbolic link and fall back to copying when unavailable."""
 
-    try:
-        if destination.exists():
-            if destination.is_symlink() or destination.is_file():
-                destination.unlink()
-            else:
-                shutil.rmtree(destination)
-        os.symlink(source, destination)
-    except OSError:
-        shutil.copy2(source, destination)
+    # try:
+    #     if destination.exists():
+    #         if destination.is_symlink() or destination.is_file():
+    #             destination.unlink()
+    #         else:
+    #             shutil.rmtree(destination)
+    #     os.symlink(source, destination)
+    # except OSError:
+    shutil.copy2(source, destination)
 
 
 def _build_video_workspace(
@@ -137,7 +137,7 @@ def _write_meta_file(root: Path, names_txt: Path, destination: Path, count: int)
 
     meta = {
         "video_eval": {
-            "root": str(root),
+            "root": str(root.absolute()),
             "video_name_txt": str(names_txt),
             "data_augment": False,
             "repeat_time": 1,
@@ -160,6 +160,7 @@ def _invoke_finevq(
     use_bf16: bool,
     extra_env: Dict[str, str] | None,
     extra_args: List[str] | None,
+    device: str = "cuda:0",
 ) -> None:
     """Run the FineVQ inference script via ``torch.distributed.run``."""
 
@@ -184,7 +185,12 @@ def _invoke_finevq(
     )
 
     deepspeed_config = repo_dir / "zero_stage1_config.json"
-
+    # 所有路径转为绝对路径
+    script_path = script_path.resolve()
+    output_dir = output_dir.resolve()
+    meta_path = meta_path.resolve()
+    output_csv = output_csv.resolve()
+    metrics_path = metrics_path.resolve()
     base_args = [
         sys.executable,
         "-m",
@@ -282,7 +288,7 @@ def _invoke_finevq(
 
     env = os.environ.copy()
     env.setdefault("LAUNCHER", "pytorch")
-    env.setdefault("CUDA_VISIBLE_DEVICES", "0")
+    env.setdefault("CUDA_VISIBLE_DEVICES", device.split(":", 1)[1] if device.startswith("cuda:") else "0")
     repo_python_path = str(repo_dir)
     env["PYTHONPATH"] = (
         f"{repo_python_path}{os.pathsep}{env['PYTHONPATH']}"
@@ -359,6 +365,45 @@ def _parse_metric_value(value: Any) -> Any:
     return text
 
 
+def _load_scores_from_csv(csv_path: Path) -> Dict[str, Dict[str, Any]]:
+    """Load scores from a CSV file with columns 'video_name' and 'pred_score'.
+    
+    This function is used when loading pre-computed scores from an existing CSV
+    file instead of running FineVQ evaluation.
+    
+    Parameters
+    ----------
+    csv_path:
+        Path to the CSV file containing video_name and pred_score columns.
+    
+    Returns
+    -------
+    Dictionary mapping video names to their metrics (including pred_score).
+    """
+    if not csv_path.exists():
+        raise FileNotFoundError(f"CSV file not found: {csv_path}")
+    
+    results: Dict[str, Dict[str, Any]] = {}
+    with csv_path.open("r", encoding="utf-8") as handle:
+        reader = csv.DictReader(handle)
+        for row in reader:
+            if not row:
+                continue
+            name = (row.get("video_name") or "").strip()[5:]
+            if not name:
+                continue
+            
+            # Parse pred_score
+            pred_score = row.get("pred_score")
+            if pred_score is not None:
+                parsed_score = _parse_metric_value(pred_score)
+                results[name] = {"pred_score": parsed_score}
+            else:
+                results[name] = {}
+    
+    return results
+
+
 def _collect_scores(csv_path: Path) -> Dict[str, Dict[str, Any]]:
     """Load the FineVQ CSV output, preserving every reported metric."""
 
@@ -428,17 +473,86 @@ def _parse_metrics_file(metrics_path: Path) -> Dict[str, Any]:
 
 def evaluate(
     data_list: List[VideoData],
-    device: str = "cuda",
+    device: str = "cuda:0",
     batch_size: int = 1,
     sampling: int = 0,
     model_args: Dict | None = None,
 ) -> List[VideoData]:
-    """Run FineVQ video quality scoring on the provided videos."""
+    """Run FineVQ video quality scoring on the provided videos.
+    
+    Parameters
+    ----------
+    data_list:
+        List of VideoData instances to evaluate.
+    device:
+        Device to use for evaluation (e.g., "cuda:0", "cpu").
+    batch_size:
+        Batch size for evaluation.
+    sampling:
+        Sampling parameter (currently unused).
+    model_args:
+        Optional dictionary containing model configuration. Supports:
+        - csv_file: Path to an existing CSV file with columns 'video_name' and 'pred_score'.
+                   If provided, skips FineVQ execution and loads scores from this file.
+        - repo_dir: Custom FineVQ repository directory.
+        - repo_url: Custom FineVQ repository URL.
+        - install_dependencies: Whether to install dependencies.
+        - force_clone: Force re-cloning the repository.
+        - use_bf16: Use bfloat16 precision.
+        - nproc_per_node: Number of processes per node.
+        - env: Additional environment variables.
+        - extra_args: Additional CLI arguments.
+        - per_device_batch_size: Per-device batch size.
+        - batch_size: Total batch size.
+    
+    Returns
+    -------
+    List of VideoData instances with "video_quality" results registered.
+    """
 
     if not data_list:
         return data_list
 
     model_args = model_args or {}
+    
+    # Check if CSV file is provided to skip FineVQ execution
+    csv_file = model_args.get("csv_file")
+    if csv_file:
+        csv_path = Path(csv_file)
+        if not csv_path.exists():
+            raise FileNotFoundError(f"Specified CSV file not found: {csv_path}")
+        
+        # Load scores from CSV
+        per_video_metrics = _load_scores_from_csv(csv_path)
+        
+        # Match videos by name and register results
+        for video in data_list:
+            video_path = Path(video.video_path)
+            video_name = video_path.name
+            
+            # Try to find matching score in CSV
+            metrics = per_video_metrics.get(video_name, {})
+            score = metrics.get("pred_score")
+            
+            if isinstance(score, (int, float)):
+                score_value: Any = float(score)
+            else:
+                score_value = score
+            
+            result_payload: Dict[str, Any] = {
+                "video_quality_score": score_value,
+                "metrics": metrics,
+                "details": {
+                    "source_video": video.video_path,
+                    "loaded_from_csv": str(csv_path),
+                },
+            }
+            
+            video.register_result("video_quality", result_payload)
+        
+        return data_list
+    
+    # Original FineVQ execution path
     repo_dir = _prepare_finevq_repo(
         repo_dir=Path(model_args.get("repo_dir", "")) if model_args.get("repo_dir") else None,
         repo_url=model_args.get("repo_url", FINEVQ_REPO_URL),
@@ -475,6 +589,7 @@ def evaluate(
             ) from exc
 
     with tempfile.TemporaryDirectory(prefix="finevq_eval_") as tmp_dir:
+        # tmp_dir = "./temp/finevq_eval"  # For debugging purpose
         workspace = Path(tmp_dir)
         alias_pairs: List[Tuple[str, Path]] = []
         for index, video in enumerate(data_list):
@@ -503,31 +618,32 @@ def evaluate(
             use_bf16=use_bf16,
             extra_env=extra_env,
             extra_args=extra_args,
+            device=device,
         )
 
         per_video_metrics = _collect_scores(output_csv)
         aggregate_metrics = _parse_metrics_file(metrics_file)
 
-    for (alias, _), video in zip(alias_pairs, data_list):
-        metrics = dict(per_video_metrics.get(alias, {}))
-        score = metrics.get("pred_score")
-        if isinstance(score, (int, float)):
-            score_value: Any = float(score)
-        else:
-            score_value = score
+        for (alias, _), video in zip(alias_pairs, data_list):
+            metrics = dict(per_video_metrics.get(alias, {}))
+            score = metrics.get("pred_score")
+            if isinstance(score, (int, float)):
+                score_value: Any = float(score)
+            else:
+                score_value = score
 
-        result_payload: Dict[str, Any] = {
-            "video_quality_score": score_value,
-            "metrics": metrics,
-            "details": {
-                "alias": alias,
-                "source_video": video.video_path,
-            },
-        }
-        if aggregate_metrics:
-            result_payload["aggregate_metrics"] = aggregate_metrics
+            result_payload: Dict[str, Any] = {
+                "video_quality_score": score_value,
+                "metrics": metrics,
+                "details": {
+                    "alias": alias,
+                    "source_video": video.video_path,
+                },
+            }
+            if aggregate_metrics:
+                result_payload["aggregate_metrics"] = aggregate_metrics
 
-        video.register_result("video_quality", result_payload)
+            video.register_result("video_quality", result_payload)
 
     return data_list
 

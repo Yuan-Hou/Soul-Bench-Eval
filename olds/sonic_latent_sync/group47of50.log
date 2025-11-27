@@ -1,0 +1,20 @@
+Command: python evaluate.py --model_input_dir ./input_data/benchmark_v4 --model_output_dir input_data/results/sonic --results_dir ./sonic_latent_sync --evaluate_subjects latent_sync --device cuda:7 --batch_size 16 --sampling 0 --model_args {} --group_id 47 --group_total 50 --filter human_talk
+GPU: 7
+============================================================
+
+Traceback (most recent call last):
+  File "/home/tione/notebook/private/Human-MME/video_eval/evaluate.py", line 9, in <module>
+    from utils import load_json, save_json
+  File "/home/tione/notebook/private/Human-MME/video_eval/utils.py", line 7, in <module>
+    import torch
+  File "/home/tione/notebook/private/Human-MME/video_venv/lib/python3.10/site-packages/torch/__init__.py", line 54, in <module>
+    from torch._utils_internal import (
+  File "/home/tione/notebook/private/Human-MME/video_venv/lib/python3.10/site-packages/torch/_utils_internal.py", line 11, in <module>
+    from torch._strobelight.compile_time_profiler import StrobelightCompileTimeProfiler
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+KeyboardInterrupt

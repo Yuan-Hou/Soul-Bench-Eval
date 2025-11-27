@@ -1,0 +1,101 @@
+[
+    {
+        "video_path": "input_data/results/sonic/0019_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0019_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0019_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 28,
+            "nationality": "American",
+            "speaking_language": "English",
+            "hobbies": [
+                "reading technology books",
+                "coding in his free time",
+                "playing guitar",
+                "hiking on weekends"
+            ],
+            "personality": "confident, intelligent, detail-oriented, and calm under pressure",
+            "message": "I believe in the power of continuous learning and innovation. Every challenge is an opportunity to grow, and every project is a chance to create something meaningful. I value collaboration, clear communication, and integrity in everything I do. Whether I'm working on a complex algorithm or enjoying a quiet hike, I strive to stay focused and present. My goal is not just to succeed, but to inspire others to do the same. Let\u2019s build the future, one step at a time.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u6b63\u5728\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u53cc\u81c2\u4ea4\u53c9\u4e8e\u80f8\u524d\uff0c\u5076\u5c14\u8f7b\u5fae\u8c03\u6574\u624b\u52bf\u4ee5\u5339\u914d\u8bf4\u8bdd\u5185\u5bb9\uff0c\u955c\u5934\u56fa\u5b9a\u3002",
+            "en_prompt": "The man in the frame is speaking directly to the camera, with his arms crossed over his chest, occasionally making slight hand gestures to match his speech. The camera remains fixed.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0019_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.21875,
+                "num_audio_peaks": 142,
+                "num_video_peaks": 92,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0311_comic_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0311_comic_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0311_comic_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 12,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "calligraphy",
+                "painting",
+                "reading classical literature",
+                "gardening"
+            ],
+            "personality": "gentle, thoughtful, artistic, and curious",
+            "message": "\u5c71\u95f4\u6e05\u98ce\u62c2\u9762\uff0c\u6211\u5750\u5728\u4e66\u6848\u524d\uff0c\u6267\u7b14\u8638\u58a8\uff0c\u4e00\u7b14\u4e00\u5212\u95f4\uff0c\u4eff\u4f5b\u4e0e\u5343\u5e74\u524d\u7684\u6587\u4eba\u5bf9\u8bdd\u3002\u58a8\u9999\u6c24\u6c32\uff0c\u7eb8\u9875\u751f\u8f89\uff0c\u6211\u7231\u8fd9\u65b9\u5bf8\u95f4\u7684\u5b81\u9759\u4e0e\u81ea\u7531\u3002\u613f\u4ee5\u7b14\u58a8\u8bb0\u5f55\u56db\u5b63\u6d41\u8f6c\uff0c\u4ee5\u5fc3\u611f\u609f\u5929\u5730\u4e4b\u7f8e\u3002\u867d\u5e74\u5c11\uff0c\u5374\u5fc3\u6000\u8bd7\u4e0e\u8fdc\u65b9\u3002\u613f\u4f60\u6211\u7686\u80fd\u5728\u55a7\u56a3\u5c18\u4e16\u4e2d\uff0c\u5bfb\u5f97\u4e00\u65b9\u5fc3\u7075\u51c0\u571f\uff0c\u9759\u542c\u82b1\u5f00\uff0c\u6162\u8d4f\u4e91\u5377\u4e91\u8212\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u89d2\u8272\u8eab\u7740\u53e4\u98ce\u6c49\u670d\uff0c\u6b63\u7aef\u5750\u4e8e\u4e66\u684c\u524d\u6267\u7b14\u6325\u6beb\uff0c\u540c\u65f6\u5728\u8bb2\u8bdd\u3002\u5979\u8eab\u65c1\u6446\u653e\u7740\u781a\u53f0\u3001\u6bdb\u7b14\u4e0e\u58a8\u5757\uff0c\u80cc\u666f\u662f\u6c34\u58a8\u5c71\u6c34\u610f\u5883\uff0c\u89d2\u8272\u5076\u5c14\u62ac\u773c\u5fae\u7b11\uff0c\u4f3c\u5728\u4e0e\u955c\u5934\u5206\u4eab\u7b14\u58a8\u4e39\u9752\u7684\u96c5\u8da3\u3002\u955c\u5934\u56fa\u5b9a\uff0c\u4fdd\u6301\u89d2\u8272\u4e0e\u4e66\u6848\u5728\u753b\u9762\u4e2d\u5fc3\uff0c\u8425\u9020\u9759\u8c27\u6587\u96c5\u7684\u6c1b\u56f4\u3002",
+            "en_prompt": "The character in the scene is dressed in traditional Hanfu attire, sitting gracefully at a writing desk, holding a brush and writing calligraphy while speaking. Beside her are an inkstone, brushes, and ink cakes. The background features a serene ink-wash landscape painting. Occasionally, she lifts her eyes and smiles gently, as if sharing the elegance of calligraphy and painting with the viewer. The camera remains fixed, keeping the character and the desk centered in the frame, creating a tranquil and refined atmosphere.",
+            "main_character": "comic"
+        },
+        "image_path": "input_data/benchmark_v4/0311_comic_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.0872093023255814,
+                "num_audio_peaks": 135,
+                "num_video_peaks": 52,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0210_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0210_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0210_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 25,
+            "nationality": "French",
+            "speaking_language": "English",
+            "hobbies": [
+                "painting",
+                "drawing",
+                "exploring art history",
+                "visiting galleries"
+            ],
+            "personality": "introspective, creative, passionate, dedicated, and slightly reserved",
+            "message": "Art is not just what you paint, but what you feel and carry within. Every stroke, every color, tells a story \u2014 sometimes mine, sometimes someone else\u2019s. I wear my apron not just to protect my clothes, but to carry the soul of my work. I paint to understand the world, to find beauty in chaos, and to express what words cannot. The studio is my sanctuary. Here, I am free. I invite you to look closely \u2014 the canvas holds more than you see.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u7ad9\u5728\u753b\u5ba4\u4e2d\u592e\uff0c\u4e00\u624b\u6301\u8c03\u8272\u677f\uff0c\u4e00\u624b\u63e1\u753b\u7b14\uff0c\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u5076\u5c14\u7528\u8c03\u8272\u677f\u8f7b\u70b9\u753b\u5e03\u6216\u7528\u753b\u7b14\u6bd4\u5212\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u80cc\u666f\u4e2d\u53ef\u89c1\u753b\u67b6\u3001\u989c\u6599\u6876\u548c\u6563\u843d\u7684\u753b\u5177\uff0c\u8425\u9020\u51fa\u6d53\u539a\u7684\u827a\u672f\u521b\u4f5c\u6c1b\u56f4\u3002",
+            "en_prompt": "The man in the image stands in the center of the studio, holding a palette in one hand and a paintbrush in the other, speaking directly to the camera. Occasionally, he gently taps the canvas with the palette or gestures with the brush. The camera remains stationary. In the background, easels, paint buckets, and scattered art supplies are visible, creating a rich and immersive artistic atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0210_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.034482758620689655,
+                "num_audio_peaks": 110,
+                "num_video_peaks": 10,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    }
+]

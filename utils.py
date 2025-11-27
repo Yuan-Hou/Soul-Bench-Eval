@@ -183,7 +183,24 @@ def load_video(video_path, data_transform=None, num_frames=None, return_tensor=T
         frames = frames.permute(0, 3, 1, 2)  # (T, C, H, W), torch.uint8
 
     return frames
-    
+
+def load_first_frame(video_path) -> np.ndarray:
+    """
+    Load the first frame of a video from the given path using OpenCV.
+
+    Parameters:
+    - video_path (str): The file path to the video.
+
+    Returns:
+    - first_frame (np.ndarray): A NumPy array representation of the first frame in RGB format.
+    """
+    cap = cv2.VideoCapture(video_path)
+    ret, frame = cap.read()
+    cap.release()
+    if not ret:
+        raise ValueError(f"Cannot read video file {video_path}")
+    frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+    return frame_rgb.astype(np.uint8)
 
 def read_frames_decord_by_fps(
         video_path, sample_fps=2, sample='rand', fix_start=None, 

@@ -1,0 +1,167 @@
+[
+    {
+        "video_path": "input_data/results/sonic/0040_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0040_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0040_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 30,
+            "nationality": "French",
+            "speaking_language": "English",
+            "hobbies": [
+                "cooking",
+                "experimenting with new recipes",
+                "gardening",
+                "reading culinary books"
+            ],
+            "personality": "dedicated, passionate, precise, calm under pressure",
+            "message": "Every dish I create is a story told through flavor and technique. I believe in the power of fresh ingredients and the art of precision. In the kitchen, I find peace and purpose. I\u2019m not just cooking\u2014I\u2019m crafting experiences. Whether it\u2019s a simple omelet or a complex souffl\u00e9, every element matters. I respect tradition but always seek innovation. My goal is to inspire others to appreciate the beauty of food. Cooking is my language, and I speak it with heart.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u58eb\u7ad9\u5728\u4e13\u4e1a\u53a8\u623f\u4e2d\uff0c\u8eab\u7a7f\u767d\u8272\u53a8\u5e08\u670d\u548c\u56f4\u88d9\uff0c\u5934\u6234\u9ad8\u5e3d\uff0c\u53cc\u624b\u7a33\u7a33\u5730\u6301\u7740\u4e00\u4e2a\u5c0f\u714e\u9505\u548c\u9505\u94f2\uff0c\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\u3002\u955c\u5934\u56fa\u5b9a\uff0c\u80cc\u666f\u662f\u4e0d\u9508\u94a2\u7076\u53f0\u548c\u70e4\u7bb1\uff0c\u8425\u9020\u51fa\u4e13\u4e1a\u800c\u4e13\u6ce8\u7684\u70f9\u996a\u6c1b\u56f4\u3002",
+            "en_prompt": "The man in the image stands in a professional kitchen, wearing a white chef's coat and apron, with a tall toque on his head. He holds a small frying pan and a spatula steadily in both hands, speaking directly to the camera. The camera remains fixed, with a background of stainless steel stovetops and ovens, creating a professional and focused cooking atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0040_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.0948905109489051,
+                "num_audio_peaks": 117,
+                "num_video_peaks": 33,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0045_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0045_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0045_human_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 25,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "photography",
+                "fashion design",
+                "traveling",
+                "reading"
+            ],
+            "personality": "confident, elegant, creative, and kind-hearted",
+            "message": "\u6bcf\u4e2a\u4eba\u90fd\u662f\u81ea\u5df1\u6545\u4e8b\u7684\u4e3b\u89d2\uff0c\u4e0d\u5fc5\u7fa1\u6155\u4ed6\u4eba\u3002\u6211\u70ed\u7231\u7528\u955c\u5934\u6355\u6349\u751f\u6d3b\u4e2d\u7684\u7f8e\u597d\u77ac\u95f4\uff0c\u4e5f\u4eab\u53d7\u5728\u8bbe\u8ba1\u4e2d\u8868\u8fbe\u81ea\u6211\u3002\u65c5\u884c\u8ba9\u6211\u770b\u89c1\u4e16\u754c\u7684\u5e7f\u9614\uff0c\u9605\u8bfb\u8ba9\u6211\u5185\u5fc3\u66f4\u4e30\u76c8\u3002\u6211\u76f8\u4fe1\uff0c\u771f\u6b63\u7684\u7f8e\u6765\u81ea\u5185\u5fc3\u7684\u81ea\u4fe1\u4e0e\u5584\u826f\u3002\u613f\u4f60\u4e5f\u80fd\u52c7\u6562\u505a\u81ea\u5df1\uff0c\u62e5\u62b1\u5c5e\u4e8e\u4f60\u7684\u5149\u8292\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u5973\u58eb\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u5979\u4f69\u6234\u7740\u7cbe\u81f4\u7684\u73ab\u7470\u91d1\u8033\u73af\uff0c\u5986\u5bb9\u67d4\u548c\u81ea\u7136\uff0c\u773c\u795e\u4e13\u6ce8\u800c\u6e29\u67d4\uff0c\u5c55\u73b0\u51fa\u4f18\u96c5\u81ea\u4fe1\u7684\u6c14\u8d28\u3002\u80cc\u666f\u4e3a\u7b80\u6d01\u7684\u6444\u5f71\u68da\u73af\u5883\uff0c\u67d4\u548c\u7684\u706f\u5149\u8425\u9020\u51fa\u6e29\u6696\u4e13\u4e1a\u7684\u6c1b\u56f4\u3002",
+            "en_prompt": "The woman in the image is speaking directly to the camera, with a fixed shot. She is wearing elegant rose gold earrings, with soft and natural makeup, her gaze focused and gentle, exuding a graceful and confident demeanor. The background is a minimalist studio setting, with soft lighting creating a warm and professional atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0045_human_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.27564102564102566,
+                "num_audio_peaks": 90,
+                "num_video_peaks": 109,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0235_human_talk_en_male.mp4",
+        "audio_path": "input_data/benchmark_v4/0235_human_talk_en_male.wav",
+        "text_path": "input_data/benchmark_v4/0235_human_talk_en_male.json",
+        "text_data": {
+            "gender": "male",
+            "age": 19,
+            "nationality": "American",
+            "speaking_language": "English",
+            "hobbies": [
+                "skateboarding",
+                "street art",
+                "fashion",
+                "music"
+            ],
+            "personality": "confident, expressive, creative, urban, bold",
+            "message": "I live for the streets \u2014 where art, music, and movement collide. My skateboard is my voice, my graffiti is my soul, and my style is my identity. I don\u2019t follow trends; I create them. Every rip in my jeans, every gold chain, every bold graphic \u2014 it\u2019s all part of my story. I\u2019m not just skating; I\u2019m building a legacy. The wall behind me? That\u2019s my canvas. The world might see chaos, but I see freedom. I\u2019m unapologetically me, and that\u2019s my power.",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u7537\u5b69\u7ad9\u5728\u8272\u5f69\u6591\u6593\u7684\u6d82\u9e26\u5899\u524d\uff0c\u4e00\u624b\u81ea\u7136\u5782\u653e\uff0c\u4e00\u624b\u8f7b\u6276\u7740\u6ed1\u677f\uff0c\u955c\u5934\u56fa\u5b9a\u3002\u4ed6\u8eab\u7a7f\u6f6e\u6d41\u5939\u514b\u4e0e\u7834\u6d1e\u725b\u4ed4\u88e4\uff0c\u4f69\u6234\u91d1\u94fe\u4e0e\u68d2\u7403\u5e3d\uff0c\u795e\u60c5\u81ea\u4fe1\u5730\u76f4\u89c6\u955c\u5934\uff0c\u4eff\u4f5b\u6b63\u5411\u89c2\u4f17\u8bb2\u8ff0\u8857\u5934\u6587\u5316\u7684\u6545\u4e8b\u3002\u6ed1\u677f\u4e0a\u7ed8\u6709\u5361\u901a\u56fe\u6848\uff0c\u4e0e\u80cc\u666f\u6d82\u9e26\u5f62\u6210\u9c9c\u660e\u547c\u5e94\uff0c\u6574\u4f53\u6c1b\u56f4\u5145\u6ee1\u9752\u6625\u6d3b\u529b\u4e0e\u8857\u5934\u827a\u672f\u6c14\u606f\u3002",
+            "en_prompt": "The boy in the image stands in front of a vibrant graffiti-covered wall, one hand relaxed at his side and the other gently holding a skateboard, with a fixed camera angle. He wears a trendy jacket and ripped jeans, accessorized with a gold chain and a baseball cap, confidently looking directly into the camera as if narrating the story of street culture to the audience. The skateboard features a cartoon design, echoing the background graffiti, creating a striking visual harmony. The overall atmosphere is full of youthful energy and urban artistry.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0235_human_talk_en_male.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.034482758620689655,
+                "num_audio_peaks": 115,
+                "num_video_peaks": 5,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0020_human_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0020_human_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0020_human_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 68,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "walking in parks",
+                "reading classic literature",
+                "gardening",
+                "wearing elegant clothing"
+            ],
+            "personality": "graceful, calm, thoughtful, and warm-hearted",
+            "message": "\u79cb\u65e5\u7684\u9633\u5149\u6d12\u5728\u91d1\u9ec4\u7684\u94f6\u674f\u53f6\u4e0a\uff0c\u6211\u6491\u7740\u857e\u4e1d\u4f1e\uff0c\u6f2b\u6b65\u5728\u6797\u836b\u5c0f\u9053\u3002\u5c81\u6708\u5982\u6b4c\uff0c\u6211\u4f9d\u7136\u70ed\u7231\u751f\u6d3b\u4e2d\u7684\u6bcf\u4e00\u5904\u7ec6\u8282\u2014\u2014\u4e00\u4ef6\u67d4\u8f6f\u7684\u6bdb\u8863\uff0c\u4e00\u6761\u98d8\u9038\u7684\u957f\u88d9\uff0c\u8fd8\u6709\u811a\u4e0b\u94fa\u6ee1\u843d\u53f6\u7684\u5c0f\u5f84\u3002\u4f18\u96c5\u4e0d\u662f\u5e74\u8f7b\u65f6\u7684\u4e13\u5c5e\uff0c\u800c\u662f\u5386\u7ecf\u65f6\u5149\u6c89\u6dc0\u540e\u7684\u4ece\u5bb9\u3002\u613f\u6bcf\u4e00\u4e2a\u6e05\u6668\uff0c\u4f60\u90fd\u80fd\u50cf\u6211\u4e00\u6837\uff0c\u5e26\u7740\u5fae\u7b11\u8fce\u63a5\u65b0\u7684\u4e00\u5929\uff0c\u73cd\u60dc\u5f53\u4e0b\uff0c\u6e29\u67d4\u5f85\u5df1\u3002",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u8001\u592a\u592a\u624b\u6301\u4e00\u628a\u900f\u660e\u857e\u4e1d\u4f1e\uff0c\u7ad9\u5728\u94fa\u6ee1\u91d1\u9ec4\u843d\u53f6\u7684\u516c\u56ed\u5c0f\u5f84\u4e0a\uff0c\u4e00\u8fb9\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\uff0c\u4e00\u8fb9\u7f13\u7f13\u5411\u524d\u8d70\uff0c\u955c\u5934\u968f\u7740\u5979\u7684\u6b65\u4f10\u6162\u6162\u5f80\u540e\u9000\uff0c\u4fdd\u6301\u5979\u59cb\u7ec8\u5728\u753b\u9762\u4e2d\u592e\u3002\u5979\u8eab\u7740\u6de1\u7d2b\u8272\u9488\u7ec7\u5957\u88c5\uff0c\u4f69\u6234\u73cd\u73e0\u8033\u73af\u548c\u624b\u94fe\uff0c\u795e\u60c5\u6e29\u5a49\u4ece\u5bb9\uff0c\u80cc\u666f\u662f\u79cb\u65e5\u91d1\u9ec4\u7684\u94f6\u674f\u6811\uff0c\u9633\u5149\u900f\u8fc7\u6811\u53f6\u6d12\u4e0b\u6591\u9a73\u5149\u5f71\uff0c\u8425\u9020\u51fa\u5b81\u9759\u4f18\u96c5\u7684\u6c1b\u56f4\u3002",
+            "en_prompt": "An elderly woman holds a transparent lace umbrella, standing on a park path covered with golden autumn leaves. She speaks gently toward the camera while slowly walking forward. The camera gradually pulls back, keeping her centered in the frame. She wears a soft lavender knitted outfit, adorned with pearl earrings and a bracelet, exuding a calm and graceful demeanor. The background features golden ginkgo trees under autumn sunlight, with dappled light filtering through the leaves, creating a serene and elegant atmosphere.",
+            "main_character": "human"
+        },
+        "image_path": "input_data/benchmark_v4/0020_human_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.028409090909090908,
+                "num_audio_peaks": 160,
+                "num_video_peaks": 21,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    },
+    {
+        "video_path": "input_data/results/sonic/0270_comic_talk_cn_female.mp4",
+        "audio_path": "input_data/benchmark_v4/0270_comic_talk_cn_female.wav",
+        "text_path": "input_data/benchmark_v4/0270_comic_talk_cn_female.json",
+        "text_data": {
+            "gender": "female",
+            "age": 10,
+            "nationality": "Chinese",
+            "speaking_language": "Chinese",
+            "hobbies": [
+                "dancing",
+                "holding fans",
+                "wearing traditional costumes",
+                "visiting ancient temples"
+            ],
+            "personality": "sweet, gentle, curious, and full of joy",
+            "message": "\u5927\u5bb6\u597d\u5440\uff01\u6211\u662f\u6765\u81ea\u53e4\u8001\u4eac\u57ce\u7684\u5c0f\u516c\u4e3b\uff0c\u7a7f\u7740\u6f02\u4eae\u7684\u6c49\u670d\uff0c\u5934\u6234\u82b1\u51a0\uff0c\u624b\u6301\u7ea2\u6247\uff0c\u6700\u559c\u6b22\u5728\u53e4\u8272\u53e4\u9999\u7684\u5ead\u9662\u91cc\u8df3\u821e\u4e86\uff01\u6bcf\u6b21\u770b\u5230\u98de\u6a90\u7fd8\u89d2\u7684\u5c4b\u6a90\uff0c\u6211\u90fd\u4f1a\u60f3\u8c61\u81ea\u5df1\u5728\u753b\u4e2d\u6e38\u8d70\u3002\u6211\u7231\u4f20\u7edf\u6587\u5316\uff0c\u4e5f\u7231\u4ea4\u670b\u53cb\uff0c\u5e0c\u671b\u548c\u4f60\u4eec\u4e00\u8d77\u5206\u4eab\u5feb\u4e50\uff0c\u4e00\u8d77\u611f\u53d7\u4e2d\u534e\u6587\u5316\u7684\u7f8e\u4e3d\u4e0e\u6e29\u6696\u3002\u6765\u5427\uff0c\u8ba9\u6211\u4eec\u4e00\u8d77\u6b22\u7b11\uff0c\u4e00\u8d77\u8df3\u821e\uff0c\u628a\u5e78\u798f\u4f20\u9012\u7ed9\u6bcf\u4e00\u4e2a\u4eba\uff01",
+            "source": "generated",
+            "cn_prompt": "\u753b\u9762\u4e2d\u7684\u89d2\u8272\u8eab\u7740\u534e\u4e3d\u7684\u4e2d\u5f0f\u53e4\u88c5\uff0c\u5934\u6234\u7e41\u590d\u7cbe\u81f4\u7684\u82b1\u51a0\uff0c\u624b\u6301\u4e00\u628a\u7ea2\u8272\u6298\u6247\uff0c\u6b63\u5bf9\u7740\u955c\u5934\u8bb2\u8bdd\u3002\u5979\u5076\u5c14\u8f7b\u8f7b\u6446\u52a8\u624b\u4e2d\u7684\u6298\u6247\uff0c\u914d\u5408\u8bf4\u8bdd\u5185\u5bb9\u505a\u51fa\u4f18\u96c5\u7684\u624b\u52bf\u3002\u955c\u5934\u56fa\u5b9a\uff0c\u805a\u7126\u4e8e\u89d2\u8272\u7684\u9762\u90e8\u4e0e\u4e0a\u534a\u8eab\uff0c\u80cc\u666f\u662f\u53e4\u8272\u53e4\u9999\u7684\u4e2d\u5f0f\u5ead\u9662\u5efa\u7b51\uff0c\u8425\u9020\u51fa\u5178\u96c5\u5e84\u91cd\u7684\u6c1b\u56f4\u3002",
+            "en_prompt": "The character in the image is dressed in an elaborate traditional Chinese costume, wearing an intricately designed floral headdress, and holding a red folding fan. She is speaking directly to the camera, occasionally gently waving the fan and making elegant hand gestures to complement her speech. The camera remains fixed, focusing on the character\u2019s face and upper body. The background features classical Chinese courtyard architecture, creating an elegant and dignified atmosphere.",
+            "main_character": "comic"
+        },
+        "image_path": "input_data/benchmark_v4/0270_comic_talk_cn_female.png",
+        "results": {
+            "av_align": {
+                "iou_score": 0.24742268041237114,
+                "num_audio_peaks": 127,
+                "num_video_peaks": 236,
+                "fps": 25.0,
+                "downsample_factor": 1
+            }
+        }
+    }
+]

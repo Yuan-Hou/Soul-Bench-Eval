@@ -7,27 +7,16 @@ per-video text file contents and a few metadata fields.  The model
 response is then stored on each :class:`~video.VideoData` instance under
 the ``"qwen_vl_vllm"`` key.
 
-Example ``--model_args`` value for local vLLM::
-
-    '{
-        "model_name": "Qwen/Qwen3-VL-2B-Thinking",
-        "prompt_template_path": "./templates/video_eval.txt",
-        "json_template_path": "./templates/to_json.txt",
-        "system_prompt": "You are a video critic.",
-        "sampling_options": {"max_tokens": 512, "temperature": 0.0}
-    }'
-
 Example ``--model_args`` value for OpenAI-compatible API::
 
     '{
         "use_openai_api": true,
         "api_base": "http://localhost:8000/v1",
         "api_key": "EMPTY",
-        "model_name": "Qwen/Qwen3-VL-2B-Thinking",
+        "model_name": "qwen3-vl",
         "prompt_template_path": "./templates/video_eval.txt",
         "json_template_path": "./templates/to_json.txt",
-        "system_prompt": "",
-        "sampling_options": {"max_tokens": 512, "temperature": 0.0}
+        "system_prompt": ""
     }'
 
 The template receives the following fields::
@@ -79,7 +68,7 @@ except ImportError:
     OpenAI = None
 
 
-DEFAULT_MODEL_NAME = "Qwen/Qwen3-VL-2B-Thinking"
+DEFAULT_MODEL_NAME = "qwen3-vl"
 DEFAULT_PLACEHOLDER = "{video_text}"
 
 

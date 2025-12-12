@@ -13,8 +13,6 @@ from torchvision import transforms
 import cv2
 from torchvision.transforms import Compose, Resize, CenterCrop, ToTensor, Normalize, ToPILImage
 
-CKPT_DIR = Path(__file__).parent / "checkpoints"
-CKPT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def dino_transform(n_px):

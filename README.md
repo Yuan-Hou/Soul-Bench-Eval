@@ -96,17 +96,17 @@ The `VideoData` object automatically associates reference images (`.png`), audio
    **Video-Text Consistence (Qwen-VL)**
    - **Reference**: [Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) / [vLLM](https://github.com/vllm-project/vllm)
    - **Setup**:
-    ```bash
-    pip install vllm
+      ```bash
+      pip install vllm
 
-    # Start vLLM server
-    python -m vllm.entrypoints.openai.api_server \
-       --model Qwen/Qwen3-VL-235B-A22B-Thinking \
-       --served-model-name qwen3-vl \
-       --trust-remote-code
-     
-    # Then pass API endpoint in model_args when running evaluation
-    ```
+      # Start vLLM server
+      python -m vllm.entrypoints.openai.api_server \
+        --model Qwen/Qwen3-VL-235B-A22B-Thinking \
+        --served-model-name qwen3-vl \
+        --trust-remote-code
+      
+      # Then pass API endpoint in model_args when running evaluation
+      ```
 
    **Video Quality (FineVQ)**
    - **Reference**: [FineVQ](https://github.com/IntMeGroup/FineVQ)
@@ -123,21 +123,6 @@ The `VideoData` object automatically associates reference images (`.png`), audio
      # Download model weights as per FineVQ README (Inference section)
      huggingface-cli download IntMeGroup/FineVQ_score --local-dir ./IntMeGroup/FineVQ_score
      ```
-
-   **Quick Setup All (Recommended)**
-   ```bash
-   # Create third_party directory
-   mkdir -p third_party
-   
-   # Clone required repositories
-   git clone https://github.com/bytedance/LatentSync.git third_party/LatentSync
-   git clone https://github.com/IntMeGroup/FineVQ.git third_party/FineVQ
-   
-   # Install all dependencies
-   pip install insightface opencv-python librosa numpy vllm
-   cd third_party/LatentSync && pip install -r requirements.txt && cd ../..
-   cd third_party/FineVQ && pip install -r requirements.txt && cd ../..
-   ```
 
 3. **Select Evaluation Subjects**
    - Separated by commas, e.g., `--evaluate_subjects arcface_consistency,av_align`
